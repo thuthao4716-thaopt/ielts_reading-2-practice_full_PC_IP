@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=1024, initial-scale=1.0, user-scalable=yes">
-  <title>IELTS Reading Master - 18 Activities</title>
+  <title>IELTS Reading Master - 18 Activities Dịch Từng Câu</title>
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- FontAwesome CDN -->
@@ -18,6 +18,27 @@
     .hl-cyan   { background-color: rgba(186, 230, 253, 0.8) !important; border-radius: 2px; padding: 1px 2px; }
     .hl-pink   { background-color: rgba(251, 207, 232, 0.8) !important; border-radius: 2px; padding: 1px 2px; }
     .select-text { -webkit-user-select: text !important; user-select: text !important; }
+    /* Định dạng câu dịch trực tiếp bên dưới câu tiếng Anh */
+    .sentence-wrapper {
+      display: inline;
+      transition: background-color 0.2s;
+      border-radius: 4px;
+    }
+    .sentence-wrapper:hover {
+      background-color: rgba(238, 242, 255, 0.6);
+    }
+    .sentence-vi {
+      display: block;
+      margin: 3px 0 8px 0;
+      padding: 3px 8px;
+      font-size: 12px;
+      line-height: 1.4;
+      color: #3730a3;
+      background-color: #f5f3ff;
+      border-left: 3px solid #818cf8;
+      border-radius: 0 4px 4px 0;
+      font-style: italic;
+    }
   </style>
 </head>
 <body class="bg-slate-100 text-slate-800 font-sans min-h-screen flex flex-col select-auto">
@@ -32,7 +53,7 @@
         <span class="bg-white text-indigo-700 px-2 py-0.5 rounded-md font-extrabold text-xs uppercase tracking-wide">IELTS</span>
         <div>
           <h1 class="text-sm md:text-base font-bold leading-tight line-clamp-1" id="top-title">IELTS Reading - Round 2</h1>
-          <p class="text-[11px] text-indigo-200" id="top-subtitle">Đủ 18 Activities - 9 Dạng bài chuẩn Ebook</p>
+          <p class="text-[11px] text-indigo-200" id="top-subtitle">Đủ 18 Activities - Chế độ Dịch Từng Câu</p>
         </div>
       </div>
       <div class="flex items-center space-x-2 text-xs">
@@ -82,12 +103,13 @@
           </div>
         </div>
         <div class="flex items-center space-x-1.5">
-          <button onclick="clearLeftHighlights()" class="px-2 py-1 bg-white border border-rose-200 text-rose-600 hover:bg-rose-50 rounded text-xs font-medium transition flex items-center gap-1 shadow-sm">
+          <button onclick="clearLeftHighlights()" class="px-2 py-1 bg-white border border-rose-200 text-rose-600 hover:bg-rose-50 rounded text-xs font-medium transition flex items-center gap-1 shadow-sm" title="Xóa toàn bộ highlight bài đọc">
             <i class="fa-solid fa-eraser"></i> Xóa HL
           </button>
-          <button onclick="toggleTranslation()" class="px-2.5 py-1 bg-white border border-indigo-200 text-indigo-700 hover:bg-indigo-50 rounded text-xs font-semibold transition flex items-center gap-1 shadow-sm">
+          <!-- NÚT BẬT/TẮT DỊCH TỪNG CÂU -->
+          <button id="btn-toggle-sentence" onclick="toggleSentenceTranslation()" class="px-2.5 py-1 bg-indigo-50 border border-indigo-300 text-indigo-700 hover:bg-indigo-100 rounded text-xs font-bold transition flex items-center gap-1 shadow-sm">
             <i class="fa-solid fa-language text-indigo-600"></i>
-            <span id="trans-btn-text">Bản Dịch</span>
+            <span id="trans-btn-text">Dịch Từng Câu</span>
           </button>
         </div>
       </div>
@@ -108,7 +130,7 @@
         <button onclick="removeSelectedHighlight()" class="px-2 py-0.5 bg-white border border-slate-300 hover:bg-slate-50 active:bg-slate-100 rounded text-slate-700 font-medium text-[11px] shadow-sm transition">Bỏ tô</button>
       </div>
 
-      <!-- Popup nổi -->
+      <!-- Popup nổi cột trái -->
       <div id="left-hl-toolbar" class="hidden absolute z-50 bg-slate-900 text-white px-2 py-1 rounded-lg shadow-xl flex items-center gap-1.5 border border-slate-700 text-xs">
         <span class="text-[10px] text-slate-300">Tô:</span>
         <button onclick="applyHighlight('hl-yellow')" class="w-4 h-4 rounded-full bg-yellow-300"></button>
@@ -119,7 +141,7 @@
         <button onclick="removeSelectedHighlight()" class="text-rose-400 hover:text-rose-300 text-xs"><i class="fa-solid fa-trash-can text-[10px]"></i></button>
       </div>
 
-      <div id="passage-container" class="overflow-y-auto pr-2 custom-scrollbar space-y-3.5 text-slate-700 text-[13px] md:text-sm leading-relaxed select-text flex-1"></div>
+      <div id="passage-container" class="overflow-y-auto pr-2 custom-scrollbar space-y-3 text-slate-700 text-[13px] md:text-sm leading-relaxed select-text flex-1"></div>
     </section>
 
     <!-- CỘT PHẢI: CÂU HỎI & TỪ VỰNG (5/12 cột) -->
@@ -188,13 +210,13 @@
 
   </div>
 
-  <!-- NẠP FILE DỮ LIỆU BÀI HỌC TÁCH RỜI -->
+  <!-- Nạp file dữ liệu bài học -->
   <script src="data.js"></script>
 
-  <!-- LOGIC TÍNH NĂNG (GỌN GÀNG, KHÔNG CHỨA DỮ LIỆU CHỮ NỮA) -->
+  <!-- LOGIC DỊCH TỪNG CÂU & CHỨC NĂNG BÀI LÀM -->
   <script>
     let currentActIndex = 0;
-    let isTranslated = false;
+    let isSentenceTranslated = false;
     let isPlaying = false;
     let synth = window.speechSynthesis;
     let utterance = null;
@@ -208,6 +230,13 @@
       u.lang = 'en-US';
       u.rate = 0.9;
       synth.speak(u);
+    }
+
+    // Thuật toán chia câu thông minh theo dấu câu
+    function splitIntoSentences(text) {
+      if (!text) return [];
+      const raw = text.match(/[^.!?]+[.!?]+["']?|[^.!?]+$/g) || [text];
+      return raw.map(s => s.trim()).filter(s => s.length > 0);
     }
 
     function initSidebar() {
@@ -253,26 +282,7 @@
         overlay.classList.add('hidden');
       }
 
-      // Render bài đọc
-      const pContainer = document.getElementById('passage-container');
-      pContainer.innerHTML = `
-        <div class="text-center pb-2 border-b border-slate-100">
-          <h2 class="text-base md:text-lg font-extrabold text-slate-900 tracking-tight">${act.title}</h2>
-          <span class="text-[11px] text-indigo-600 uppercase tracking-widest font-semibold">${act.part}</span>
-        </div>
-      `;
-      act.passage.forEach((p) => {
-        const block = document.createElement('div');
-        block.className = "passage-block p-2 rounded-lg transition hover:bg-slate-50/80 border border-transparent hover:border-slate-100";
-        block.innerHTML = `
-          <p class="en-text font-serif leading-relaxed">${p.en}</p>
-          <div class="vn-text ${isTranslated ? '' : 'hidden'} mt-2 p-2 bg-indigo-50/70 border-l-4 border-indigo-500 rounded-r-md text-xs text-indigo-950 font-sans">
-            <span class="font-bold text-[10px] uppercase tracking-wide text-indigo-700 block mb-0.5">Bản dịch tiếng Việt:</span>
-            ${p.vi}
-          </div>
-        `;
-        pContainer.appendChild(block);
-      });
+      renderPassage();
 
       // Render câu hỏi
       document.getElementById('quiz-instruction').innerHTML = `
@@ -363,6 +373,70 @@
       document.getElementById('score-badge').classList.add('hidden');
     }
 
+    // Render bài đọc theo từng câu
+    function renderPassage() {
+      const act = ACTIVITIES[currentActIndex];
+      const pContainer = document.getElementById('passage-container');
+      pContainer.innerHTML = `
+        <div class="text-center pb-2 border-b border-slate-100">
+          <h2 class="text-base md:text-lg font-extrabold text-slate-900 tracking-tight">${act.title}</h2>
+          <span class="text-[11px] text-indigo-600 uppercase tracking-widest font-semibold">${act.part}</span>
+        </div>
+      `;
+
+      act.passage.forEach((p, pIdx) => {
+        const block = document.createElement('div');
+        block.className = "passage-block p-2 rounded-lg transition hover:bg-slate-50/70 border border-transparent";
+
+        const enSentences = splitIntoSentences(p.en);
+        const viSentences = splitIntoSentences(p.vi);
+
+        let contentHtml = '<p class="font-serif leading-relaxed">';
+        enSentences.forEach((enS, sIdx) => {
+          const viS = viSentences[sIdx] || (sIdx === 0 ? p.vi : "");
+          contentHtml += `
+            <span class="sentence-wrapper" data-pid="${pIdx}" data-sid="${sIdx}">
+              <span class="sentence-en cursor-pointer" onclick="toggleSingleSentence(${pIdx}, ${sIdx})">${enS} </span>
+              <span id="vi-${pIdx}-${sIdx}" class="sentence-vi ${isSentenceTranslated ? '' : 'hidden'}">${viS}</span>
+            </span>
+          `;
+        });
+        contentHtml += '</p>';
+
+        block.innerHTML = contentHtml;
+        pContainer.appendChild(block);
+      });
+    }
+
+    // Bật/tắt dịch toàn bộ từng câu
+    function toggleSentenceTranslation() {
+      isSentenceTranslated = !isSentenceTranslated;
+      const allVi = document.querySelectorAll('.sentence-vi');
+      allVi.forEach(el => {
+        if (isSentenceTranslated) el.classList.remove('hidden');
+        else el.classList.add('hidden');
+      });
+
+      const btn = document.getElementById('btn-toggle-sentence');
+      const text = document.getElementById('trans-btn-text');
+      if (isSentenceTranslated) {
+        btn.className = "px-2.5 py-1 bg-indigo-600 border border-indigo-700 text-white rounded text-xs font-bold transition flex items-center gap-1 shadow-sm";
+        text.textContent = "Ẩn Dịch Từng Câu";
+      } else {
+        btn.className = "px-2.5 py-1 bg-indigo-50 border border-indigo-300 text-indigo-700 hover:bg-indigo-100 rounded text-xs font-bold transition flex items-center gap-1 shadow-sm";
+        text.textContent = "Dịch Từng Câu";
+      }
+    }
+
+    // Bấm vào 1 câu tiếng Anh bất kỳ để xem/ẩn câu dịch tiếng Việt của câu đó
+    function toggleSingleSentence(pIdx, sIdx) {
+      if (isSentenceTranslated) return; // Nếu đang bật dịch tất cả thì không cần toggle lẻ
+      const target = document.getElementById(`vi-${pIdx}-${sIdx}`);
+      if (target) {
+        target.classList.toggle('hidden');
+      }
+    }
+
     function toggleSidebar() {
       const sidebar = document.getElementById('sidebar');
       const overlay = document.getElementById('sidebar-overlay');
@@ -393,15 +467,7 @@
       }
     }
 
-    function toggleTranslation() {
-      isTranslated = !isTranslated;
-      document.querySelectorAll('.vn-text').forEach(el => {
-        if (isTranslated) el.classList.remove('hidden'); else el.classList.add('hidden');
-      });
-      document.getElementById('trans-btn-text').textContent = isTranslated ? "Ẩn Dịch" : "Bản Dịch";
-    }
-
-    // Cơ chế Highlight cảm ứng
+    // Cơ chế Highlight cảm ứng iPad & chuột PC
     const leftSection = document.getElementById('left-column-section');
     const rightSection = document.getElementById('right-column-section');
     const leftHlToolbar = document.getElementById('left-hl-toolbar');
@@ -518,7 +584,7 @@
       } else {
         synth.cancel();
         let fullText = ACTIVITIES[currentActIndex].title + ". ";
-        document.querySelectorAll('#passage-container .en-text').forEach(p => fullText += p.innerText + " ");
+        document.querySelectorAll('#passage-container .sentence-en').forEach(p => fullText += p.innerText + " ");
         utterance = new SpeechSynthesisUtterance(fullText);
         utterance.lang = 'en-US';
         utterance.rate = rate;
