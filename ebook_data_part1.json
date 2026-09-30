@@ -1,0 +1,86 @@
+{
+  "activities": [
+    {
+      "id": 1,
+      "title": "AMAZING HOMES",
+      "category": "01. DẠNG BÀI SENTENCE COMPLETION",
+      "questionsInstruction": "Complete the sentences. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "questions": [
+        { "id": "act1_q1", "num": 1, "text": "The two people who live in the transparent house love it, but it wouldn't _____.", "answer": "suit everyone", "explanation": "Đoạn B: 'It wouldn't suit everyone but the couple who live there love the feeling...'" },
+        { "id": "act1_q2", "num": 2, "text": "The designer of the smallest house hopes to _____ to the lack of houses all over the world.", "answer": "draw attention", "explanation": "Đoạn D: 'Van Bo Le-Mentzel... built it to draw attention to the world housing shortage.'" },
+        { "id": "act1_q3", "num": 3, "text": "People who stay in igloos sometimes protect themselves from the cold by making use of _____.", "answer": "reindeer skins", "explanation": "Đoạn E: 'We used reindeer skins to keep warm.'" },
+        { "id": "act1_q4", "num": 4, "text": "People who have _____ would find a holiday in a treehouse ideal.", "answer": "busy lives", "explanation": "Đoạn F: 'It was the perfect place to get away from our busy lives.'" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "HOME FROM HOME",
+      "category": "01. DẠNG BÀI SENTENCE COMPLETION",
+      "questionsInstruction": "Read the passage and complete the sentences below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+      "questions": [
+        { "id": "act2_q1", "num": 1, "text": "The writer's mother often cooks _____.", "answer": "roast chicken", "explanation": "Đoạn 1: 'my mum's roast chicken in the oven'" },
+        { "id": "act2_q2", "num": 2, "text": "She thought the visit to Germany would make her feel _____.", "answer": "homesick and sad", "explanation": "Đoạn 2: 'spend three weeks, homesick and sad'" },
+        { "id": "act2_q3", "num": 3, "text": "Brigitte came to pick up the girl with _____.", "answer": "her parents", "explanation": "Đoạn 3: 'Behind her stood her parents'" },
+        { "id": "act2_q4", "num": 4, "text": "The Schmitt family's pets' names are _____.", "answer": "Ping and Pong", "explanation": "Đoạn 4: 'They had two cats, Ping and Pong'" },
+        { "id": "act2_q5", "num": 5, "text": "From her bedroom the girl could see _____.", "answer": "a forest", "explanation": "Đoạn 4: 'we looked out onto a forest'" },
+        { "id": "act2_q6", "num": 6, "text": "The girl and her family tried hard to make Brigitte _____.", "answer": "feel at home", "explanation": "Đoạn 5: 'to help Brigitte feel at home with us'" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "FOOD CULTURE SHOCK",
+      "category": "01. DẠNG BÀI SENTENCE COMPLETION",
+      "questionsInstruction": "Complete these sentences using a word from the text.",
+      "questions": [
+        { "id": "act3_q1", "num": 1, "text": "In China, if you refuse food, the host will usually _____ the offer.", "answer": "repeat", "explanation": "Đoạn C: 'because the person will definitely repeat the offer.'" },
+        { "id": "act3_q2", "num": 2, "text": "For Alfredo, food plays an important role in a person's _____.", "answer": "identity", "explanation": "Đoạn B: 'Food is part of your identity'" },
+        { "id": "act3_q3", "num": 3, "text": "In India, you should not use your _____ when eating.", "answer": ["palm", "palms", "palm of your hand"], "explanation": "Đoạn A: 'You use your fingertips, never the palm of your hand'" },
+        { "id": "act3_q4", "num": 4, "text": "In some countries, eating meat represents _____.", "answer": "prosperity", "explanation": "Đoạn D: 'meat equates to prosperity'" },
+        { "id": "act3_q5", "num": 5, "text": "In many places in _____ there is no difference between foods eaten for breakfast and dinner.", "answer": "Asia", "explanation": "Đoạn E: 'when I travelled in Asia, I realised that in many places, there is no difference...'" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "OUR FRIENDS AND PROTECTORS",
+      "category": "01. DẠNG BÀI SENTENCE COMPLETION",
+      "questionsInstruction": "Complete the notes below. Write NO MORE THAN TWO/THREE WORDS from the passage.",
+      "questions": [
+        { "id": "act4_q1", "num": 1, "text": "A pod of dolphins saved the life of a man called _____ while he was videoing them.", "answer": "Hardy Jones", "explanation": "Đoạn B: Wildlife filmmaker Hardy Jones was filming a group of dolphins..." },
+        { "id": "act4_q2", "num": 2, "text": "The man was a famous _____ for the protection of dolphins.", "answer": "campaigner", "explanation": "Đoạn B: 'In fact, Jones was a well-known campaigner...'" },
+        { "id": "act4_q3", "num": 3, "text": "Orcas were trying to catch and hurt a group of _____ who were travelling from one place to another.", "answer": "grey whales", "explanation": "Đoạn E: 'protecting migrating grey whales from attacks by orcas'" },
+        { "id": "act4_q4", "num": 4, "text": "The migrating whales were helped by _____.", "answer": "humpback whales", "explanation": "Đoạn E: 'filmed a group of humpback whales who were protecting...'" },
+        { "id": "act4_q5", "num": 5, "text": "The whole incident lasted more than _____.", "answer": ["seven hours", "7 hours"], "explanation": "Đoạn E: 'over a period of at least seven hours'" },
+        { "id": "act4_q6", "num": 6, "text": "Because of the icy waters she was unable to _____.", "answer": "move her legs", "explanation": "Đoạn E: 'couldn't move her legs due to the freezing temperatures'" },
+        { "id": "act4_q7", "num": 7, "text": "One of the whales saved her life by taking hold of her _____ and giving her a push upwards.", "answer": "leg", "explanation": "Đoạn E: 'Mila gripped Yang Yun's leg in her mouth'" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "THE MODERN ZOO",
+      "category": "01. DẠNG BÀI SENTENCE COMPLETION",
+      "questionsInstruction": "Complete the notes below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "questions": [
+        { "id": "act5_q1", "num": 1, "text": "Before the 1990s, zoos existed mainly for _____.", "answer": "entertainment", "explanation": "Đoạn A: 'the main purpose of zoos was for entertainment'" },
+        { "id": "act5_q2", "num": 2, "text": "The first zoo to focus on protecting animals was started by _____.", "answer": "Gerald Durrell", "explanation": "Đoạn A: 'In 1959, famous wildlife expert Gerald Durrell opened...'" },
+        { "id": "act5_q3", "num": 3, "text": "Since the 1990s a number of zoos aim to breed threatened animals and return them to their _____.", "answer": "natural habitats", "explanation": "Đoạn B: 'reintroduce endangered species into their natural habitats'" },
+        { "id": "act5_q4", "num": 4, "text": "But first the animals have to learn how to survive in the _____.", "answer": "wild", "explanation": "Đoạn B: 'teaches orangutans how to live in the wild'" },
+        { "id": "act5_q5", "num": 5, "text": "Zoos offer animals _____ by making it challenging for them to find their food...", "answer": "enrichment", "explanation": "Đoạn C: 'Zoos try to provide enrichment for the animals'" },
+        { "id": "act5_q6", "num": 6, "text": "_____ enable the public to view zoo animals from their homes.", "answer": ["Webcams", "webcams"], "explanation": "Đoạn D: 'webcams in some enclosures so visitors can keep up...'" }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "UNUSUAL SPORTS",
+      "category": "02. DẠNG BÀI SUMMARY COMPLETION",
+      "questionsInstruction": "Complete the summary using the list of words A-L below.",
+      "questions": [
+        { "id": "act6_q1", "num": 1, "text": "If you've had enough of ordinary sports, you can try a number of (1) _____ new sports.", "options": [{"key":"K", "text":"strange"},{"key":"A", "text":"boring"},{"key":"J", "text":"sport"}], "answer": "K", "explanation": "1 = K (strange - lạ lùng)" },
+        { "id": "act6_q2", "num": 2, "text": "Some of these were created when people (2) _____ two well-known sports.", "options": [{"key":"G", "text":"mixed"},{"key":"F", "text":"join"},{"key":"H", "text":"moving"}], "answer": "G", "explanation": "2 = G (mixed - kết hợp)" },
+        { "id": "act6_q3", "num": 3, "text": "Sometimes they added a (3) _____ from the part of the world where they lived.", "options": [{"key":"D", "text":"feature"},{"key":"B", "text":"change"}], "answer": "D", "explanation": "3 = D (feature - đặc điểm/yếu tố)" },
+        { "id": "act6_q4", "num": 4, "text": "Buzkashi, a sport from Afghanistan, is played on (4) _____ and uses a dead goat...", "options": [{"key":"E", "text":"horses"},{"key":"L", "text":"trampolines"}], "answer": "E", "explanation": "4 = E (horses - ngựa)" },
+        { "id": "act6_q5", "num": 5, "text": "Chess boxing is a sport where you need to (5) _____ rapidly from one activity to another.", "options": [{"key":"B", "text":"change"},{"key":"H", "text":"moving"}], "answer": "B", "explanation": "5 = B (change - hoán đổi, chuyển đổi)" },
+        { "id": "act6_q6", "num": 6, "text": "You need to be (6) _____ and also fit.", "options": [{"key":"C", "text":"clever"},{"key":"I", "text":"serious"}], "answer": "C", "explanation": "6 = C (clever - thông minh/trí óc)" }
+      ]
+    }
+  ]
+}
