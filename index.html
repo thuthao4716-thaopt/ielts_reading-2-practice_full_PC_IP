@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1024, initial-scale=1.0, user-scalable=yes">
+  <title>IELTS Reading Master - 18 Activities</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    .custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: #f1f5f9; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    .hl-yellow { background-color: rgba(254, 240, 138, 0.8) !important; border-radius: 2px; padding: 1px 2px; }
+    .hl-green  { background-color: rgba(187, 247, 208, 0.8) !important; border-radius: 2px; padding: 1px 2px; }
+    .hl-cyan   { background-color: rgba(186, 230, 253, 0.8) !important; border-radius: 2px; padding: 1px 2px; }
+    .hl-pink   { background-color: rgba(251, 207, 232, 0.8) !important; border-radius: 2px; padding: 1px 2px; }
+    .select-text { -webkit-user-select: text !important; user-select: text !important; }
+  </style>
+</head>
+<body class="bg-slate-100 text-slate-800 font-sans min-h-screen flex flex-col select-auto">
+
+  <!-- Header -->
+  <header class="bg-indigo-700 text-white shadow-md sticky top-0 z-50">
+    <div class="max-w-[1400px] mx-auto px-4 py-2.5 flex items-center justify-between gap-4">
+      <div class="flex items-center space-x-3">
+        <button onclick="toggleSidebar()" class="p-2 rounded-lg bg-indigo-800 hover:bg-indigo-900 transition text-white">
+          <i class="fa-solid fa-bars text-base"></i>
+        </button>
+        <span class="bg-white text-indigo-700 px-2 py-0.5 rounded-md font-extrabold text-xs uppercase tracking-wide">IELTS</span>
+        <div>
+          <h1 class="text-sm md:text-base font-bold leading-tight line-clamp-1" id="top-title">IELTS Reading - Round 2</h1>
+          <p class="text-[11px] text-indigo-200" id="top-subtitle">Đủ 18 Activities - 9 Dạng bài chuẩn Ebook</p>
+        </div>
+      </div>
+      <div class="flex items-center space-x-2 text-xs">
+        <span id="score-badge" class="hidden bg-emerald-600 px-3 py-1 rounded-full font-semibold shadow text-xs">
+          Điểm: <span id="score-display">0/0</span>
+        </span>
+        <button onclick="toggleSidebar()" class="flex items-center gap-1.5 bg-indigo-800/80 hover:bg-indigo-900 px-3 py-1 rounded-lg border border-indigo-500/30 text-xs transition">
+          <i class="fa-solid fa-list-ul"></i> Chọn Bài (18)
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Container 2 Cột iPad Air 5 & PC -->
+  <div class="max-w-[1400px] mx-auto px-3 py-3 flex-1 w-full grid grid-cols-12 gap-3 md:gap-4 relative">
+    
+    <!-- Sidebar Menu Trượt -->
+    <aside id="sidebar" class="fixed inset-y-0 left-0 z-50 w-72 bg-white shadow-2xl transform -translate-x-full transition-transform duration-300 ease-in-out flex flex-col h-full">
+      <div class="p-3.5 bg-slate-50 border-b border-slate-200 flex items-center justify-between">
+        <div class="flex items-center space-x-2 text-slate-800 font-bold text-sm">
+          <i class="fa-solid fa-layer-group text-indigo-600"></i>
+          <span>Danh Sách 18 Bài Tập</span>
+        </div>
+        <button onclick="toggleSidebar()" class="text-slate-400 hover:text-slate-600 p-1">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+      <div id="activity-menu" class="flex-1 overflow-y-auto p-2 space-y-1 custom-scrollbar text-xs"></div>
+    </aside>
+    <div id="sidebar-overlay" onclick="toggleSidebar()" class="hidden fixed inset-0 bg-black/40 z-40 backdrop-blur-[1px]"></div>
+
+    <!-- CỘT TRÁI: BÀI ĐỌC (7/12 cột) -->
+    <section id="left-column-section" class="col-span-7 bg-white rounded-xl shadow-sm border border-slate-200 p-3.5 flex flex-col h-[calc(100dvh-75px)] sticky top-[65px] relative">
+      <div class="pb-2.5 mb-2 border-b border-slate-100 flex items-center justify-between gap-2 bg-slate-50/90 p-2 rounded-lg border border-slate-200/60">
+        <div class="flex items-center space-x-1.5">
+          <button id="btn-audio-play" onclick="toggleAudio()" class="px-2.5 py-1 bg-indigo-600 hover:bg-indigo-700 text-white rounded text-xs font-semibold transition flex items-center gap-1 shadow-sm">
+            <i id="audio-icon" class="fa-solid fa-play"></i>
+            <span id="audio-text">Audio AI</span>
+          </button>
+          <div class="flex items-center space-x-1 bg-white px-1.5 py-0.5 rounded border border-slate-200 text-xs">
+            <i class="fa-solid fa-gauge-high text-slate-400 text-[10px]"></i>
+            <select id="audio-rate" class="bg-transparent font-medium text-slate-700 text-xs focus:outline-none">
+              <option value="0.8">0.8x</option>
+              <option value="1" selected>1.0x</option>
+              <option value="1.2">1.2x</option>
+            </select>
+          </div>
+        </div>
+        <div class="flex items-center space-x-1.5">
+          <button onclick="clearLeftHighlights()" class="px-2 py-1 bg-white border border-rose-200 text-rose-600 hover:bg-rose-50 rounded text-xs font-medium transition flex items-center gap-1 shadow-sm">
+            <i class="fa-solid fa-eraser"></i> Xóa HL
+          </button>
+          <button onclick="toggleTranslation()" class="px-2.5 py-1 bg-white border border-indigo-200 text-indigo-700 hover:bg-indigo-50 rounded text-xs font-semibold transition flex items-center gap-1 shadow-sm">
+            <i class="fa-solid fa-language text-indigo-600"></i>
+            <span id="trans-btn-text">Bản Dịch</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Bút màu Bài đọc cố định -->
+      <div class="px-2.5 py-1.5 mb-2 bg-indigo-50/60 border border-indigo-100 rounded-lg flex items-center justify-between gap-1 text-xs">
+        <div class="flex items-center gap-1.5">
+          <span class="text-indigo-900 font-semibold flex items-center gap-1 text-[11px]">
+            <i class="fa-solid fa-highlighter text-amber-500"></i> Bút bài đọc:
+          </span>
+          <div class="flex items-center gap-1.5">
+            <button onclick="applyHighlight('hl-yellow')" class="w-5 h-5 rounded-full bg-yellow-300 hover:scale-110 active:scale-95 border border-slate-300 shadow-sm transition"></button>
+            <button onclick="applyHighlight('hl-green')" class="w-5 h-5 rounded-full bg-emerald-300 hover:scale-110 active:scale-95 border border-slate-300 shadow-sm transition"></button>
+            <button onclick="applyHighlight('hl-cyan')" class="w-5 h-5 rounded-full bg-sky-300 hover:scale-110 active:scale-95 border border-slate-300 shadow-sm transition"></button>
+            <button onclick="applyHighlight('hl-pink')" class="w-5 h-5 rounded-full bg-pink-300 hover:scale-110 active:scale-95 border border-slate-300 shadow-sm transition"></button>
+          </div>
+        </div>
+        <button onclick="removeSelectedHighlight()" class="px-2 py-0.5 bg-white border border-slate-300 hover:bg-slate-50 active:bg-slate-100 rounded text-slate-700 font-medium text-[11px] shadow-sm transition">Bỏ tô</button>
+      </div>
+
+      <!-- Popup nổi -->
+      <div id="left-hl-toolbar" class="hidden absolute z-50 bg-slate-900 text-white px-2 py-1 rounded-lg shadow-xl flex items-center gap-1.5 border border-slate-700 text-xs">
+        <span class="text-[10px] text-slate-300">Tô:</span>
+        <button onclick="applyHighlight('hl-yellow')" class="w-4 h-4 rounded-full bg-yellow-300"></button>
+        <button onclick="applyHighlight('hl-green')" class="w-4 h-4 rounded-full bg-emerald-300"></button>
+        <button onclick="applyHighlight('hl-cyan')" class="w-4 h-4 rounded-full bg-sky-300"></button>
+        <button onclick="applyHighlight('hl-pink')" class="w-4 h-4 rounded-full bg-pink-300"></button>
+        <div class="h-3 w-px bg-slate-700 mx-0.5"></div>
+        <button onclick="removeSelectedHighlight()" class="text-rose-400 hover:text-rose-300 text-xs"><i class="fa-solid fa-trash-can text-[10px]"></i></button>
+      </div>
+
+      <div id="passage-container" class="overflow-y-auto pr-2 custom-scrollbar space-y-3.5 text-slate-700 text-[13px] md:text-sm leading-relaxed select-text flex-1"></div>
+    </section>
+
+    <!-- CỘT PHẢI: CÂU HỎI & TỪ VỰNG (5/12 cột) -->
+    <section id="right-column-section" class="col-span-5 bg-white rounded-xl shadow-sm border border-slate-200 flex flex-col h-[calc(100dvh-75px)] sticky top-[65px] overflow-hidden relative">
+      <div class="flex border-b border-slate-200 bg-slate-50">
+        <button id="tab-btn-quiz" onclick="switchTab('quiz')" class="flex-1 py-2.5 px-2 text-center font-bold text-xs border-b-2 border-indigo-600 text-indigo-700 flex items-center justify-center gap-1 transition">
+          <i class="fa-solid fa-list-check"></i> Câu Hỏi
+        </button>
+        <button id="tab-btn-vocab" onclick="switchTab('vocab')" class="flex-1 py-2.5 px-2 text-center font-bold text-xs border-b-2 border-transparent text-slate-500 hover:text-slate-700 flex items-center justify-center gap-1 transition">
+          <i class="fa-solid fa-table-list"></i> Paraphrase & Từ Vựng
+        </button>
+      </div>
+
+      <!-- Bút màu Câu hỏi cố định -->
+      <div class="px-2.5 py-1.5 bg-slate-100 border-b border-slate-200 flex items-center justify-between gap-1 text-xs">
+        <div class="flex items-center gap-1.5">
+          <span class="text-slate-600 font-semibold flex items-center gap-1 text-[11px]">
+            <i class="fa-solid fa-highlighter text-amber-500"></i> Bút câu hỏi:
+          </span>
+          <div class="flex items-center gap-1.5">
+            <button onclick="applyHighlight('hl-yellow')" class="w-5 h-5 rounded-full bg-yellow-300 hover:scale-110 active:scale-95 border border-slate-300 shadow-sm transition"></button>
+            <button onclick="applyHighlight('hl-green')" class="w-5 h-5 rounded-full bg-emerald-300 hover:scale-110 active:scale-95 border border-slate-300 shadow-sm transition"></button>
+            <button onclick="applyHighlight('hl-cyan')" class="w-5 h-5 rounded-full bg-sky-300 hover:scale-110 active:scale-95 border border-slate-300 shadow-sm transition"></button>
+            <button onclick="applyHighlight('hl-pink')" class="w-5 h-5 rounded-full bg-pink-300 hover:scale-110 active:scale-95 border border-slate-300 shadow-sm transition"></button>
+          </div>
+        </div>
+        <div class="flex items-center gap-1">
+          <button onclick="removeSelectedHighlight()" class="px-1.5 py-0.5 bg-white border border-slate-300 hover:bg-slate-50 active:bg-slate-100 rounded text-slate-600 font-medium text-[10px] shadow-sm transition">Bỏ tô</button>
+          <button onclick="clearRightHighlights()" class="px-1.5 py-0.5 bg-rose-50 border border-rose-200 hover:bg-rose-100 active:bg-rose-200 text-rose-700 rounded font-medium text-[10px] shadow-sm transition">Xóa hết</button>
+        </div>
+      </div>
+
+      <!-- Popup nổi cột phải -->
+      <div id="right-hl-toolbar" class="hidden absolute z-50 bg-slate-900 text-white px-2 py-1 rounded-lg shadow-xl flex items-center gap-1.5 border border-slate-700 text-xs">
+        <span class="text-[10px] text-slate-300">Tô:</span>
+        <button onclick="applyHighlight('hl-yellow')" class="w-4 h-4 rounded-full bg-yellow-300"></button>
+        <button onclick="applyHighlight('hl-green')" class="w-4 h-4 rounded-full bg-emerald-300"></button>
+        <button onclick="applyHighlight('hl-cyan')" class="w-4 h-4 rounded-full bg-sky-300"></button>
+        <button onclick="applyHighlight('hl-pink')" class="w-4 h-4 rounded-full bg-pink-300"></button>
+        <div class="h-3 w-px bg-slate-700 mx-0.5"></div>
+        <button onclick="removeSelectedHighlight()" class="text-rose-400 hover:text-rose-300 text-xs"><i class="fa-solid fa-trash-can text-[10px]"></i></button>
+      </div>
+
+      <!-- Tab 1: Quiz -->
+      <div id="tab-quiz" class="flex-1 overflow-y-auto p-3 custom-scrollbar space-y-3.5 select-text">
+        <div id="quiz-instruction" class="bg-amber-50 border-l-4 border-amber-400 p-2.5 rounded-r-md text-xs text-amber-900 leading-snug"></div>
+        <form id="reading-quiz" onsubmit="submitQuiz(event)" class="space-y-3">
+          <div id="questions-list" class="space-y-3"></div>
+          <div class="flex items-center gap-2 pt-1 sticky bottom-0 bg-white py-2">
+            <button type="submit" class="flex-1 py-2 px-3 bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 text-white font-bold rounded-lg shadow transition text-xs flex items-center justify-center gap-1.5">
+              <i class="fa-solid fa-paper-plane"></i> Nộp Bài & Xem Giải Thích
+            </button>
+            <button type="button" onclick="resetCurrentQuiz()" class="py-2 px-2.5 bg-slate-100 hover:bg-slate-200 active:bg-slate-300 text-slate-700 font-semibold rounded-lg text-xs transition">
+              <i class="fa-solid fa-rotate-right"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Tab 2: Vocab & Paraphrase -->
+      <div id="tab-vocab" class="hidden flex-1 overflow-y-auto p-3 custom-scrollbar space-y-4 select-text">
+        <div id="para-content" class="space-y-2.5"></div>
+        <div id="vocab-content" class="space-y-2.5 pt-2 border-t border-slate-200"></div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- NẠP FILE DỮ LIỆU BÀI HỌC TÁCH RỜI -->
+  <script src="data.js"></script>
+
+  <!-- LOGIC TÍNH NĂNG (GỌN GÀNG, KHÔNG CHỨA DỮ LIỆU CHỮ NỮA) -->
+  <script>
+    let currentActIndex = 0;
+    let isTranslated = false;
+    let isPlaying = false;
+    let synth = window.speechSynthesis;
+    let utterance = null;
+    let savedRange = null;
+
+    // Phát âm từ vựng AmE
+    function speakWord(text) {
+      if (!synth) { alert("Trình duyệt không hỗ trợ phát âm!"); return; }
+      synth.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = 'en-US';
+      u.rate = 0.9;
+      synth.speak(u);
+    }
+
+    function initSidebar() {
+      const menuContainer = document.getElementById('activity-menu');
+      menuContainer.innerHTML = '';
+      let lastPart = "";
+      ACTIVITIES.forEach((act, idx) => {
+        if (act.part !== lastPart) {
+          lastPart = act.part;
+          const header = document.createElement('div');
+          header.className = "pt-2 pb-1 px-2 font-bold text-[10px] uppercase tracking-wider text-indigo-700 bg-indigo-50/50 rounded mt-1";
+          header.textContent = act.part;
+          menuContainer.appendChild(header);
+        }
+        const btn = document.createElement('button');
+        btn.id = `nav-btn-${idx}`;
+        btn.onclick = () => selectActivity(idx);
+        btn.className = `w-full text-left px-2.5 py-1.5 rounded-lg font-medium transition flex items-center justify-between gap-1 text-slate-700 hover:bg-slate-100 ${idx === currentActIndex ? 'bg-indigo-600 !text-white shadow-sm font-bold' : ''}`;
+        btn.innerHTML = `<span class="truncate">${act.title}</span><i class="fa-solid fa-chevron-right text-[9px] opacity-70"></i>`;
+        menuContainer.appendChild(btn);
+      });
+    }
+
+    function selectActivity(index) {
+      currentActIndex = index;
+      const act = ACTIVITIES[index];
+      if (isPlaying) toggleAudio();
+      hideToolbars();
+
+      document.getElementById('top-title').textContent = act.title;
+      document.getElementById('top-subtitle').textContent = act.part;
+
+      document.querySelectorAll('#activity-menu button').forEach((btn, idx) => {
+        btn.className = (idx === index)
+          ? "w-full text-left px-2.5 py-1.5 rounded-lg font-bold transition flex items-center justify-between gap-1 bg-indigo-600 text-white shadow-sm"
+          : "w-full text-left px-2.5 py-1.5 rounded-lg font-medium transition flex items-center justify-between gap-1 text-slate-700 hover:bg-slate-100";
+      });
+
+      const sidebar = document.getElementById('sidebar');
+      const overlay = document.getElementById('sidebar-overlay');
+      if (!sidebar.classList.contains('-translate-x-full')) {
+        sidebar.classList.add('-translate-x-full');
+        overlay.classList.add('hidden');
+      }
+
+      // Render bài đọc
+      const pContainer = document.getElementById('passage-container');
+      pContainer.innerHTML = `
+        <div class="text-center pb-2 border-b border-slate-100">
+          <h2 class="text-base md:text-lg font-extrabold text-slate-900 tracking-tight">${act.title}</h2>
+          <span class="text-[11px] text-indigo-600 uppercase tracking-widest font-semibold">${act.part}</span>
+        </div>
+      `;
+      act.passage.forEach((p) => {
+        const block = document.createElement('div');
+        block.className = "passage-block p-2 rounded-lg transition hover:bg-slate-50/80 border border-transparent hover:border-slate-100";
+        block.innerHTML = `
+          <p class="en-text font-serif leading-relaxed">${p.en}</p>
+          <div class="vn-text ${isTranslated ? '' : 'hidden'} mt-2 p-2 bg-indigo-50/70 border-l-4 border-indigo-500 rounded-r-md text-xs text-indigo-950 font-sans">
+            <span class="font-bold text-[10px] uppercase tracking-wide text-indigo-700 block mb-0.5">Bản dịch tiếng Việt:</span>
+            ${p.vi}
+          </div>
+        `;
+        pContainer.appendChild(block);
+      });
+
+      // Render câu hỏi
+      document.getElementById('quiz-instruction').innerHTML = `
+        <p class="font-bold uppercase tracking-wider text-[11px] mb-0.5"><i class="fa-solid fa-circle-info"></i> Yêu cầu đề bài:</p>
+        <p class="instruction-text">${act.instruction}</p>
+      `;
+      const qContainer = document.getElementById('questions-list');
+      qContainer.innerHTML = '';
+      act.questions.forEach((q, qIdx) => {
+        const card = document.createElement('div');
+        card.className = "question-card p-2.5 rounded-lg border border-slate-200 bg-white transition";
+        card.setAttribute('data-qid', qIdx);
+        card.innerHTML = `
+          <div class="q-title block text-xs font-semibold text-slate-800 leading-snug mb-1.5">${q.q}</div>
+          <input type="text" id="ans-${qIdx}" class="w-full px-2.5 py-1 text-xs border border-slate-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:outline-none transition" placeholder="Nhập đáp án...">
+          <div id="fb-${qIdx}" class="hidden mt-1.5 p-2 rounded-md text-xs leading-relaxed"></div>
+        `;
+        qContainer.appendChild(card);
+      });
+
+      // Render bảng Paraphrase
+      const pTable = document.getElementById('para-content');
+      let tableRows = '';
+      if (act.paraphraseTable && act.paraphraseTable.length > 0) {
+        act.paraphraseTable.forEach(row => {
+          tableRows += `
+            <tr class="border-b border-slate-200 hover:bg-indigo-50/40 transition">
+              <td class="p-2 font-medium text-slate-800 align-top border-r border-slate-200 w-1/2">${row.qWord}</td>
+              <td class="p-2 text-indigo-900 font-semibold align-top w-1/2">
+                ${row.pWord}${row.note ? `<div class="text-[10px] text-slate-500 font-normal italic mt-0.5">${row.note}</div>` : ''}
+              </td>
+            </tr>
+          `;
+        });
+      }
+      pTable.innerHTML = `
+        <div class="flex items-center justify-between mb-1.5">
+          <h3 class="font-bold text-slate-800 text-xs flex items-center gap-1.5">
+            <i class="fa-solid fa-table-list text-indigo-600"></i> Bảng Paraphrase (Keywords vs Passage)
+          </h3>
+          <span class="text-[10px] bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded font-medium">Đối chiếu</span>
+        </div>
+        <div class="overflow-x-auto rounded-lg border border-slate-200 shadow-sm bg-white">
+          <table class="w-full text-xs text-left">
+            <thead class="bg-slate-100 text-slate-900 font-bold border-b border-slate-200">
+              <tr>
+                <th class="p-2 border-r border-slate-200 w-1/2">Keywords in Questions</th>
+                <th class="p-2 w-1/2">Similar words in Passage</th>
+              </tr>
+            </thead>
+            <tbody>${tableRows}</tbody>
+          </table>
+        </div>
+      `;
+
+      // Render Từ vựng
+      const vContainer = document.getElementById('vocab-content');
+      vContainer.innerHTML = `
+        <div class="flex items-center justify-between mb-1.5">
+          <h3 class="font-bold text-slate-800 text-xs flex items-center gap-1.5">
+            <i class="fa-solid fa-spell-check text-indigo-600"></i> Từ Vựng Cốt Lõi (Phát Âm Chuẩn AmE)
+          </h3>
+          <span class="text-[10px] bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded font-medium">${act.vocab ? act.vocab.length : 0} từ</span>
+        </div>
+      `;
+      if (act.vocab && act.vocab.length > 0) {
+        act.vocab.forEach(v => {
+          const vBox = document.createElement('div');
+          vBox.className = "p-2 rounded-lg bg-slate-50 border border-slate-200 text-xs space-y-1";
+          const safeWord = v.word.replace(/'/g, "\\'");
+          vBox.innerHTML = `
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-1.5">
+                <span class="font-bold text-indigo-900 text-sm">${v.word}</span>
+                <button onclick="speakWord('${safeWord}')" class="w-6 h-6 rounded-full bg-indigo-100 hover:bg-indigo-200 active:bg-indigo-300 text-indigo-700 flex items-center justify-center transition shadow-xs" title="Bấm nghe phát âm">
+                  <i class="fa-solid fa-volume-high text-[11px]"></i>
+                </button>
+              </div>
+              <span class="text-[10px] bg-slate-200 text-slate-700 px-1.5 py-0.5 rounded font-mono font-medium">${v.type} \vert{} AmE:${v.ipa}</span>
+            </div>
+            <p class="text-slate-700"><span class="font-semibold text-slate-900">Nghĩa:</span> ${v.def}</p>
+            <p class="text-slate-500 italic">"${v.ex}"</p>
+            <p class="text-slate-500 text-[11px]">→ ${v.viEx}</p>
+          `;
+          vContainer.appendChild(vBox);
+        });
+      }
+      document.getElementById('score-badge').classList.add('hidden');
+    }
+
+    function toggleSidebar() {
+      const sidebar = document.getElementById('sidebar');
+      const overlay = document.getElementById('sidebar-overlay');
+      const isClosed = sidebar.classList.contains('-translate-x-full');
+      if (isClosed) {
+        sidebar.classList.remove('-translate-x-full');
+        overlay.classList.remove('hidden');
+      } else {
+        sidebar.classList.add('-translate-x-full');
+        overlay.classList.add('hidden');
+      }
+    }
+
+    function switchTab(tab) {
+      const qTab = document.getElementById('tab-quiz');
+      const vTab = document.getElementById('tab-vocab');
+      const qBtn = document.getElementById('tab-btn-quiz');
+      const vBtn = document.getElementById('tab-btn-vocab');
+      hideToolbars();
+      if (tab === 'quiz') {
+        qTab.classList.remove('hidden'); vTab.classList.add('hidden');
+        qBtn.className = "flex-1 py-2.5 px-2 text-center font-bold text-xs border-b-2 border-indigo-600 text-indigo-700 flex items-center justify-center gap-1 transition";
+        vBtn.className = "flex-1 py-2.5 px-2 text-center font-bold text-xs border-b-2 border-transparent text-slate-500 hover:text-slate-700 flex items-center justify-center gap-1 transition";
+      } else {
+        vTab.classList.remove('hidden'); qTab.classList.add('hidden');
+        vBtn.className = "flex-1 py-2.5 px-2 text-center font-bold text-xs border-b-2 border-indigo-600 text-indigo-700 flex items-center justify-center gap-1 transition";
+        qBtn.className = "flex-1 py-2.5 px-2 text-center font-bold text-xs border-b-2 border-transparent text-slate-500 hover:text-slate-700 flex items-center justify-center gap-1 transition";
+      }
+    }
+
+    function toggleTranslation() {
+      isTranslated = !isTranslated;
+      document.querySelectorAll('.vn-text').forEach(el => {
+        if (isTranslated) el.classList.remove('hidden'); else el.classList.add('hidden');
+      });
+      document.getElementById('trans-btn-text').textContent = isTranslated ? "Ẩn Dịch" : "Bản Dịch";
+    }
+
+    // Cơ chế Highlight cảm ứng
+    const leftSection = document.getElementById('left-column-section');
+    const rightSection = document.getElementById('right-column-section');
+    const leftHlToolbar = document.getElementById('left-hl-toolbar');
+    const rightHlToolbar = document.getElementById('right-hl-toolbar');
+
+    function handleTextSelection(e) {
+      if (leftHlToolbar.contains(e.target) || rightHlToolbar.contains(e.target)) return;
+      const sel = window.getSelection();
+      if (!sel.isCollapsed && sel.rangeCount > 0) {
+        const range = sel.getRangeAt(0);
+        const container = range.commonAncestorContainer;
+        if (leftSection.contains(container)) {
+          hideToolbars();
+          savedRange = range.cloneRange();
+          const rect = range.getBoundingClientRect();
+          const pRect = leftSection.getBoundingClientRect();
+          leftHlToolbar.style.top = `${rect.top - pRect.top - 38}px`;
+          leftHlToolbar.style.left = `${Math.max(10, rect.left - pRect.left + (rect.width / 2) - 80)}px`;
+          leftHlToolbar.classList.remove('hidden');
+          return;
+        }
+        if (rightSection.contains(container) && e.target.tagName !== 'INPUT') {
+          hideToolbars();
+          savedRange = range.cloneRange();
+          const rect = range.getBoundingClientRect();
+          const pRect = rightSection.getBoundingClientRect();
+          rightHlToolbar.style.top = `${rect.top - pRect.top - 38}px`;
+          rightHlToolbar.style.left = `${Math.max(10, rect.left - pRect.left + (rect.width / 2) - 80)}px`;
+          rightHlToolbar.classList.remove('hidden');
+          return;
+        }
+      }
+      hideToolbars();
+    }
+
+    document.addEventListener('mouseup', handleTextSelection);
+    document.addEventListener('touchend', function(e) { setTimeout(() => handleTextSelection(e), 60); });
+    document.addEventListener('selectionchange', function() {
+      const sel = window.getSelection();
+      if (!sel.isCollapsed && sel.rangeCount > 0) {
+        const range = sel.getRangeAt(0);
+        if (leftSection.contains(range.commonAncestorContainer) || rightSection.contains(range.commonAncestorContainer)) {
+          savedRange = range.cloneRange();
+        }
+      }
+    });
+
+    function hideToolbars() {
+      if (leftHlToolbar) leftHlToolbar.classList.add('hidden');
+      if (rightHlToolbar) rightHlToolbar.classList.add('hidden');
+    }
+
+    function applyHighlight(colorClass) {
+      const sel = window.getSelection();
+      let targetRange = savedRange;
+      if (!sel.isCollapsed && sel.rangeCount > 0) targetRange = sel.getRangeAt(0);
+      if (!targetRange) return;
+      const span = document.createElement('span');
+      span.className = colorClass;
+      try {
+        span.appendChild(targetRange.extractContents());
+        targetRange.insertNode(span);
+      } catch (err) { console.warn(err); }
+      window.getSelection().removeAllRanges();
+      savedRange = null;
+      hideToolbars();
+    }
+
+    function removeSelectedHighlight() {
+      const sel = window.getSelection();
+      let targetRange = savedRange;
+      if (!sel.isCollapsed && sel.rangeCount > 0) targetRange = sel.getRangeAt(0);
+      if (!targetRange) return;
+      const common = targetRange.commonAncestorContainer;
+      const parentSpan = common.nodeType === 1 ? common : common.parentElement;
+      if (parentSpan && (parentSpan.classList.contains('hl-yellow') || parentSpan.classList.contains('hl-green') || parentSpan.classList.contains('hl-cyan') || parentSpan.classList.contains('hl-pink'))) {
+        const parent = parentSpan.parentNode;
+        while (parentSpan.firstChild) parent.insertBefore(parentSpan.firstChild, parentSpan);
+        parent.removeChild(parentSpan);
+      }
+      window.getSelection().removeAllRanges();
+      savedRange = null;
+      hideToolbars();
+    }
+
+    function clearLeftHighlights() {
+      if (!confirm("Xóa toàn bộ highlight ở bài đọc?")) return;
+      leftSection.querySelectorAll('.hl-yellow, .hl-green, .hl-cyan, .hl-pink').forEach(span => {
+        const parent = span.parentNode;
+        while (span.firstChild) parent.insertBefore(span.firstChild, span);
+        parent.removeChild(span);
+      });
+      hideToolbars();
+    }
+
+    function clearRightHighlights() {
+      if (!confirm("Xóa toàn bộ highlight ở câu hỏi?")) return;
+      rightSection.querySelectorAll('.hl-yellow, .hl-green, .hl-cyan, .hl-pink').forEach(span => {
+        const parent = span.parentNode;
+        while (span.firstChild) parent.insertBefore(span.firstChild, span);
+        parent.removeChild(span);
+      });
+      hideToolbars();
+    }
+
+    function toggleAudio() {
+      if (!synth) { alert("Trình duyệt không hỗ trợ Web Speech AI!"); return; }
+      const icon = document.getElementById('audio-icon');
+      const text = document.getElementById('audio-text');
+      const rate = parseFloat(document.getElementById('audio-rate').value) || 1.0;
+      if (isPlaying) {
+        synth.cancel(); isPlaying = false;
+        icon.className = "fa-solid fa-play"; text.textContent = "Audio AI";
+      } else {
+        synth.cancel();
+        let fullText = ACTIVITIES[currentActIndex].title + ". ";
+        document.querySelectorAll('#passage-container .en-text').forEach(p => fullText += p.innerText + " ");
+        utterance = new SpeechSynthesisUtterance(fullText);
+        utterance.lang = 'en-US';
+        utterance.rate = rate;
+        utterance.onend = () => { isPlaying = false; icon.className = "fa-solid fa-play"; text.textContent = "Audio AI"; };
+        utterance.onerror = () => { isPlaying = false; icon.className = "fa-solid fa-play"; text.textContent = "Audio AI"; };
+        synth.speak(utterance);
+        isPlaying = true; icon.className = "fa-solid fa-stop"; text.textContent = "Dừng";
+      }
+    }
+
+    function cleanStr(s) {
+      return (s || "").trim().toLowerCase().replace(/[.,/#!$%^&*;:{}=\-_`~()]/g, "").replace(/\s+/g, " ");
+    }
+
+    function submitQuiz(e) {
+      e.preventDefault();
+      const act = ACTIVITIES[currentActIndex];
+      let correctCount = 0;
+      const total = act.questions.length;
+
+      act.questions.forEach((q, idx) => {
+        const input = document.getElementById(`ans-${idx}`);
+        const userVal = cleanStr(input.value);
+        const fb = document.getElementById(`fb-${idx}`);
+        const isCorrect = q.ans.some(a => cleanStr(a) === userVal);
+        fb.classList.remove('hidden');
+
+        if (isCorrect && userVal !== '') {
+          correctCount++;
+          input.className = "w-full px-2.5 py-1 text-xs border-2 border-emerald-500 bg-emerald-50 text-emerald-900 rounded-md focus:outline-none";
+          fb.className = "mt-1.5 p-2 rounded-md text-xs leading-relaxed bg-emerald-50 border border-emerald-200 text-emerald-950";
+          fb.innerHTML = `
+            <div class="font-bold flex items-center gap-1 text-emerald-700"><i class="fa-solid fa-circle-check"></i> Chính xác!</div>
+            <div class="mt-1"><span class="font-semibold text-slate-700">Vị trí:</span> ${q.loc}</div>
+            <div class="mt-0.5"><span class="font-semibold text-slate-700">Giải thích:</span> ${q.exp}</div>
+          `;
+        } else {
+          input.className = "w-full px-2.5 py-1 text-xs border-2 border-rose-500 bg-rose-50 text-rose-900 rounded-md focus:outline-none";
+          fb.className = "mt-1.5 p-2 rounded-md text-xs leading-relaxed bg-rose-50 border border-rose-200 text-rose-950";
+          fb.innerHTML = `
+            <div class="font-bold flex items-center gap-1 text-rose-700"><i class="fa-solid fa-circle-xmark"></i> Chưa chính xác!</div>
+            <div class="mt-1"><span class="font-semibold text-slate-700">Đáp án chuẩn:</span> <strong class="text-rose-800 uppercase font-mono">${q.ans[0]}</strong></div>
+            <div class="mt-1"><span class="font-semibold text-slate-700">Vị trí:</span> ${q.loc}</div>
+            <div class="mt-0.5"><span class="font-semibold text-slate-700">Giải thích:</span> ${q.exp}</div>
+          `;
+        }
+      });
+
+      const badge = document.getElementById('score-badge');
+      badge.classList.remove('hidden');
+      document.getElementById('score-display').textContent = `${correctCount}/${total}`;
+      document.querySelector('[data-qid="0"]').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    function resetCurrentQuiz() {
+      const act = ACTIVITIES[currentActIndex];
+      act.questions.forEach((q, idx) => {
+        const input = document.getElementById(`ans-${idx}`);
+        input.value = '';
+        input.className = "w-full px-2.5 py-1 text-xs border border-slate-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:outline-none transition";
+        const fb = document.getElementById(`fb-${idx}`);
+        fb.className = "hidden mt-1.5 p-2 rounded-md text-xs leading-relaxed";
+        fb.innerHTML = '';
+      });
+      document.getElementById('score-badge').classList.add('hidden');
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      initSidebar();
+      selectActivity(0);
+    });
+  </script>
+</body>
+</html>
