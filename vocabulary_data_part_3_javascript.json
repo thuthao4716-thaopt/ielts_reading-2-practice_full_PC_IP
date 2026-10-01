@@ -1,0 +1,2878 @@
+{
+  "activity_12": [
+    {
+      "id": 1,
+      "word": "enabled",
+      "pos": "Động từ",
+      "ipa": "/ɪˈneɪbəld/",
+      "meaning": "cho phép, tạo điều kiện cho",
+      "example": "Social media has enabled people to make friends more easily.",
+      "translation": "Mạng xã hội đã tạo điều kiện cho mọi người kết bạn dễ dàng hơn."
+    },
+    {
+      "id": 2,
+      "word": "phrase",
+      "pos": "Danh từ",
+      "ipa": "/freɪz/",
+      "meaning": "cụm từ",
+      "example": "What phrase does the writer use to describe people who don't stay in the same place?",
+      "translation": "Tác giả sử dụng cụm từ nào để mô tả những người không ở cùng một nơi?"
+    },
+    {
+      "id": 3,
+      "word": "describe",
+      "pos": "Động từ",
+      "ipa": "/dɪˈskraɪb/",
+      "meaning": "mô tả",
+      "example": "What phrase does the writer use to describe people who don't stay in the same place?",
+      "translation": "Tác giả sử dụng cụm từ nào để mô tả những người không ở cùng một nơi?"
+    },
+    {
+      "id": 4,
+      "word": "stay",
+      "pos": "Động từ",
+      "ipa": "/steɪ/",
+      "meaning": "ở lại",
+      "example": "Another change from the past is that people don't stay in the place where they were born.",
+      "translation": "Một thay đổi khác so với quá khứ là mọi người không ở lại nơi họ được sinh ra."
+    },
+    {
+      "id": 5,
+      "word": "work-related problem",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈwɝːk rɪˌleɪtɪd ˈprɑːbləm/",
+      "meaning": "vấn đề liên quan đến công việc",
+      "example": "What work-related problem do people have that makes them less likely to form friendships?",
+      "translation": "Mọi người gặp vấn đề nào liên quan đến công việc khiến họ ít có khả năng kết bạn hơn?"
+    },
+    {
+      "id": 6,
+      "word": "less likely",
+      "pos": "Cụm tính từ",
+      "ipa": "/les ˈlaɪkli/",
+      "meaning": "ít có khả năng hơn",
+      "example": "What work-related problem do people have that makes them less likely to form friendships?",
+      "translation": "Mọi người gặp vấn đề nào liên quan đến công việc khiến họ ít có khả năng kết bạn hơn?"
+    },
+    {
+      "id": 7,
+      "word": "form friendships",
+      "pos": "Cụm động từ",
+      "ipa": "/fɔːrm ˈfrendʃɪps/",
+      "meaning": "hình thành tình bạn, kết bạn",
+      "example": "What work-related problem do people have that makes them less likely to form friendships?",
+      "translation": "Mọi người gặp vấn đề nào liên quan đến công việc khiến họ ít có khả năng kết bạn hơn?"
+    },
+    {
+      "id": 8,
+      "word": "frequently influences",
+      "pos": "Cụm động từ",
+      "ipa": "/ˈfriːkwəntli ˈɪnfluənsɪz/",
+      "meaning": "thường xuyên ảnh hưởng đến",
+      "example": "What frequently influences the friendships of young children?",
+      "translation": "Điều gì thường xuyên ảnh hưởng đến tình bạn của trẻ nhỏ?"
+    },
+    {
+      "id": 9,
+      "word": "friendships",
+      "pos": "Danh từ",
+      "ipa": "/ˈfrendʃɪps/",
+      "meaning": "tình bạn, các mối quan hệ bạn bè",
+      "example": "Friendships can be very different when we are at different ages.",
+      "translation": "Tình bạn có thể rất khác nhau khi chúng ta ở những độ tuổi khác nhau."
+    },
+    {
+      "id": 10,
+      "word": "suffer from",
+      "pos": "Cụm động từ",
+      "ipa": "/ˈsʌfər frəm/",
+      "meaning": "mắc phải, chịu đựng",
+      "example": "What are people with friends less likely to suffer from?",
+      "translation": "Những người có bạn bè ít có khả năng mắc phải điều gì hơn?"
+    },
+    {
+      "id": 11,
+      "word": "maintain",
+      "pos": "Động từ",
+      "ipa": "/meɪnˈteɪn/",
+      "meaning": "duy trì",
+      "example": "A study in 1993 at the University of Oxford showed that people could only maintain 150 relationships.",
+      "translation": "Một nghiên cứu năm 1993 tại Đại học Oxford cho thấy mọi người chỉ có thể duy trì 150 mối quan hệ."
+    },
+    {
+      "id": 12,
+      "word": "relationships",
+      "pos": "Danh từ",
+      "ipa": "/rɪˈleɪʃənʃɪps/",
+      "meaning": "các mối quan hệ",
+      "example": "A study in 1993 at the University of Oxford showed that people could only maintain 150 relationships.",
+      "translation": "Một nghiên cứu năm 1993 tại Đại học Oxford cho thấy mọi người chỉ có thể duy trì 150 mối quan hệ."
+    },
+    {
+      "id": 13,
+      "word": "explosion",
+      "pos": "Danh từ",
+      "ipa": "/ɪkˈsploʊʒən/",
+      "meaning": "sự bùng nổ, sự phát triển mạnh mẽ",
+      "example": "However, with the explosion of social media since then, many people now have over 300 people who they think of as friends.",
+      "translation": "Tuy nhiên, với sự bùng nổ của mạng xã hội kể từ đó, nhiều người hiện có hơn 300 người mà họ coi là bạn."
+    },
+    {
+      "id": 14,
+      "word": "social media",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˌsoʊʃəl ˈmiːdiə/",
+      "meaning": "mạng xã hội",
+      "example": "However, with the explosion of social media since then, many people now have over 300 people who they think of as friends.",
+      "translation": "Tuy nhiên, với sự bùng nổ của mạng xã hội kể từ đó, nhiều người hiện có hơn 300 người mà họ coi là bạn."
+    },
+    {
+      "id": 15,
+      "word": "since then",
+      "pos": "Cụm trạng từ",
+      "ipa": "/sɪns ðen/",
+      "meaning": "kể từ đó",
+      "example": "However, with the explosion of social media since then, many people now have over 300 people who they think of as friends.",
+      "translation": "Tuy nhiên, với sự bùng nổ của mạng xã hội kể từ đó, nhiều người hiện có hơn 300 người mà họ coi là bạn."
+    },
+    {
+      "id": 16,
+      "word": "expand",
+      "pos": "Động từ",
+      "ipa": "/ɪkˈspænd/",
+      "meaning": "mở rộng",
+      "example": "Others believe that social media has helped us to expand and keep our friendships because we have more time and opportunities.",
+      "translation": "Những người khác tin rằng mạng xã hội đã giúp chúng ta mở rộng và duy trì tình bạn vì chúng ta có nhiều thời gian và cơ hội hơn."
+    },
+    {
+      "id": 17,
+      "word": "born",
+      "pos": "Động từ",
+      "ipa": "/bɔːrn/",
+      "meaning": "được sinh ra",
+      "example": "Another change from the past is that people don't stay in the place where they were born.",
+      "translation": "Một thay đổi khác so với quá khứ là mọi người không ở lại nơi họ được sinh ra."
+    },
+    {
+      "id": 18,
+      "word": "education",
+      "pos": "Danh từ",
+      "ipa": "/ˌedʒəˈkeɪʃən/",
+      "meaning": "việc học, giáo dục",
+      "example": "They go to different cities and countries for education and jobs.",
+      "translation": "Họ đến các thành phố và quốc gia khác nhau để học tập và làm việc."
+    },
+    {
+      "id": 19,
+      "word": "in general",
+      "pos": "Cụm trạng từ",
+      "ipa": "/ɪn ˈdʒenərəl/",
+      "meaning": "nhìn chung, nói chung",
+      "example": "People are in general more geographically mobile nowadays.",
+      "translation": "Nhìn chung, ngày nay mọi người di chuyển từ nơi này sang nơi khác nhiều hơn."
+    },
+    {
+      "id": 20,
+      "word": "geographically mobile",
+      "pos": "Cụm tính từ",
+      "ipa": "/ˌdʒiːəˈɡræfɪkli ˈmoʊbəl/",
+      "meaning": "thường xuyên di chuyển từ nơi này sang nơi khác",
+      "example": "People are in general more geographically mobile nowadays.",
+      "translation": "Nhìn chung, ngày nay mọi người thường xuyên di chuyển từ nơi này sang nơi khác hơn."
+    },
+    {
+      "id": 21,
+      "word": "nowadays",
+      "pos": "Trạng từ",
+      "ipa": "/ˈnaʊədeɪz/",
+      "meaning": "ngày nay",
+      "example": "People are in general more geographically mobile nowadays.",
+      "translation": "Nhìn chung, ngày nay mọi người di chuyển từ nơi này sang nơi khác nhiều hơn."
+    },
+    {
+      "id": 22,
+      "word": "cultures",
+      "pos": "Danh từ",
+      "ipa": "/ˈkʌltʃərz/",
+      "meaning": "các nền văn hóa",
+      "example": "This means that we have more chances to meet and make friends with people from different cultures and different backgrounds.",
+      "translation": "Điều này có nghĩa là chúng ta có nhiều cơ hội hơn để gặp gỡ và kết bạn với những người đến từ các nền văn hóa và hoàn cảnh khác nhau."
+    },
+    {
+      "id": 23,
+      "word": "remain friends",
+      "pos": "Cụm động từ",
+      "ipa": "/rɪˈmeɪn frendz/",
+      "meaning": "vẫn là bạn, duy trì tình bạn",
+      "example": "People still often make friends at college who remain friends for life.",
+      "translation": "Mọi người vẫn thường kết bạn ở trường đại học và duy trì tình bạn đó suốt đời."
+    },
+    {
+      "id": 24,
+      "word": "at work",
+      "pos": "Cụm giới từ",
+      "ipa": "/æt wɝːk/",
+      "meaning": "tại nơi làm việc",
+      "example": "But making new friends at work is more difficult.",
+      "translation": "Nhưng việc kết bạn mới tại nơi làm việc thì khó khăn hơn."
+    },
+    {
+      "id": 25,
+      "word": "security",
+      "pos": "Danh từ",
+      "ipa": "/sɪˈkjʊrəti/",
+      "meaning": "sự ổn định, sự đảm bảo",
+      "example": "People now have less security at work and this also means that they find it harder to build new relationships.",
+      "translation": "Ngày nay mọi người có ít sự ổn định trong công việc hơn và điều này cũng có nghĩa là họ thấy khó xây dựng các mối quan hệ mới hơn."
+    },
+    {
+      "id": 26,
+      "word": "choose",
+      "pos": "Động từ",
+      "ipa": "/tʃuːz/",
+      "meaning": "lựa chọn",
+      "example": "Young children often choose their friends because of convenience.",
+      "translation": "Trẻ nhỏ thường lựa chọn bạn bè vì sự thuận tiện."
+    },
+    {
+      "id": 27,
+      "word": "convenience",
+      "pos": "Danh từ",
+      "ipa": "/kənˈviːniəns/",
+      "meaning": "sự thuận tiện",
+      "example": "Young children often choose their friends because of convenience.",
+      "translation": "Trẻ nhỏ thường chọn bạn bè vì sự thuận tiện."
+    },
+    {
+      "id": 28,
+      "word": "definitely true",
+      "pos": "Cụm tính từ",
+      "ipa": "/ˈdefɪnətli truː/",
+      "meaning": "chắc chắn đúng",
+      "example": "One thing is definitely true though, it doesn't matter how old we are or how many friends we have on social media, friendship is good for our health.",
+      "translation": "Tuy nhiên, có một điều chắc chắn đúng: bất kể chúng ta bao nhiêu tuổi hay có bao nhiêu bạn bè trên mạng xã hội, tình bạn đều tốt cho sức khỏe của chúng ta."
+    },
+    {
+      "id": 29,
+      "word": "fewer",
+      "pos": "Từ hạn định",
+      "ipa": "/ˈfjuːər/",
+      "meaning": "ít hơn",
+      "example": "People who spend time with friends have fewer mental health problems.",
+      "translation": "Những người dành thời gian với bạn bè có ít vấn đề về sức khỏe tinh thần hơn."
+    },
+    {
+      "id": 30,
+      "word": "mental health problems",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˌmentəl ˈhelθ ˌprɑːbləmz/",
+      "meaning": "các vấn đề về sức khỏe tinh thần",
+      "example": "People who spend time with friends have fewer mental health problems.",
+      "translation": "Những người dành thời gian với bạn bè có ít vấn đề về sức khỏe tinh thần hơn."
+    },
+    {
+      "id": 31,
+      "word": "generally",
+      "pos": "Trạng từ",
+      "ipa": "/ˈdʒenərəli/",
+      "meaning": "nhìn chung, nói chung",
+      "example": "People who spend time with friends have fewer mental health problems and are generally happier.",
+      "translation": "Những người dành thời gian với bạn bè có ít vấn đề về sức khỏe tinh thần hơn và nhìn chung hạnh phúc hơn."
+    },
+    {
+      "id": 32,
+      "word": "happier",
+      "pos": "Tính từ",
+      "ipa": "/ˈhæpiər/",
+      "meaning": "hạnh phúc hơn",
+      "example": "People who spend time with friends have fewer mental health problems and are generally happier.",
+      "translation": "Những người dành thời gian với bạn bè có ít vấn đề về sức khỏe tinh thần hơn và nhìn chung hạnh phúc hơn."
+    },
+    {
+      "id": 33,
+      "word": "better physical state",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈbetər ˈfɪzɪkəl steɪt/",
+      "meaning": "tình trạng thể chất tốt hơn",
+      "example": "People who spend time with friends are generally happier and in a better physical state of health than people who spend their free time alone.",
+      "translation": "Những người dành thời gian với bạn bè nhìn chung hạnh phúc hơn và có tình trạng thể chất tốt hơn những người dành thời gian rảnh một mình."
+    }
+  ],
+  "activity_13": [
+    {
+      "id": 1,
+      "word": "protect",
+      "pos": "Động từ",
+      "ipa": "/prəˈtekt/",
+      "meaning": "bảo vệ",
+      "example": "Experts think they may understand that humans are similar to them and try to protect them from predators and other dangers.",
+      "translation": "Các chuyên gia cho rằng chúng có thể hiểu rằng con người giống chúng và cố gắng bảo vệ con người khỏi những động vật săn mồi và các mối nguy hiểm khác."
+    },
+    {
+      "id": 2,
+      "word": "swam towards",
+      "pos": "Cụm động từ",
+      "ipa": "/swæm təˈwɔːrdz/",
+      "meaning": "bơi về phía",
+      "example": "Wildlife filmmaker Hardy Jones was filming a group of dolphins, when a large shark swam towards him ready to attack.",
+      "translation": "Nhà làm phim về động vật hoang dã Hardy Jones đang quay một đàn cá heo thì một con cá mập lớn bơi về phía ông, sẵn sàng tấn công."
+    },
+    {
+      "id": 3,
+      "word": "swimmer",
+      "pos": "Danh từ",
+      "ipa": "/ˈswɪmər/",
+      "meaning": "người bơi, người đang bơi",
+      "example": "The swimmer tried to leave the protective ring of dolphins.",
+      "translation": "Người đang bơi cố gắng rời khỏi vòng bảo vệ của đàn cá heo."
+    },
+    {
+      "id": 4,
+      "word": "leave",
+      "pos": "Động từ",
+      "ipa": "/liːv/",
+      "meaning": "rời khỏi",
+      "example": "The swimmer tried to leave the protective ring of dolphins.",
+      "translation": "Người đang bơi cố gắng rời khỏi vòng bảo vệ của đàn cá heo."
+    },
+    {
+      "id": 5,
+      "word": "protective ring of dolphins",
+      "pos": "Cụm danh từ",
+      "ipa": "/prəˈtektɪv rɪŋ əv ˈdɑːlfɪnz/",
+      "meaning": "vòng bảo vệ của đàn cá heo",
+      "example": "The swimmer tried to leave the protective ring of dolphins.",
+      "translation": "Người đang bơi cố gắng rời khỏi vòng bảo vệ của đàn cá heo."
+    },
+    {
+      "id": 6,
+      "word": "nudged",
+      "pos": "Động từ",
+      "ipa": "/nʌdʒd/",
+      "meaning": "huých nhẹ, đẩy nhẹ",
+      "example": "A dolphin nudged Joey Trevino.",
+      "translation": "Một con cá heo đã huých nhẹ Joey Trevino."
+    },
+    {
+      "id": 7,
+      "word": "whales",
+      "pos": "Danh từ",
+      "ipa": "/weɪlz/",
+      "meaning": "cá voi",
+      "example": "Dolphins and whales help us.",
+      "translation": "Cá heo và cá voi giúp đỡ con người."
+    },
+    {
+      "id": 8,
+      "word": "encourage",
+      "pos": "Động từ",
+      "ipa": "/ɪnˈkɝːɪdʒ/",
+      "meaning": "động viên, khích lệ",
+      "example": "A dolphin nudged Joey Trevino to encourage him not to lose hope.",
+      "translation": "Một con cá heo đã huých nhẹ Joey Trevino để động viên anh không mất hy vọng."
+    },
+    {
+      "id": 9,
+      "word": "lose hope",
+      "pos": "Cụm động từ",
+      "ipa": "/luːz hoʊp/",
+      "meaning": "mất hy vọng",
+      "example": "A dolphin nudged Joey Trevino to encourage him not to lose hope.",
+      "translation": "Một con cá heo đã huých nhẹ Joey Trevino để động viên anh không mất hy vọng."
+    },
+    {
+      "id": 10,
+      "word": "recognise",
+      "pos": "Động từ",
+      "ipa": "/ˈrekəɡnaɪz/",
+      "meaning": "nhận ra, nhận biết",
+      "example": "Dolphins may protect humans because they recognise that humans are similar to them.",
+      "translation": "Cá heo có thể bảo vệ con người vì chúng nhận ra rằng con người giống chúng."
+    },
+    {
+      "id": 11,
+      "word": "similar",
+      "pos": "Tính từ",
+      "ipa": "/ˈsɪmələr/",
+      "meaning": "giống, tương tự",
+      "example": "Experts think they may understand that humans are similar to them and try to protect them from predators and other dangers.",
+      "translation": "Các chuyên gia cho rằng chúng có thể hiểu rằng con người giống chúng và cố gắng bảo vệ con người khỏi những động vật săn mồi và các mối nguy hiểm khác."
+    },
+    {
+      "id": 12,
+      "word": "actively",
+      "pos": "Trạng từ",
+      "ipa": "/ˈæktɪvli/",
+      "meaning": "một cách chủ động, chủ động",
+      "example": "Dolphins' protection of humans might not be just automatic or instinctive: they may actively decide to help in certain situations.",
+      "translation": "Việc cá heo bảo vệ con người có thể không chỉ là hành động tự động hay theo bản năng: chúng có thể chủ động quyết định giúp đỡ trong một số tình huống nhất định."
+    },
+    {
+      "id": 13,
+      "word": "decide",
+      "pos": "Động từ",
+      "ipa": "/dɪˈsaɪd/",
+      "meaning": "quyết định",
+      "example": "They may actively decide to help in certain situations.",
+      "translation": "Chúng có thể chủ động quyết định giúp đỡ trong một số tình huống nhất định."
+    },
+    {
+      "id": 14,
+      "word": "shark",
+      "pos": "Danh từ",
+      "ipa": "/ʃɑːrk/",
+      "meaning": "cá mập",
+      "example": "Wildlife filmmaker Hardy Jones was filming a group of dolphins, when a large shark swam towards him ready to attack.",
+      "translation": "Nhà làm phim về động vật hoang dã Hardy Jones đang quay một đàn cá heo thì một con cá mập lớn bơi về phía ông, sẵn sàng tấn công."
+    },
+    {
+      "id": 15,
+      "word": "was about to attack",
+      "pos": "Cụm động từ",
+      "ipa": "/wəz əˈbaʊt tə əˈtæk/",
+      "meaning": "sắp tấn công",
+      "example": "The shark was about to attack him.",
+      "translation": "Con cá mập sắp tấn công anh ấy."
+    },
+    {
+      "id": 16,
+      "word": "campaigner",
+      "pos": "Danh từ",
+      "ipa": "/kæmˈpeɪnər/",
+      "meaning": "nhà hoạt động, người vận động cho một mục tiêu",
+      "example": "In fact, Jones was a well-known campaigner against the killing of dolphins.",
+      "translation": "Thực tế, Jones là một nhà hoạt động nổi tiếng phản đối việc giết cá heo."
+    },
+    {
+      "id": 17,
+      "word": "dolphin protection",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈdɑːlfɪn prəˈtekʃən/",
+      "meaning": "việc bảo vệ cá heo",
+      "example": "He was a campaigner for dolphin protection.",
+      "translation": "Ông là một nhà hoạt động vì việc bảo vệ cá heo."
+    },
+    {
+      "id": 18,
+      "word": "really sure",
+      "pos": "Cụm tính từ",
+      "ipa": "/ˈriːəli ʃʊr/",
+      "meaning": "thực sự chắc chắn",
+      "example": "No one is really sure why this is the case.",
+      "translation": "Không ai thực sự chắc chắn tại sao lại như vậy."
+    },
+    {
+      "id": 19,
+      "word": "this is the case",
+      "pos": "Cụm từ",
+      "ipa": "/ðɪs ɪz ðə keɪs/",
+      "meaning": "điều này là như vậy, trường hợp này xảy ra",
+      "example": "No one is really sure why this is the case.",
+      "translation": "Không ai thực sự chắc chắn tại sao lại như vậy."
+    },
+    {
+      "id": 20,
+      "word": "experts",
+      "pos": "Danh từ",
+      "ipa": "/ˈekspɝːts/",
+      "meaning": "các chuyên gia",
+      "example": "Experts think they may understand that humans are similar to them and try to protect them from predators and other dangers.",
+      "translation": "Các chuyên gia cho rằng chúng có thể hiểu rằng con người giống chúng và cố gắng bảo vệ con người khỏi những động vật săn mồi và các mối nguy hiểm khác."
+    },
+    {
+      "id": 21,
+      "word": "predators",
+      "pos": "Danh từ",
+      "ipa": "/ˈpredətərz/",
+      "meaning": "động vật săn mồi, kẻ săn mồi",
+      "example": "Experts think they may understand that humans are similar to them and try to protect them from predators and other dangers.",
+      "translation": "Các chuyên gia cho rằng chúng có thể hiểu rằng con người giống chúng và cố gắng bảo vệ con người khỏi những động vật săn mồi và các mối nguy hiểm khác."
+    },
+    {
+      "id": 22,
+      "word": "dangers",
+      "pos": "Danh từ",
+      "ipa": "/ˈdeɪndʒərz/",
+      "meaning": "những mối nguy hiểm",
+      "example": "Experts think they may understand that humans are similar to them and try to protect them from predators and other dangers.",
+      "translation": "Các chuyên gia cho rằng chúng có thể hiểu rằng con người giống chúng và cố gắng bảo vệ con người khỏi những động vật săn mồi và các mối nguy hiểm khác."
+    },
+    {
+      "id": 23,
+      "word": "filming",
+      "pos": "Động từ",
+      "ipa": "/ˈfɪlmɪŋ/",
+      "meaning": "quay phim",
+      "example": "Wildlife filmmaker Hardy Jones was filming a group of dolphins, when a large shark swam towards him ready to attack.",
+      "translation": "Nhà làm phim về động vật hoang dã Hardy Jones đang quay một đàn cá heo thì một con cá mập lớn bơi về phía ông, sẵn sàng tấn công."
+    },
+    {
+      "id": 24,
+      "word": "rescue",
+      "pos": "Danh từ",
+      "ipa": "/ˈreskjuː/",
+      "meaning": "sự cứu giúp, sự giải cứu",
+      "example": "Four dolphins came to his rescue and drove the shark away.",
+      "translation": "Bốn con cá heo đã đến cứu ông và xua con cá mập đi."
+    },
+    {
+      "id": 25,
+      "word": "drove",
+      "pos": "Động từ",
+      "ipa": "/droʊv/",
+      "meaning": "xua đuổi (trong ngữ cảnh drove the shark away)",
+      "example": "Four dolphins came to his rescue and drove the shark away.",
+      "translation": "Bốn con cá heo đã đến cứu ông và xua con cá mập đi."
+    },
+    {
+      "id": 26,
+      "word": "cared",
+      "pos": "Động từ",
+      "ipa": "/kerd/",
+      "meaning": "quan tâm",
+      "example": "Perhaps they could tell he was a person who cared very much about dolphins.",
+      "translation": "Có lẽ chúng có thể nhận ra rằng ông là một người rất quan tâm đến cá heo."
+    },
+    {
+      "id": 27,
+      "word": "a pod of",
+      "pos": "Cụm danh từ",
+      "ipa": "/ə pɑːd əv/",
+      "meaning": "một đàn (cá heo, cá voi...)",
+      "example": "In another incident, in 2004, in New Zealand, four people were saved from a great white shark by a pod of dolphins.",
+      "translation": "Trong một sự việc khác vào năm 2004 tại New Zealand, bốn người đã được một đàn cá heo cứu khỏi một con cá mập trắng lớn."
+    },
+    {
+      "id": 28,
+      "word": "herded",
+      "pos": "Động từ",
+      "ipa": "/ˈhɝːdɪd/",
+      "meaning": "dồn lại, tập hợp lại thành nhóm",
+      "example": "The dolphins herded the swimmers into a group and formed a protective ring around them.",
+      "translation": "Những con cá heo đã dồn những người bơi lại thành một nhóm và tạo thành một vòng bảo vệ xung quanh họ."
+    },
+    {
+      "id": 29,
+      "word": "formed",
+      "pos": "Động từ",
+      "ipa": "/fɔːrmd/",
+      "meaning": "tạo thành, hình thành",
+      "example": "The dolphins herded the swimmers into a group and formed a protective ring around them.",
+      "translation": "Những con cá heo đã dồn những người bơi lại thành một nhóm và tạo thành một vòng bảo vệ xung quanh họ."
+    },
+    {
+      "id": 30,
+      "word": "get away",
+      "pos": "Cụm động từ",
+      "ipa": "/ɡet əˈweɪ/",
+      "meaning": "thoát đi, thoát khỏi",
+      "example": "He couldn't get away, because every time he tried, he was pushed back inside the ring by the dolphins.",
+      "translation": "Anh ấy không thể thoát đi vì mỗi lần cố gắng, anh lại bị những con cá heo đẩy trở lại bên trong vòng bảo vệ."
+    },
+    {
+      "id": 31,
+      "word": "pushed",
+      "pos": "Động từ",
+      "ipa": "/pʊʃt/",
+      "meaning": "đẩy",
+      "example": "Every time he tried, he was pushed back inside the ring by the dolphins.",
+      "translation": "Mỗi lần anh ấy cố gắng, anh lại bị những con cá heo đẩy trở lại bên trong vòng bảo vệ."
+    },
+    {
+      "id": 32,
+      "word": "boat sank",
+      "pos": "Cụm động từ",
+      "ipa": "/boʊt sæŋk/",
+      "meaning": "thuyền bị chìm",
+      "example": "He had been in the sea for 24 hours after his boat sank in the Gulf of Mexico.",
+      "translation": "Anh đã ở trên biển suốt 24 giờ sau khi thuyền của anh bị chìm ở Vịnh Mexico."
+    },
+    {
+      "id": 33,
+      "word": "approached",
+      "pos": "Động từ",
+      "ipa": "/əˈproʊtʃt/",
+      "meaning": "tiến lại gần, tiếp cận",
+      "example": "A friendly dolphin approached him and gently pushed him, as if to say 'don't give up'.",
+      "translation": "Một con cá heo thân thiện tiến lại gần và nhẹ nhàng đẩy anh, như thể muốn nói: “Đừng từ bỏ.”"
+    },
+    {
+      "id": 34,
+      "word": "gently pushed",
+      "pos": "Cụm động từ",
+      "ipa": "/ˈdʒentli pʊʃt/",
+      "meaning": "nhẹ nhàng đẩy",
+      "example": "A friendly dolphin approached him and gently pushed him, as if to say 'don't give up'.",
+      "translation": "Một con cá heo thân thiện tiến lại gần và nhẹ nhàng đẩy anh, như thể muốn nói: “Đừng từ bỏ.”"
+    },
+    {
+      "id": 35,
+      "word": "as if",
+      "pos": "Liên từ",
+      "ipa": "/æz ɪf/",
+      "meaning": "như thể, như là",
+      "example": "A friendly dolphin approached him and gently pushed him, as if to say 'don't give up'.",
+      "translation": "Một con cá heo thân thiện tiến lại gần và nhẹ nhàng đẩy anh, như thể muốn nói: “Đừng từ bỏ.”"
+    },
+    {
+      "id": 36,
+      "word": "give up",
+      "pos": "Cụm động từ",
+      "ipa": "/ɡɪv ʌp/",
+      "meaning": "từ bỏ, bỏ cuộc",
+      "example": "A friendly dolphin approached him and gently pushed him, as if to say 'don't give up'.",
+      "translation": "Một con cá heo thân thiện tiến lại gần và nhẹ nhàng đẩy anh, như thể muốn nói: “Đừng từ bỏ.”"
+    },
+    {
+      "id": 37,
+      "word": "moral support",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈmɔːrəl səˈpɔːrt/",
+      "meaning": "sự động viên tinh thần, sự ủng hộ tinh thần",
+      "example": "That moral support and encouragement may have saved Trevino's life.",
+      "translation": "Sự động viên tinh thần và khích lệ đó có thể đã cứu sống Trevino."
+    },
+    {
+      "id": 38,
+      "word": "encouragement",
+      "pos": "Danh từ",
+      "ipa": "/ɪnˈkɝːɪdʒmənt/",
+      "meaning": "sự khích lệ, sự động viên",
+      "example": "That moral support and encouragement may have saved Trevino's life.",
+      "translation": "Sự động viên tinh thần và khích lệ đó có thể đã cứu sống Trevino."
+    },
+    {
+      "id": 39,
+      "word": "good reason",
+      "pos": "Cụm danh từ",
+      "ipa": "/ɡʊd ˈriːzən/",
+      "meaning": "lý do chính đáng, lý do hợp lý",
+      "example": "Although we may never be sure why they help us, many people feel that this is a good reason for us to do whatever we can to protect them.",
+      "translation": "Mặc dù chúng ta có thể không bao giờ chắc chắn tại sao chúng giúp đỡ chúng ta, nhiều người cảm thấy rằng đây là một lý do chính đáng để chúng ta làm mọi điều có thể nhằm bảo vệ chúng."
+    },
+    {
+      "id": 40,
+      "word": "do whatever",
+      "pos": "Cụm động từ",
+      "ipa": "/duː wətˈevər/",
+      "meaning": "làm bất cứ điều gì",
+      "example": "Many people feel that this is a good reason for us to do whatever we can to protect them.",
+      "translation": "Nhiều người cảm thấy rằng đây là một lý do chính đáng để chúng ta làm bất cứ điều gì có thể để bảo vệ chúng."
+    }
+  ],
+  "activity_14": [
+    {
+      "id": 1,
+      "word": "first zoo",
+      "pos": "Cụm danh từ",
+      "ipa": "/fɝːst zuː/",
+      "meaning": "vườn thú đầu tiên",
+      "example": "The first zoo is believed to have been in Egypt in around 3500 BC.",
+      "translation": "Vườn thú đầu tiên được cho là đã xuất hiện ở Ai Cập vào khoảng năm 3500 trước Công nguyên."
+    },
+    {
+      "id": 2,
+      "word": "early collections",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈɝːli kəˈlekʃənz/",
+      "meaning": "những bộ sưu tập ban đầu",
+      "example": "Early collections of animals on display often belonged to royalty.",
+      "translation": "Những bộ sưu tập động vật ban đầu được trưng bày thường thuộc về hoàng gia."
+    },
+    {
+      "id": 3,
+      "word": "on display",
+      "pos": "Cụm giới từ",
+      "ipa": "/ɑːn dɪˈspleɪ/",
+      "meaning": "được trưng bày",
+      "example": "Early collections of animals on display often belonged to royalty.",
+      "translation": "Những bộ sưu tập động vật ban đầu được trưng bày thường thuộc về hoàng gia."
+    },
+    {
+      "id": 4,
+      "word": "belonged to royalty",
+      "pos": "Cụm động từ",
+      "ipa": "/bɪˈlɔːŋd tə ˈrɔɪəlti/",
+      "meaning": "thuộc về hoàng gia",
+      "example": "Early collections of animals on display often belonged to royalty.",
+      "translation": "Những bộ sưu tập động vật ban đầu được trưng bày thường thuộc về hoàng gia."
+    },
+    {
+      "id": 5,
+      "word": "conservation",
+      "pos": "Danh từ",
+      "ipa": "/ˌkɑːnsərˈveɪʃən/",
+      "meaning": "sự bảo tồn",
+      "example": "In 1959, famous wildlife expert Gerald Durrell opened the first zoo which put conservation of animals first.",
+      "translation": "Năm 1959, chuyên gia động vật hoang dã nổi tiếng Gerald Durrell đã mở vườn thú đầu tiên đặt việc bảo tồn động vật lên hàng đầu."
+    },
+    {
+      "id": 6,
+      "word": "educate",
+      "pos": "Động từ",
+      "ipa": "/ˈedʒəkeɪt/",
+      "meaning": "giáo dục, nâng cao nhận thức",
+      "example": "The World Association for Zoos and Aquariums (WAZA) works to educate people about animal welfare and conservation.",
+      "translation": "Hiệp hội Vườn thú và Thủy cung Thế giới (WAZA) hoạt động nhằm nâng cao nhận thức của mọi người về phúc lợi và bảo tồn động vật."
+    },
+    {
+      "id": 7,
+      "word": "animal welfare",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈænɪməl ˈwelfer/",
+      "meaning": "phúc lợi động vật",
+      "example": "The World Association for Zoos and Aquariums (WAZA) works to educate people about animal welfare and conservation.",
+      "translation": "Hiệp hội Vườn thú và Thủy cung Thế giới (WAZA) hoạt động nhằm nâng cao nhận thức của mọi người về phúc lợi và bảo tồn động vật."
+    },
+    {
+      "id": 8,
+      "word": "coordinate",
+      "pos": "Động từ",
+      "ipa": "/koʊˈɔːrdəneɪt/",
+      "meaning": "điều phối, phối hợp",
+      "example": "It also helps to coordinate breeding programmes.",
+      "translation": "Tổ chức này cũng giúp điều phối các chương trình nhân giống."
+    },
+    {
+      "id": 9,
+      "word": "breeding programmes",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈbriːdɪŋ ˈproʊɡræmz/",
+      "meaning": "các chương trình nhân giống",
+      "example": "It also helps to coordinate breeding programmes.",
+      "translation": "Tổ chức này cũng giúp điều phối các chương trình nhân giống."
+    },
+    {
+      "id": 10,
+      "word": "orangutans",
+      "pos": "Danh từ",
+      "ipa": "/əˈræŋəˌtænz/",
+      "meaning": "những con đười ươi",
+      "example": "In Indonesia, Borneo Orangutan Rescue teaches orangutans how to live in the wild.",
+      "translation": "Ở Indonesia, Borneo Orangutan Rescue dạy những con đười ươi cách sống trong môi trường hoang dã."
+    },
+    {
+      "id": 11,
+      "word": "in the wild",
+      "pos": "Cụm giới từ",
+      "ipa": "/ɪn ðə waɪld/",
+      "meaning": "trong môi trường hoang dã, ngoài tự nhiên",
+      "example": "In Indonesia, Borneo Orangutan Rescue teaches orangutans how to live in the wild.",
+      "translation": "Ở Indonesia, Borneo Orangutan Rescue dạy những con đười ươi cách sống trong môi trường hoang dã."
+    },
+    {
+      "id": 12,
+      "word": "ready",
+      "pos": "Tính từ",
+      "ipa": "/ˈredi/",
+      "meaning": "sẵn sàng",
+      "example": "When they are ready, they are taken to protected forests to live naturally.",
+      "translation": "Khi chúng đã sẵn sàng, chúng được đưa đến các khu rừng được bảo vệ để sống tự nhiên."
+    },
+    {
+      "id": 13,
+      "word": "protected forests",
+      "pos": "Cụm danh từ",
+      "ipa": "/prəˈtektɪd ˈfɔːrəsts/",
+      "meaning": "các khu rừng được bảo vệ",
+      "example": "When they are ready, they are taken to protected forests to live naturally.",
+      "translation": "Khi chúng đã sẵn sàng, chúng được đưa đến các khu rừng được bảo vệ để sống tự nhiên."
+    },
+    {
+      "id": 14,
+      "word": "live naturally",
+      "pos": "Cụm động từ",
+      "ipa": "/lɪv ˈnætʃərəli/",
+      "meaning": "sống tự nhiên, sống theo cách tự nhiên",
+      "example": "When they are ready, they are taken to protected forests to live naturally.",
+      "translation": "Khi chúng đã sẵn sàng, chúng được đưa đến các khu rừng được bảo vệ để sống tự nhiên."
+    },
+    {
+      "id": 15,
+      "word": "paddock",
+      "pos": "Danh từ",
+      "ipa": "/ˈpædək/",
+      "meaning": "khu nuôi thả động vật, khu chuồng nuôi",
+      "example": "Colchester Zoo in England has a ‘kingdom of the wild’ paddock where several species live together.",
+      "translation": "Vườn thú Colchester ở Anh có một khu nuôi thả mang tên “kingdom of the wild”, nơi nhiều loài sống cùng nhau."
+    },
+    {
+      "id": 16,
+      "word": "live together",
+      "pos": "Cụm động từ",
+      "ipa": "/lɪv təˈɡeðər/",
+      "meaning": "sống cùng nhau",
+      "example": "Colchester Zoo in England has a ‘kingdom of the wild’ paddock where several species live together.",
+      "translation": "Vườn thú Colchester ở Anh có một khu nuôi thả mang tên “kingdom of the wild”, nơi nhiều loài sống cùng nhau."
+    },
+    {
+      "id": 17,
+      "word": "functional forest",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈfʌŋkʃənəl ˈfɔːrəst/",
+      "meaning": "khu rừng mô phỏng chức năng tự nhiên",
+      "example": "In Indianapolis Zoo, in the United States, for example, there is a ‘functional forest’ called the Hutan trail.",
+      "translation": "Ví dụ, tại Vườn thú Indianapolis ở Mỹ có một “khu rừng mô phỏng chức năng tự nhiên” được gọi là Hutan Trail."
+    },
+    {
+      "id": 18,
+      "word": "a series of",
+      "pos": "Cụm từ",
+      "ipa": "/ə ˈsɪriːz əv/",
+      "meaning": "một loạt, một chuỗi",
+      "example": "There is a ‘functional forest’ called the Hutan trail, a series of towers and cables 20 metres above the ground.",
+      "translation": "Có một “khu rừng mô phỏng chức năng tự nhiên” được gọi là Hutan Trail, gồm một loạt các tháp và dây cáp ở độ cao 20 mét so với mặt đất."
+    },
+    {
+      "id": 19,
+      "word": "towers",
+      "pos": "Danh từ",
+      "ipa": "/ˈtaʊərz/",
+      "meaning": "các tháp",
+      "example": "There is a ‘functional forest’ called the Hutan trail, a series of towers and cables 20 metres above the ground.",
+      "translation": "Có một “khu rừng mô phỏng chức năng tự nhiên” được gọi là Hutan Trail, gồm một loạt các tháp và dây cáp ở độ cao 20 mét so với mặt đất."
+    },
+    {
+      "id": 20,
+      "word": "cables",
+      "pos": "Danh từ",
+      "ipa": "/ˈkeɪbəlz/",
+      "meaning": "các dây cáp",
+      "example": "There is a ‘functional forest’ called the Hutan trail, a series of towers and cables 20 metres above the ground.",
+      "translation": "Có một “khu rừng mô phỏng chức năng tự nhiên” được gọi là Hutan Trail, gồm một loạt các tháp và dây cáp ở độ cao 20 mét so với mặt đất."
+    },
+    {
+      "id": 21,
+      "word": "above the ground",
+      "pos": "Cụm giới từ",
+      "ipa": "/əˈbʌv ðə ɡraʊnd/",
+      "meaning": "phía trên mặt đất",
+      "example": "There is a ‘functional forest’ called the Hutan trail, a series of towers and cables 20 metres above the ground.",
+      "translation": "Có một “khu rừng mô phỏng chức năng tự nhiên” được gọi là Hutan Trail, gồm một loạt các tháp và dây cáp ở độ cao 20 mét phía trên mặt đất."
+    },
+    {
+      "id": 22,
+      "word": "swing around",
+      "pos": "Cụm động từ",
+      "ipa": "/swɪŋ əˈraʊnd/",
+      "meaning": "đu mình, di chuyển xung quanh bằng cách đu",
+      "example": "This allows orangutans to swing around the zoo as they would swing around the forest in their native Indonesia.",
+      "translation": "Điều này cho phép những con đười ươi đu mình quanh vườn thú giống như chúng đu mình trong rừng ở Indonesia, nơi chúng có nguồn gốc."
+    },
+    {
+      "id": 23,
+      "word": "native",
+      "pos": "Tính từ",
+      "ipa": "/ˈneɪtɪv/",
+      "meaning": "bản địa, nơi có nguồn gốc tự nhiên",
+      "example": "This allows orangutans to swing around the zoo as they would swing around the forest in their native Indonesia.",
+      "translation": "Điều này cho phép những con đười ươi đu mình quanh vườn thú giống như chúng đu mình trong rừng ở Indonesia, nơi chúng có nguồn gốc."
+    },
+    {
+      "id": 24,
+      "word": "comfortable",
+      "pos": "Tính từ",
+      "ipa": "/ˈkʌmftəbəl/",
+      "meaning": "thoải mái",
+      "example": "The cables are strong enough to give them a safe and comfortable trip around the zoo.",
+      "translation": "Các dây cáp đủ chắc chắn để giúp chúng di chuyển quanh vườn thú một cách an toàn và thoải mái."
+    },
+    {
+      "id": 25,
+      "word": "oases",
+      "pos": "Danh từ",
+      "ipa": "/oʊˈeɪsiːz/",
+      "meaning": "các ốc đảo; trong bài: các khu vực trú ẩn/nghỉ ngơi riêng",
+      "example": "They have access to three oases, where they can go when they want to be apart from the group.",
+      "translation": "Chúng có thể sử dụng ba khu vực trú ẩn, nơi chúng có thể đến khi muốn tách khỏi đàn."
+    },
+    {
+      "id": 26,
+      "word": "be apart from",
+      "pos": "Cụm từ",
+      "ipa": "/bi əˈpɑːrt frəm/",
+      "meaning": "tách khỏi, ở riêng với",
+      "example": "They have access to three oases, where they can go when they want to be apart from the group.",
+      "translation": "Chúng có thể sử dụng ba khu vực trú ẩn, nơi chúng có thể đến khi muốn tách khỏi đàn."
+    },
+    {
+      "id": 27,
+      "word": "created",
+      "pos": "Động từ",
+      "ipa": "/kriˈeɪtɪd/",
+      "meaning": "tạo ra",
+      "example": "Indianapolis Zoo has created an environment that copies the animals’ natural habitat.",
+      "translation": "Vườn thú Indianapolis đã tạo ra một môi trường mô phỏng môi trường sống tự nhiên của động vật."
+    },
+    {
+      "id": 28,
+      "word": "environment",
+      "pos": "Danh từ",
+      "ipa": "/ɪnˈvaɪrənmənt/",
+      "meaning": "môi trường",
+      "example": "Indianapolis Zoo has created an environment that copies the animals’ natural habitat.",
+      "translation": "Vườn thú Indianapolis đã tạo ra một môi trường mô phỏng môi trường sống tự nhiên của động vật."
+    },
+    {
+      "id": 29,
+      "word": "copies",
+      "pos": "Động từ",
+      "ipa": "/ˈkɑːpiz/",
+      "meaning": "mô phỏng, tái tạo giống",
+      "example": "Indianapolis Zoo has created an environment that copies the animals’ natural habitat.",
+      "translation": "Vườn thú Indianapolis đã tạo ra một môi trường mô phỏng môi trường sống tự nhiên của động vật."
+    },
+    {
+      "id": 30,
+      "word": "natural habitat",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈnætʃərəl ˈhæbɪtæt/",
+      "meaning": "môi trường sống tự nhiên",
+      "example": "Indianapolis Zoo has created an environment that copies the animals’ natural habitat.",
+      "translation": "Vườn thú Indianapolis đã tạo ra một môi trường mô phỏng môi trường sống tự nhiên của động vật."
+    },
+    {
+      "id": 31,
+      "word": "webcams",
+      "pos": "Danh từ",
+      "ipa": "/ˈwebkæmz/",
+      "meaning": "camera trực tuyến, webcam",
+      "example": "In many zoos there are webcams in some enclosures so visitors can keep up with their favourite animals between visits to the zoo.",
+      "translation": "Ở nhiều vườn thú có camera trực tuyến trong một số khu nuôi để du khách có thể theo dõi những con vật yêu thích của mình giữa các lần đến thăm vườn thú."
+    },
+    {
+      "id": 32,
+      "word": "enclosures",
+      "pos": "Danh từ",
+      "ipa": "/ɪnˈkloʊʒərz/",
+      "meaning": "khu vực nuôi nhốt, khu chuồng nuôi",
+      "example": "In many zoos there are webcams in some enclosures so visitors can keep up with their favourite animals between visits to the zoo.",
+      "translation": "Ở nhiều vườn thú có camera trực tuyến trong một số khu nuôi để du khách có thể theo dõi những con vật yêu thích của mình giữa các lần đến thăm vườn thú."
+    },
+    {
+      "id": 33,
+      "word": "prepares",
+      "pos": "Động từ",
+      "ipa": "/prɪˈperz/",
+      "meaning": "chuẩn bị, giúp chuẩn bị",
+      "example": "Borneo Orangutan Rescue prepares one species to return to their own environment.",
+      "translation": "Borneo Orangutan Rescue giúp một loài chuẩn bị để trở về môi trường sống của chúng."
+    },
+    {
+      "id": 34,
+      "word": "species",
+      "pos": "Danh từ",
+      "ipa": "/ˈspiːʃiːz/",
+      "meaning": "loài",
+      "example": "Each zoo focuses on a small number of species.",
+      "translation": "Mỗi vườn thú tập trung vào một số lượng nhỏ các loài."
+    },
+    {
+      "id": 35,
+      "word": "return",
+      "pos": "Động từ",
+      "ipa": "/rɪˈtɝːn/",
+      "meaning": "quay trở lại, trở về",
+      "example": "Borneo Orangutan Rescue prepares one species to return to their own environment.",
+      "translation": "Borneo Orangutan Rescue giúp một loài chuẩn bị để trở về môi trường sống của chúng."
+    },
+    {
+      "id": 36,
+      "word": "separate",
+      "pos": "Động từ",
+      "ipa": "/ˈsepəreɪt/",
+      "meaning": "tách, tách biệt",
+      "example": "Colchester Zoo does not always separate different types of animal.",
+      "translation": "Vườn thú Colchester không phải lúc nào cũng tách riêng các loài động vật khác nhau."
+    },
+    {
+      "id": 37,
+      "word": "involved in",
+      "pos": "Cụm tính từ",
+      "ipa": "/ɪnˈvɑːlvd ɪn/",
+      "meaning": "tham gia vào, có liên quan đến",
+      "example": "WAZA is involved in teaching people about how to better care for animals.",
+      "translation": "WAZA tham gia vào việc hướng dẫn mọi người cách chăm sóc động vật tốt hơn."
+    },
+    {
+      "id": 38,
+      "word": "better care for animals",
+      "pos": "Cụm từ",
+      "ipa": "/ˈbetər ker fər ˈænɪməlz/",
+      "meaning": "chăm sóc động vật tốt hơn",
+      "example": "WAZA is involved in teaching about how to better care for animals and protect them.",
+      "translation": "WAZA tham gia vào việc hướng dẫn cách chăm sóc động vật tốt hơn và bảo vệ chúng."
+    },
+    {
+      "id": 39,
+      "word": "work together",
+      "pos": "Cụm động từ",
+      "ipa": "/wɝːk təˈɡeðər/",
+      "meaning": "làm việc cùng nhau, hợp tác với nhau",
+      "example": "WAZA is involved in helping zoos work together.",
+      "translation": "WAZA tham gia vào việc giúp các vườn thú hợp tác với nhau."
+    },
+    {
+      "id": 40,
+      "word": "private collection",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈpraɪvət kəˈlekʃən/",
+      "meaning": "bộ sưu tập thuộc sở hữu riêng, bộ sưu tập tư nhân",
+      "example": "The first zoo was a private collection of animals.",
+      "translation": "Vườn thú đầu tiên là một bộ sưu tập động vật thuộc sở hữu riêng."
+    }
+  ],
+  "activity_15": [
+    {
+      "id": 1,
+      "word": "never",
+      "pos": "Trạng từ",
+      "ipa": "/ˈnevər/",
+      "meaning": "không bao giờ",
+      "example": "Hachiko never forgot his human friend.",
+      "translation": "Hachiko không bao giờ quên người bạn là con người của mình."
+    },
+    {
+      "id": 2,
+      "word": "human friend",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈhjuːmən frend/",
+      "meaning": "người bạn là con người",
+      "example": "Hachiko never forgot his human friend.",
+      "translation": "Hachiko không bao giờ quên người bạn là con người của mình."
+    },
+    {
+      "id": 3,
+      "word": "part of their life",
+      "pos": "Cụm danh từ",
+      "ipa": "/pɑːrt əv ðer laɪf/",
+      "meaning": "một phần cuộc đời của chúng",
+      "example": "They lived part of their life in the wild.",
+      "translation": "Chúng đã sống một phần cuộc đời trong môi trường hoang dã."
+    },
+    {
+      "id": 4,
+      "word": "in the wild",
+      "pos": "Cụm giới từ",
+      "ipa": "/ɪn ðə waɪld/",
+      "meaning": "trong môi trường hoang dã, ngoài tự nhiên",
+      "example": "They trained Elsa, one of the cubs, to live in the wild.",
+      "translation": "Họ huấn luyện Elsa, một trong những con non, sống trong môi trường hoang dã."
+    },
+    {
+      "id": 5,
+      "word": "made large profits",
+      "pos": "Cụm động từ",
+      "ipa": "/meɪd lɑːrdʒ ˈprɑːfɪts/",
+      "meaning": "kiếm được lợi nhuận lớn",
+      "example": "The zoo made large profits from Knut's popularity.",
+      "translation": "Vườn thú đã kiếm được lợi nhuận lớn nhờ sự nổi tiếng của Knut."
+    },
+    {
+      "id": 6,
+      "word": "cared for",
+      "pos": "Cụm động từ",
+      "ipa": "/kerd fɔːr/",
+      "meaning": "chăm sóc",
+      "example": "The zookeepers cared for Knut when he was young.",
+      "translation": "Những người chăm sóc thú đã chăm sóc Knut khi nó còn nhỏ."
+    },
+    {
+      "id": 7,
+      "word": "valuable work",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈvæljuəbəl wɝːk/",
+      "meaning": "công việc có giá trị, công việc ý nghĩa",
+      "example": "The foundation has done valuable work to protect wildlife.",
+      "translation": "Quỹ đã thực hiện những công việc có giá trị để bảo vệ động vật hoang dã."
+    },
+    {
+      "id": 8,
+      "word": "in their memory",
+      "pos": "Cụm giới từ",
+      "ipa": "/ɪn ðer ˈmeməri/",
+      "meaning": "để tưởng nhớ họ / chúng",
+      "example": "A foundation was created in their memory.",
+      "translation": "Một quỹ đã được thành lập để tưởng nhớ họ."
+    },
+    {
+      "id": 9,
+      "word": "formally remembered",
+      "pos": "Cụm động từ",
+      "ipa": "/ˈfɔːrməli rɪˈmembərd/",
+      "meaning": "được tưởng nhớ một cách trang trọng, chính thức",
+      "example": "Hachiko is formally remembered every year.",
+      "translation": "Hachiko được tưởng nhớ một cách trang trọng hằng năm."
+    },
+    {
+      "id": 10,
+      "word": "at regular times",
+      "pos": "Cụm giới từ",
+      "ipa": "/æt ˈreɡjələr taɪmz/",
+      "meaning": "vào những thời điểm định kỳ, đều đặn",
+      "example": "The ceremony is held at regular times.",
+      "translation": "Buổi lễ được tổ chức vào những thời điểm định kỳ."
+    },
+    {
+      "id": 11,
+      "word": "souvenirs",
+      "pos": "Danh từ",
+      "ipa": "/ˌsuːvəˈnɪrz/",
+      "meaning": "đồ lưu niệm",
+      "example": "The zoo sold souvenirs of the famous animal.",
+      "translation": "Vườn thú đã bán đồ lưu niệm về con vật nổi tiếng đó."
+    },
+    {
+      "id": 12,
+      "word": "owner",
+      "pos": "Danh từ",
+      "ipa": "/ˈoʊnər/",
+      "meaning": "chủ, chủ nhân",
+      "example": "For the next nine years, nine months and 15 days, his faithful dog continued to meet the train his owner used to take every day.",
+      "translation": "Trong chín năm, chín tháng và 15 ngày tiếp theo, chú chó trung thành vẫn tiếp tục ra đón chuyến tàu mà chủ của nó từng đi hằng ngày."
+    },
+    {
+      "id": 13,
+      "word": "loyalty",
+      "pos": "Danh từ",
+      "ipa": "/ˈlɔɪəlti/",
+      "meaning": "lòng trung thành",
+      "example": "At first the station staff did not welcome him, but gradually people understood his loyalty and began giving him food and treats.",
+      "translation": "Ban đầu nhân viên nhà ga không chào đón nó, nhưng dần dần mọi người hiểu được lòng trung thành của nó và bắt đầu cho nó thức ăn và đồ ăn thưởng."
+    },
+    {
+      "id": 14,
+      "word": "stop waiting",
+      "pos": "Cụm động từ",
+      "ipa": "/stɑːp ˈweɪtɪŋ/",
+      "meaning": "ngừng chờ đợi",
+      "example": "Hachiko did not stop waiting for Ueno until his own death in 1935.",
+      "translation": "Hachiko không ngừng chờ đợi Ueno cho đến khi chính nó qua đời vào năm 1935."
+    },
+    {
+      "id": 15,
+      "word": "death",
+      "pos": "Danh từ",
+      "ipa": "/deθ/",
+      "meaning": "cái chết, sự qua đời",
+      "example": "Hachiko did not stop waiting for Ueno until his own death in 1935.",
+      "translation": "Hachiko không ngừng chờ đợi Ueno cho đến khi chính nó qua đời vào năm 1935."
+    },
+    {
+      "id": 16,
+      "word": "ceremony",
+      "pos": "Danh từ",
+      "ipa": "/ˈserəmoʊni/",
+      "meaning": "buổi lễ, nghi lễ",
+      "example": "Every year there is a ceremony to commemorate him at the railway station in Tokyo.",
+      "translation": "Hằng năm có một buổi lễ để tưởng nhớ Hachiko tại ga tàu ở Tokyo."
+    },
+    {
+      "id": 17,
+      "word": "commemorate",
+      "pos": "Động từ",
+      "ipa": "/kəˈmeməreɪt/",
+      "meaning": "tưởng nhớ, kỷ niệm",
+      "example": "Every year there is a ceremony to commemorate him at the railway station in Tokyo.",
+      "translation": "Hằng năm có một buổi lễ để tưởng nhớ Hachiko tại ga tàu ở Tokyo."
+    },
+    {
+      "id": 18,
+      "word": "railway station",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈreɪlweɪ ˌsteɪʃən/",
+      "meaning": "ga tàu, nhà ga",
+      "example": "Every year there is a ceremony to commemorate him at the railway station in Tokyo.",
+      "translation": "Hằng năm có một buổi lễ để tưởng nhớ Hachiko tại ga tàu ở Tokyo."
+    },
+    {
+      "id": 19,
+      "word": "faithfully",
+      "pos": "Trạng từ",
+      "ipa": "/ˈfeɪθfəli/",
+      "meaning": "một cách trung thành, trung thành",
+      "example": "Every year there is a ceremony to commemorate him at the railway station in Tokyo, where he waited so faithfully.",
+      "translation": "Hằng năm có một buổi lễ để tưởng nhớ Hachiko tại ga tàu ở Tokyo, nơi nó đã trung thành chờ đợi."
+    },
+    {
+      "id": 20,
+      "word": "rejected",
+      "pos": "Động từ",
+      "ipa": "/rɪˈdʒektɪd/",
+      "meaning": "bị từ chối, bị bỏ rơi",
+      "example": "Sadly, Knut was rejected by his mother, Tosca, and was raised by zookeepers.",
+      "translation": "Đáng buồn thay, Knut bị mẹ của nó, Tosca, bỏ rơi và được những người chăm sóc thú nuôi dưỡng."
+    },
+    {
+      "id": 21,
+      "word": "raised",
+      "pos": "Động từ",
+      "ipa": "/reɪzd/",
+      "meaning": "được nuôi dưỡng",
+      "example": "Sadly, Knut was rejected by his mother, Tosca, and was raised by zookeepers.",
+      "translation": "Đáng buồn thay, Knut bị mẹ của nó, Tosca, bỏ rơi và được những người chăm sóc thú nuôi dưỡng."
+    },
+    {
+      "id": 22,
+      "word": "zookeepers",
+      "pos": "Danh từ",
+      "ipa": "/ˈzuːˌkiːpərz/",
+      "meaning": "những người chăm sóc thú",
+      "example": "Knut was raised by zookeepers.",
+      "translation": "Knut được những người chăm sóc thú nuôi dưỡng."
+    },
+    {
+      "id": 23,
+      "word": "increased",
+      "pos": "Động từ",
+      "ipa": "/ɪnˈkriːst/",
+      "meaning": "làm tăng, tăng lên",
+      "example": "Knut's story increased attendance at the zoo by about 30%.",
+      "translation": "Câu chuyện của Knut đã làm lượng khách tham quan vườn thú tăng khoảng 30%."
+    },
+    {
+      "id": 24,
+      "word": "attendance",
+      "pos": "Danh từ",
+      "ipa": "/əˈtendəns/",
+      "meaning": "lượng người tham dự; trong bài: lượng khách tham quan",
+      "example": "Knut's story increased attendance at the zoo by about 30%.",
+      "translation": "Câu chuyện của Knut đã làm lượng khách tham quan vườn thú tăng khoảng 30%."
+    },
+    {
+      "id": 25,
+      "word": "revenue",
+      "pos": "Danh từ",
+      "ipa": "/ˈrevənuː/",
+      "meaning": "doanh thu",
+      "example": "Knut's story increased attendance at the zoo by about 30% and increased the zoo's revenue by five million euros.",
+      "translation": "Câu chuyện của Knut đã làm lượng khách tham quan vườn thú tăng khoảng 30% và làm doanh thu của vườn thú tăng thêm năm triệu euro."
+    },
+    {
+      "id": 26,
+      "word": "substantial",
+      "pos": "Tính từ",
+      "ipa": "/səbˈstænʃəl/",
+      "meaning": "đáng kể, lớn",
+      "example": "The zoo made substantial amounts of money by selling Knut toys, candy and other products.",
+      "translation": "Vườn thú đã kiếm được một khoản tiền đáng kể nhờ bán đồ chơi, kẹo và các sản phẩm khác về Knut."
+    },
+    {
+      "id": 27,
+      "word": "candy",
+      "pos": "Danh từ",
+      "ipa": "/ˈkændi/",
+      "meaning": "kẹo",
+      "example": "The zoo made substantial amounts of money by selling Knut toys, candy and other products.",
+      "translation": "Vườn thú đã kiếm được một khoản tiền đáng kể nhờ bán đồ chơi, kẹo và các sản phẩm khác về Knut."
+    },
+    {
+      "id": 28,
+      "word": "products",
+      "pos": "Danh từ",
+      "ipa": "/ˈprɑːdʌkts/",
+      "meaning": "các sản phẩm",
+      "example": "The zoo made substantial amounts of money by selling Knut toys, candy and other products.",
+      "translation": "Vườn thú đã kiếm được một khoản tiền đáng kể nhờ bán đồ chơi, kẹo và các sản phẩm khác về Knut."
+    },
+    {
+      "id": 29,
+      "word": "keeper",
+      "pos": "Danh từ",
+      "ipa": "/ˈkiːpər/",
+      "meaning": "người chăm sóc thú",
+      "example": "Poor Knut missed his favourite keeper.",
+      "translation": "Knut tội nghiệp nhớ người chăm sóc yêu thích của mình."
+    },
+    {
+      "id": 30,
+      "word": "game warden",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈɡeɪm ˌwɔːrdən/",
+      "meaning": "nhân viên bảo vệ động vật hoang dã",
+      "example": "Elsa's mother was killed by a game warden, a person whose job it was to protect wild animals.",
+      "translation": "Mẹ của Elsa bị giết bởi một nhân viên bảo vệ động vật hoang dã, người có nhiệm vụ bảo vệ các loài động vật hoang dã."
+    },
+    {
+      "id": 31,
+      "word": "defend",
+      "pos": "Động từ",
+      "ipa": "/dɪˈfend/",
+      "meaning": "bảo vệ, tự vệ",
+      "example": "The warden, George Adamson, had killed the lioness to defend himself.",
+      "translation": "Người bảo vệ, George Adamson, đã giết con sư tử cái để tự vệ."
+    },
+    {
+      "id": 32,
+      "word": "guilty",
+      "pos": "Tính từ",
+      "ipa": "/ˈɡɪlti/",
+      "meaning": "cảm thấy có lỗi",
+      "example": "He felt guilty about the orphaned cub.",
+      "translation": "Ông cảm thấy có lỗi về con sư tử non mồ côi."
+    },
+    {
+      "id": 33,
+      "word": "orphaned cub",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈɔːrfənd kʌb/",
+      "meaning": "con non mồ côi",
+      "example": "He felt guilty about the orphaned cub.",
+      "translation": "Ông cảm thấy có lỗi về con sư tử non mồ côi."
+    },
+    {
+      "id": 34,
+      "word": "popular",
+      "pos": "Tính từ",
+      "ipa": "/ˈpɑːpjələr/",
+      "meaning": "nổi tiếng, được yêu thích",
+      "example": "Born Free was made into a film, which was popular with both adults and children.",
+      "translation": "Born Free được chuyển thể thành phim và được cả người lớn lẫn trẻ em yêu thích."
+    },
+    {
+      "id": 35,
+      "word": "starred",
+      "pos": "Động từ",
+      "ipa": "/stɑːrd/",
+      "meaning": "đóng vai chính",
+      "example": "In 1984, the actors who had starred in the film started the Born Free Foundation.",
+      "translation": "Năm 1984, những diễn viên đã đóng vai chính trong bộ phim thành lập Quỹ Born Free."
+    },
+    {
+      "id": 36,
+      "word": "organisation",
+      "pos": "Danh từ",
+      "ipa": "/ˌɔːrɡənəˈzeɪʃən/",
+      "meaning": "tổ chức",
+      "example": "The actors who had starred in the film started the Born Free Foundation, an organisation that protects wildlife in many ways.",
+      "translation": "Những diễn viên đã đóng vai chính trong bộ phim thành lập Quỹ Born Free, một tổ chức bảo vệ động vật hoang dã theo nhiều cách."
+    },
+    {
+      "id": 37,
+      "word": "protects wildlife",
+      "pos": "Cụm động từ",
+      "ipa": "/prəˈtekts ˈwaɪldlaɪf/",
+      "meaning": "bảo vệ động vật hoang dã",
+      "example": "The Born Free Foundation is an organisation that protects wildlife in many ways.",
+      "translation": "Quỹ Born Free là một tổ chức bảo vệ động vật hoang dã theo nhiều cách."
+    },
+    {
+      "id": 38,
+      "word": "improving",
+      "pos": "Động từ",
+      "ipa": "/ɪmˈpruːvɪŋ/",
+      "meaning": "cải thiện",
+      "example": "The Foundation's important work includes improving conditions in zoos and circuses.",
+      "translation": "Công việc quan trọng của quỹ bao gồm việc cải thiện điều kiện tại các vườn thú và rạp xiếc."
+    },
+    {
+      "id": 39,
+      "word": "conditions",
+      "pos": "Danh từ",
+      "ipa": "/kənˈdɪʃənz/",
+      "meaning": "điều kiện",
+      "example": "The Foundation's important work includes improving conditions in zoos and circuses.",
+      "translation": "Công việc quan trọng của quỹ bao gồm việc cải thiện điều kiện tại các vườn thú và rạp xiếc."
+    },
+    {
+      "id": 40,
+      "word": "circuses",
+      "pos": "Danh từ",
+      "ipa": "/ˈsɝːkəsɪz/",
+      "meaning": "các rạp xiếc",
+      "example": "The Foundation's important work includes improving conditions in zoos and circuses.",
+      "translation": "Công việc quan trọng của quỹ bao gồm việc cải thiện điều kiện tại các vườn thú và rạp xiếc."
+    },
+    {
+      "id": 41,
+      "word": "ivory",
+      "pos": "Danh từ",
+      "ipa": "/ˈaɪvəri/",
+      "meaning": "ngà voi",
+      "example": "The Foundation's important work includes stopping hunting for 'sport' and working against the killing of elephants for ivory.",
+      "translation": "Công việc quan trọng của quỹ bao gồm việc ngăn chặn săn bắn để “giải trí” và chống lại việc giết voi để lấy ngà."
+    }
+  ],
+  "activity_16": [
+    {
+      "id": 1,
+      "word": "cooking show",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈkʊkɪŋ ʃoʊ/",
+      "meaning": "chương trình nấu ăn",
+      "example": "The cooking show that affects people most.",
+      "translation": "Chương trình nấu ăn có ảnh hưởng đến mọi người nhiều nhất."
+    },
+    {
+      "id": 2,
+      "word": "affects",
+      "pos": "Động từ",
+      "ipa": "/əˈfekts/",
+      "meaning": "ảnh hưởng đến",
+      "example": "The cooking show that affects people most.",
+      "translation": "Chương trình nấu ăn có ảnh hưởng đến mọi người nhiều nhất."
+    },
+    {
+      "id": 3,
+      "word": "TV chef",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˌtiː ˈviː ʃef/",
+      "meaning": "đầu bếp truyền hình",
+      "example": "Gordon Ramsay, for example, is an interesting TV chef.",
+      "translation": "Ví dụ, Gordon Ramsay là một đầu bếp truyền hình thú vị."
+    },
+    {
+      "id": 4,
+      "word": "famous",
+      "pos": "Tính từ",
+      "ipa": "/ˈfeɪməs/",
+      "meaning": "nổi tiếng",
+      "example": "One of the first famous TV cooks, Julia Child, was American.",
+      "translation": "Một trong những đầu bếp truyền hình nổi tiếng đầu tiên, Julia Child, là người Mỹ."
+    },
+    {
+      "id": 5,
+      "word": "author",
+      "pos": "Danh từ",
+      "ipa": "/ˈɔːθər/",
+      "meaning": "tác giả",
+      "example": "A TV chef who was first famous as an author.",
+      "translation": "Một đầu bếp truyền hình ban đầu nổi tiếng với tư cách là một tác giả."
+    },
+    {
+      "id": 6,
+      "word": "food shows",
+      "pos": "Cụm danh từ",
+      "ipa": "/fuːd ʃoʊz/",
+      "meaning": "các chương trình về ẩm thực",
+      "example": "There are many food shows on TV these days.",
+      "translation": "Ngày nay có nhiều chương trình về ẩm thực trên truyền hình."
+    },
+    {
+      "id": 7,
+      "word": "role",
+      "pos": "Danh từ",
+      "ipa": "/roʊl/",
+      "meaning": "vai trò",
+      "example": "Grandparents have an important role to play because they may have more time – and experience – than parents.",
+      "translation": "Ông bà có một vai trò quan trọng vì họ có thể có nhiều thời gian và kinh nghiệm hơn cha mẹ."
+    },
+    {
+      "id": 8,
+      "word": "cookery shows",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈkʊkəri ʃoʊz/",
+      "meaning": "các chương trình nấu ăn",
+      "example": "In the past, TV cookery shows were there to teach people how to cook.",
+      "translation": "Trong quá khứ, các chương trình nấu ăn trên truyền hình nhằm dạy mọi người cách nấu ăn."
+    },
+    {
+      "id": 9,
+      "word": "enjoyment",
+      "pos": "Danh từ",
+      "ipa": "/ɪnˈdʒɔɪmənt/",
+      "meaning": "sự giải trí, niềm vui",
+      "example": "The role of cookery shows for enjoyment rather than learning.",
+      "translation": "Vai trò của các chương trình nấu ăn là để giải trí hơn là để học."
+    },
+    {
+      "id": 10,
+      "word": "learning",
+      "pos": "Danh từ",
+      "ipa": "/ˈlɝːnɪŋ/",
+      "meaning": "việc học",
+      "example": "The role of cookery shows for enjoyment rather than learning.",
+      "translation": "Vai trò của các chương trình nấu ăn là để giải trí hơn là để học."
+    },
+    {
+      "id": 11,
+      "word": "research",
+      "pos": "Danh từ",
+      "ipa": "/rɪˈsɝːtʃ/",
+      "meaning": "nghiên cứu",
+      "example": "Research about the amount of time people cook.",
+      "translation": "Nghiên cứu về lượng thời gian mọi người dành cho việc nấu ăn."
+    },
+    {
+      "id": 12,
+      "word": "examples",
+      "pos": "Danh từ",
+      "ipa": "/ɪɡˈzæmpəlz/",
+      "meaning": "các ví dụ",
+      "example": "Examples of famous cookery partners.",
+      "translation": "Các ví dụ về những cặp đầu bếp nổi tiếng."
+    },
+    {
+      "id": 13,
+      "word": "cookery partners",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈkʊkəri ˈpɑːrtnərz/",
+      "meaning": "các cặp đầu bếp, những người cùng nấu ăn",
+      "example": "Examples of famous cookery partners.",
+      "translation": "Các ví dụ về những cặp đầu bếp nổi tiếng."
+    },
+    {
+      "id": 14,
+      "word": "viewers",
+      "pos": "Danh từ",
+      "ipa": "/ˈvjuːərz/",
+      "meaning": "khán giả truyền hình",
+      "example": "BBC viewers complained to the programme Points of View that there were too many cookery shows on TV.",
+      "translation": "Khán giả BBC đã phàn nàn với chương trình Points of View rằng có quá nhiều chương trình nấu ăn trên truyền hình."
+    },
+    {
+      "id": 15,
+      "word": "complained",
+      "pos": "Động từ",
+      "ipa": "/kəmˈpleɪnd/",
+      "meaning": "phàn nàn",
+      "example": "BBC viewers complained to the programme Points of View that there were too many cookery shows on TV.",
+      "translation": "Khán giả BBC đã phàn nàn với chương trình Points of View rằng có quá nhiều chương trình nấu ăn trên truyền hình."
+    },
+    {
+      "id": 16,
+      "word": "programme",
+      "pos": "Danh từ",
+      "ipa": "/ˈproʊɡræm/",
+      "meaning": "chương trình",
+      "example": "BBC viewers complained to the programme Points of View that there were too many cookery shows on TV.",
+      "translation": "Khán giả BBC đã phàn nàn với chương trình Points of View rằng có quá nhiều chương trình nấu ăn trên truyền hình."
+    },
+    {
+      "id": 17,
+      "word": "showed",
+      "pos": "Động từ",
+      "ipa": "/ʃoʊd/",
+      "meaning": "phát sóng, chiếu",
+      "example": "In one week, the BBC showed 21 hours of cookery TV.",
+      "translation": "Trong một tuần, BBC đã phát sóng 21 giờ chương trình nấu ăn."
+    },
+    {
+      "id": 18,
+      "word": "channels",
+      "pos": "Danh từ",
+      "ipa": "/ˈtʃænəlz/",
+      "meaning": "các kênh truyền hình",
+      "example": "When shows on other channels were included, this came to an amazing 343.5 hours of food TV.",
+      "translation": "Khi tính cả các chương trình trên những kênh khác, con số này lên tới mức đáng kinh ngạc là 343,5 giờ chương trình về ẩm thực."
+    },
+    {
+      "id": 19,
+      "word": "included",
+      "pos": "Động từ",
+      "ipa": "/ɪnˈkluːdɪd/",
+      "meaning": "được tính vào, được bao gồm",
+      "example": "When shows on other channels were included, this came to an amazing 343.5 hours of food TV.",
+      "translation": "Khi các chương trình trên những kênh khác được tính vào, con số này lên tới mức đáng kinh ngạc là 343,5 giờ chương trình về ẩm thực."
+    },
+    {
+      "id": 20,
+      "word": "amazing",
+      "pos": "Tính từ",
+      "ipa": "/əˈmeɪzɪŋ/",
+      "meaning": "đáng kinh ngạc",
+      "example": "When shows on other channels were included, this came to an amazing 343.5 hours of food TV.",
+      "translation": "Khi tính cả các chương trình trên những kênh khác, con số này lên tới mức đáng kinh ngạc là 343,5 giờ chương trình về ẩm thực."
+    },
+    {
+      "id": 21,
+      "word": "TV cooks",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˌtiː ˈviː kʊks/",
+      "meaning": "các đầu bếp truyền hình",
+      "example": "One of the first famous TV cooks, Julia Child, was American.",
+      "translation": "Một trong những đầu bếp truyền hình nổi tiếng đầu tiên, Julia Child, là người Mỹ."
+    },
+    {
+      "id": 22,
+      "word": "career",
+      "pos": "Danh từ",
+      "ipa": "/kəˈrɪr/",
+      "meaning": "sự nghiệp",
+      "example": "She began her career as a cook when, in 1948, she moved to Paris.",
+      "translation": "Bà bắt đầu sự nghiệp với tư cách là một đầu bếp khi chuyển đến Paris vào năm 1948."
+    },
+    {
+      "id": 23,
+      "word": "cook",
+      "pos": "Danh từ",
+      "ipa": "/kʊk/",
+      "meaning": "đầu bếp, người nấu ăn",
+      "example": "She began her career as a cook when, in 1948, she moved to Paris.",
+      "translation": "Bà bắt đầu sự nghiệp với tư cách là một đầu bếp khi chuyển đến Paris vào năm 1948."
+    },
+    {
+      "id": 24,
+      "word": "sophisticated French cuisine",
+      "pos": "Cụm danh từ",
+      "ipa": "/səˈfɪstɪkeɪtɪd frentʃ kwɪˈziːn/",
+      "meaning": "ẩm thực Pháp cầu kỳ, tinh tế",
+      "example": "She moved to Paris and learnt to cook sophisticated French cuisine because her husband loved good food.",
+      "translation": "Bà chuyển đến Paris và học nấu những món ăn Pháp cầu kỳ vì chồng bà yêu thích đồ ăn ngon."
+    },
+    {
+      "id": 25,
+      "word": "return home",
+      "pos": "Cụm động từ",
+      "ipa": "/rɪˈtɝːn hoʊm/",
+      "meaning": "trở về nhà",
+      "example": "On her return home, she published a collection of French recipes made simple.",
+      "translation": "Khi trở về nhà, bà đã xuất bản một tuyển tập các công thức món Pháp được đơn giản hóa."
+    },
+    {
+      "id": 26,
+      "word": "published",
+      "pos": "Động từ",
+      "ipa": "/ˈpʌblɪʃt/",
+      "meaning": "xuất bản",
+      "example": "On her return home, she published a collection of French recipes made simple.",
+      "translation": "Khi trở về nhà, bà đã xuất bản một tuyển tập các công thức món Pháp được đơn giản hóa."
+    },
+    {
+      "id": 27,
+      "word": "collection",
+      "pos": "Danh từ",
+      "ipa": "/kəˈlekʃən/",
+      "meaning": "bộ sưu tập, tuyển tập",
+      "example": "She published a collection of French recipes made simple.",
+      "translation": "Bà đã xuất bản một tuyển tập các công thức món Pháp được đơn giản hóa."
+    },
+    {
+      "id": 28,
+      "word": "recipes",
+      "pos": "Danh từ",
+      "ipa": "/ˈresəpiz/",
+      "meaning": "các công thức nấu ăn",
+      "example": "She published a collection of French recipes made simple, for ordinary American housewives to use.",
+      "translation": "Bà đã xuất bản một tuyển tập các công thức món Pháp được đơn giản hóa để những bà nội trợ Mỹ bình thường có thể sử dụng."
+    },
+    {
+      "id": 29,
+      "word": "instant success",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈɪnstənt səkˈses/",
+      "meaning": "thành công ngay lập tức",
+      "example": "She published a collection of French recipes made simple, for ordinary American housewives to use, which was an instant success.",
+      "translation": "Bà xuất bản một tuyển tập các công thức món Pháp được đơn giản hóa dành cho những bà nội trợ Mỹ bình thường sử dụng, và cuốn sách đã thành công ngay lập tức."
+    },
+    {
+      "id": 30,
+      "word": "invited",
+      "pos": "Động từ",
+      "ipa": "/ɪnˈvaɪtɪd/",
+      "meaning": "được mời",
+      "example": "She was invited to do a TV show.",
+      "translation": "Bà được mời tham gia một chương trình truyền hình."
+    },
+    {
+      "id": 31,
+      "word": "humour",
+      "pos": "Danh từ",
+      "ipa": "/ˈhjuːmər/",
+      "meaning": "sự hài hước, khiếu hài hước",
+      "example": "Her humour and strong personality soon won her great fame.",
+      "translation": "Sự hài hước và cá tính mạnh mẽ nhanh chóng giúp bà trở nên rất nổi tiếng."
+    },
+    {
+      "id": 32,
+      "word": "strong personality",
+      "pos": "Cụm danh từ",
+      "ipa": "/strɔːŋ ˌpɝːsəˈnæləti/",
+      "meaning": "cá tính mạnh",
+      "example": "Her humour and strong personality soon won her great fame.",
+      "translation": "Sự hài hước và cá tính mạnh mẽ nhanh chóng giúp bà trở nên rất nổi tiếng."
+    },
+    {
+      "id": 33,
+      "word": "great fame",
+      "pos": "Cụm danh từ",
+      "ipa": "/ɡreɪt feɪm/",
+      "meaning": "sự nổi tiếng lớn, danh tiếng lớn",
+      "example": "Her humour and strong personality soon won her great fame.",
+      "translation": "Sự hài hước và cá tính mạnh mẽ nhanh chóng mang lại cho bà danh tiếng lớn."
+    },
+    {
+      "id": 34,
+      "word": "pairs",
+      "pos": "Danh từ",
+      "ipa": "/perz/",
+      "meaning": "các cặp",
+      "example": "There are some famous pairs of TV cooks.",
+      "translation": "Có một số cặp đầu bếp truyền hình nổi tiếng."
+    },
+    {
+      "id": 35,
+      "word": "introduction",
+      "pos": "Danh từ",
+      "ipa": "/ˌɪntrəˈdʌkʃən/",
+      "meaning": "sự đưa vào, việc bổ sung",
+      "example": "The introduction of a competitive element to many cookery shows reminds us that food TV is more entertainment than education these days.",
+      "translation": "Việc đưa yếu tố cạnh tranh vào nhiều chương trình nấu ăn nhắc chúng ta rằng ngày nay truyền hình ẩm thực mang tính giải trí nhiều hơn giáo dục."
+    },
+    {
+      "id": 36,
+      "word": "competitive element",
+      "pos": "Cụm danh từ",
+      "ipa": "/kəmˈpetətɪv ˈeləmənt/",
+      "meaning": "yếu tố cạnh tranh",
+      "example": "The introduction of a competitive element to many cookery shows reminds us that food TV is more entertainment than education these days.",
+      "translation": "Việc đưa yếu tố cạnh tranh vào nhiều chương trình nấu ăn nhắc chúng ta rằng ngày nay truyền hình ẩm thực mang tính giải trí nhiều hơn giáo dục."
+    },
+    {
+      "id": 37,
+      "word": "entertainment",
+      "pos": "Danh từ",
+      "ipa": "/ˌentərˈteɪnmənt/",
+      "meaning": "sự giải trí",
+      "example": "Food TV is more entertainment than education these days.",
+      "translation": "Ngày nay, truyền hình ẩm thực mang tính giải trí nhiều hơn giáo dục."
+    },
+    {
+      "id": 38,
+      "word": "education",
+      "pos": "Danh từ",
+      "ipa": "/ˌedʒəˈkeɪʃən/",
+      "meaning": "sự giáo dục, việc giáo dục",
+      "example": "Food TV is more entertainment than education these days.",
+      "translation": "Ngày nay, truyền hình ẩm thực mang tính giải trí nhiều hơn giáo dục."
+    },
+    {
+      "id": 39,
+      "word": "these days",
+      "pos": "Cụm trạng từ",
+      "ipa": "/ðiːz deɪz/",
+      "meaning": "ngày nay, hiện nay",
+      "example": "Food TV is more entertainment than education these days.",
+      "translation": "Ngày nay, truyền hình ẩm thực mang tính giải trí nhiều hơn giáo dục."
+    },
+    {
+      "id": 40,
+      "word": "generally",
+      "pos": "Trạng từ",
+      "ipa": "/ˈdʒenərəli/",
+      "meaning": "nhìn chung, nói chung",
+      "example": "Most agree that people generally spend less time cooking than they did in the past.",
+      "translation": "Hầu hết đều đồng ý rằng nhìn chung mọi người dành ít thời gian nấu ăn hơn so với trước đây."
+    },
+    {
+      "id": 41,
+      "word": "less time",
+      "pos": "Cụm danh từ",
+      "ipa": "/les taɪm/",
+      "meaning": "ít thời gian hơn",
+      "example": "Most agree that people generally spend less time cooking than they did in the past.",
+      "translation": "Hầu hết đều đồng ý rằng nhìn chung mọi người dành ít thời gian nấu ăn hơn so với trước đây."
+    },
+    {
+      "id": 42,
+      "word": "in the past",
+      "pos": "Cụm giới từ",
+      "ipa": "/ɪn ðə pæst/",
+      "meaning": "trong quá khứ, trước đây",
+      "example": "Most agree that people generally spend less time cooking than they did in the past.",
+      "translation": "Hầu hết đều đồng ý rằng nhìn chung mọi người dành ít thời gian nấu ăn hơn so với trước đây."
+    },
+    {
+      "id": 43,
+      "word": "certain",
+      "pos": "Tính từ",
+      "ipa": "/ˈsɝːtən/",
+      "meaning": "một số, nhất định",
+      "example": "Certain cookery shows influence viewers more than others.",
+      "translation": "Một số chương trình nấu ăn có ảnh hưởng đến khán giả nhiều hơn những chương trình khác."
+    },
+    {
+      "id": 44,
+      "word": "influence",
+      "pos": "Động từ",
+      "ipa": "/ˈɪnfluəns/",
+      "meaning": "ảnh hưởng đến",
+      "example": "Certain cookery shows influence viewers more than others.",
+      "translation": "Một số chương trình nấu ăn có ảnh hưởng đến khán giả nhiều hơn những chương trình khác."
+    },
+    {
+      "id": 45,
+      "word": "influential",
+      "pos": "Tính từ",
+      "ipa": "/ˌɪnfluˈenʃəl/",
+      "meaning": "có sức ảnh hưởng",
+      "example": "One study found that the most influential show was Jamie Oliver’s 15 Minute Meals.",
+      "translation": "Một nghiên cứu cho thấy chương trình có sức ảnh hưởng nhất là 15 Minute Meals của Jamie Oliver."
+    },
+    {
+      "id": 46,
+      "word": "healthy eating",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈhelθi ˈiːtɪŋ/",
+      "meaning": "việc ăn uống lành mạnh",
+      "example": "It seems, though, that teaching children to cook at home and at school has much more influence on healthy eating than watching TV programmes on cooking.",
+      "translation": "Tuy nhiên, có vẻ như việc dạy trẻ nấu ăn ở nhà và ở trường có ảnh hưởng đến việc ăn uống lành mạnh nhiều hơn nhiều so với việc xem các chương trình nấu ăn trên truyền hình."
+    },
+    {
+      "id": 47,
+      "word": "important role",
+      "pos": "Cụm danh từ",
+      "ipa": "/ɪmˈpɔːrtənt roʊl/",
+      "meaning": "vai trò quan trọng",
+      "example": "Grandparents have an important role to play because they may have more time – and experience – than parents.",
+      "translation": "Ông bà có một vai trò quan trọng vì họ có thể có nhiều thời gian và kinh nghiệm hơn cha mẹ."
+    },
+    {
+      "id": 48,
+      "word": "experience",
+      "pos": "Danh từ",
+      "ipa": "/ɪkˈspɪriəns/",
+      "meaning": "kinh nghiệm",
+      "example": "Grandparents have an important role to play because they may have more time – and experience – than parents.",
+      "translation": "Ông bà có một vai trò quan trọng vì họ có thể có nhiều thời gian và kinh nghiệm hơn cha mẹ."
+    },
+    {
+      "id": 49,
+      "word": "on a regular basis",
+      "pos": "Cụm trạng từ",
+      "ipa": "/ɑːn ə ˈreɡjələr ˈbeɪsɪs/",
+      "meaning": "một cách thường xuyên, đều đặn",
+      "example": "Cooking with family members on a regular basis and making food preparation part of the school curriculum is likely to ensure that children become adults who can cook.",
+      "translation": "Việc thường xuyên nấu ăn cùng các thành viên trong gia đình và đưa việc chuẩn bị thức ăn vào chương trình học ở trường có khả năng đảm bảo rằng trẻ em lớn lên sẽ trở thành những người trưởng thành biết nấu ăn."
+    },
+    {
+      "id": 50,
+      "word": "food preparation",
+      "pos": "Cụm danh từ",
+      "ipa": "/fuːd ˌprepəˈreɪʃən/",
+      "meaning": "việc chuẩn bị thức ăn",
+      "example": "Cooking with family members on a regular basis and making food preparation part of the school curriculum is likely to ensure that children become adults who can cook.",
+      "translation": "Việc thường xuyên nấu ăn cùng các thành viên trong gia đình và đưa việc chuẩn bị thức ăn vào chương trình học ở trường có khả năng đảm bảo rằng trẻ em lớn lên sẽ trở thành những người trưởng thành biết nấu ăn."
+    },
+    {
+      "id": 51,
+      "word": "school curriculum",
+      "pos": "Cụm danh từ",
+      "ipa": "/skuːl kəˈrɪkjələm/",
+      "meaning": "chương trình học ở trường",
+      "example": "Cooking with family members on a regular basis and making food preparation part of the school curriculum is likely to ensure that children become adults who can cook.",
+      "translation": "Việc thường xuyên nấu ăn cùng các thành viên trong gia đình và đưa việc chuẩn bị thức ăn vào chương trình học ở trường có khả năng đảm bảo rằng trẻ em lớn lên sẽ trở thành những người trưởng thành biết nấu ăn."
+    },
+    {
+      "id": 52,
+      "word": "ensure",
+      "pos": "Động từ",
+      "ipa": "/ɪnˈʃʊr/",
+      "meaning": "đảm bảo",
+      "example": "Cooking with family members on a regular basis and making food preparation part of the school curriculum is likely to ensure that children become adults who can cook.",
+      "translation": "Việc thường xuyên nấu ăn cùng các thành viên trong gia đình và đưa việc chuẩn bị thức ăn vào chương trình học ở trường có khả năng đảm bảo rằng trẻ em lớn lên sẽ trở thành những người trưởng thành biết nấu ăn."
+    }
+  ],
+  "activity_17": [
+    {
+      "id": 1,
+      "word": "art",
+      "pos": "Danh từ",
+      "ipa": "/ɑːrt/",
+      "meaning": "nghệ thuật",
+      "example": "Local art and craft work can be great souvenirs.",
+      "translation": "Các sản phẩm nghệ thuật và thủ công địa phương có thể là những món quà lưu niệm tuyệt vời."
+    },
+    {
+      "id": 2,
+      "word": "craft work",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈkræft wɝːk/",
+      "meaning": "đồ thủ công, sản phẩm thủ công",
+      "example": "Local art and craft work can be great souvenirs.",
+      "translation": "Các sản phẩm nghệ thuật và thủ công địa phương có thể là những món quà lưu niệm tuyệt vời."
+    },
+    {
+      "id": 3,
+      "word": "inexpensive",
+      "pos": "Tính từ",
+      "ipa": "/ˌɪnɪkˈspensɪv/",
+      "meaning": "không đắt, giá rẻ",
+      "example": "You can buy inexpensive food at local markets.",
+      "translation": "Bạn có thể mua thực phẩm giá rẻ tại các khu chợ địa phương."
+    },
+    {
+      "id": 4,
+      "word": "straight from the countryside",
+      "pos": "Cụm trạng từ",
+      "ipa": "/streɪt frəm ðə ˈkʌntrisaɪd/",
+      "meaning": "trực tiếp từ vùng nông thôn",
+      "example": "The food comes straight from the countryside.",
+      "translation": "Thực phẩm được đưa trực tiếp từ vùng nông thôn."
+    },
+    {
+      "id": 5,
+      "word": "of all ages",
+      "pos": "Cụm giới từ",
+      "ipa": "/əv ɔːl ˈeɪdʒɪz/",
+      "meaning": "ở mọi lứa tuổi",
+      "example": "These toys are popular with children of all ages.",
+      "translation": "Những món đồ chơi này được trẻ em ở mọi lứa tuổi yêu thích."
+    },
+    {
+      "id": 6,
+      "word": "invent",
+      "pos": "Động từ",
+      "ipa": "/ɪnˈvent/",
+      "meaning": "sáng tạo ra, tạo ra",
+      "example": "You can invent a new style for yourself.",
+      "translation": "Bạn có thể tạo ra một phong cách mới cho riêng mình."
+    },
+    {
+      "id": 7,
+      "word": "style",
+      "pos": "Danh từ",
+      "ipa": "/staɪl/",
+      "meaning": "phong cách",
+      "example": "You can invent a new style for yourself.",
+      "translation": "Bạn có thể tạo ra một phong cách mới cho riêng mình."
+    },
+    {
+      "id": 8,
+      "word": "at bargain prices",
+      "pos": "Cụm giới từ",
+      "ipa": "/æt ˈbɑːrɡən ˈpraɪsɪz/",
+      "meaning": "với giá hời, với giá rất rẻ",
+      "example": "You can invent a new style for yourself at bargain prices.",
+      "translation": "Bạn có thể tạo ra một phong cách mới cho riêng mình với giá rất hời."
+    },
+    {
+      "id": 9,
+      "word": "gifts",
+      "pos": "Danh từ",
+      "ipa": "/ɡɪfts/",
+      "meaning": "quà tặng",
+      "example": "In Europe, Christmas is the time when seasonal markets are held to sell decorations and gifts for the festive season.",
+      "translation": "Ở châu Âu, Giáng sinh là thời điểm các khu chợ theo mùa được tổ chức để bán đồ trang trí và quà tặng cho mùa lễ hội."
+    },
+    {
+      "id": 10,
+      "word": "winter celebrations",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈwɪntər ˌseləˈbreɪʃənz/",
+      "meaning": "các lễ hội mùa đông",
+      "example": "People often buy gifts for winter celebrations.",
+      "translation": "Mọi người thường mua quà cho các lễ hội mùa đông."
+    },
+    {
+      "id": 11,
+      "word": "directed at",
+      "pos": "Cụm động từ",
+      "ipa": "/dəˈrektɪd æt/",
+      "meaning": "hướng đến, nhắm đến",
+      "example": "In some places, markets are directed at visitors and tend to sell handicrafts typical of the region.",
+      "translation": "Ở một số nơi, các khu chợ hướng đến du khách và thường bán đồ thủ công mỹ nghệ đặc trưng của vùng."
+    },
+    {
+      "id": 12,
+      "word": "handicrafts",
+      "pos": "Danh từ",
+      "ipa": "/ˈhændikræfts/",
+      "meaning": "đồ thủ công mỹ nghệ",
+      "example": "In some places, markets are directed at visitors and tend to sell handicrafts typical of the region.",
+      "translation": "Ở một số nơi, các khu chợ hướng đến du khách và thường bán đồ thủ công mỹ nghệ đặc trưng của vùng."
+    },
+    {
+      "id": 13,
+      "word": "typical of the region",
+      "pos": "Cụm tính từ",
+      "ipa": "/ˈtɪpɪkəl əv ðə ˈriːdʒən/",
+      "meaning": "đặc trưng của vùng",
+      "example": "Markets tend to sell handicrafts typical of the region.",
+      "translation": "Các khu chợ thường bán đồ thủ công mỹ nghệ đặc trưng của vùng."
+    },
+    {
+      "id": 14,
+      "word": "nearby market",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˌnɪrˈbaɪ ˈmɑːrkɪt/",
+      "meaning": "khu chợ gần đó",
+      "example": "For many tourists, a visit to a nearby market to buy souvenirs is an important part of their holiday.",
+      "translation": "Đối với nhiều du khách, việc ghé thăm một khu chợ gần đó để mua đồ lưu niệm là một phần quan trọng trong kỳ nghỉ của họ."
+    },
+    {
+      "id": 15,
+      "word": "souvenirs",
+      "pos": "Danh từ",
+      "ipa": "/ˌsuːvəˈnɪrz/",
+      "meaning": "đồ lưu niệm",
+      "example": "For many tourists, a visit to a nearby market to buy souvenirs is an important part of their holiday.",
+      "translation": "Đối với nhiều du khách, việc ghé thăm một khu chợ gần đó để mua đồ lưu niệm là một phần quan trọng trong kỳ nghỉ của họ."
+    },
+    {
+      "id": 16,
+      "word": "textiles",
+      "pos": "Danh từ",
+      "ipa": "/ˈtekstaɪlz/",
+      "meaning": "hàng dệt, vải vóc",
+      "example": "Guadalajara in Mexico has a huge range of traditional textiles, glassware, ceramics and art works.",
+      "translation": "Guadalajara ở Mexico có rất nhiều loại hàng dệt truyền thống, đồ thủy tinh, đồ gốm và các tác phẩm nghệ thuật."
+    },
+    {
+      "id": 17,
+      "word": "glassware",
+      "pos": "Danh từ",
+      "ipa": "/ˈɡlæswer/",
+      "meaning": "đồ thủy tinh",
+      "example": "Guadalajara in Mexico has a huge range of traditional textiles, glassware, ceramics and art works.",
+      "translation": "Guadalajara ở Mexico có rất nhiều loại hàng dệt truyền thống, đồ thủy tinh, đồ gốm và các tác phẩm nghệ thuật."
+    },
+    {
+      "id": 18,
+      "word": "ceramics",
+      "pos": "Danh từ",
+      "ipa": "/səˈræmɪks/",
+      "meaning": "đồ gốm",
+      "example": "Guadalajara in Mexico has a huge range of traditional textiles, glassware, ceramics and art works.",
+      "translation": "Guadalajara ở Mexico có rất nhiều loại hàng dệt truyền thống, đồ thủy tinh, đồ gốm và các tác phẩm nghệ thuật."
+    },
+    {
+      "id": 19,
+      "word": "affordable prices",
+      "pos": "Cụm danh từ",
+      "ipa": "/əˈfɔːrdəbəl ˈpraɪsɪz/",
+      "meaning": "mức giá phải chăng",
+      "example": "Seoul in Korea has some wonderful original designs of all kinds of products at affordable prices.",
+      "translation": "Seoul ở Hàn Quốc có những thiết kế độc đáo tuyệt vời của đủ loại sản phẩm với mức giá phải chăng."
+    },
+    {
+      "id": 20,
+      "word": "hand-made rugs",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˌhænd ˈmeɪd rʌɡz/",
+      "meaning": "thảm thủ công, thảm làm bằng tay",
+      "example": "Countries in the Middle East usually have beautiful hand-made rugs and carpets.",
+      "translation": "Các quốc gia ở Trung Đông thường có những tấm thảm thủ công rất đẹp."
+    },
+    {
+      "id": 21,
+      "word": "carpets",
+      "pos": "Danh từ",
+      "ipa": "/ˈkɑːrpɪts/",
+      "meaning": "thảm",
+      "example": "Countries in the Middle East usually have beautiful hand-made rugs and carpets.",
+      "translation": "Các quốc gia ở Trung Đông thường có những tấm thảm thủ công rất đẹp."
+    },
+    {
+      "id": 22,
+      "word": "handloom fabrics",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈhændluːm ˈfæbrɪks/",
+      "meaning": "vải dệt thủ công, vải dệt bằng khung cửi",
+      "example": "Indian markets sell colourful handloom fabrics and beautiful silk scarves.",
+      "translation": "Các khu chợ ở Ấn Độ bán những loại vải dệt thủ công đầy màu sắc và những chiếc khăn lụa đẹp."
+    },
+    {
+      "id": 23,
+      "word": "silk scarves",
+      "pos": "Cụm danh từ",
+      "ipa": "/sɪlk skɑːrvz/",
+      "meaning": "khăn lụa",
+      "example": "Indian markets sell colourful handloom fabrics and beautiful silk scarves.",
+      "translation": "Các khu chợ ở Ấn Độ bán những loại vải dệt thủ công đầy màu sắc và những chiếc khăn lụa đẹp."
+    },
+    {
+      "id": 24,
+      "word": "seasonal markets",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈsiːzənəl ˈmɑːrkɪts/",
+      "meaning": "các khu chợ theo mùa",
+      "example": "In Europe, Christmas is the time when seasonal markets are held to sell decorations and gifts for the festive season.",
+      "translation": "Ở châu Âu, Giáng sinh là thời điểm các khu chợ theo mùa được tổ chức để bán đồ trang trí và quà tặng cho mùa lễ hội."
+    },
+    {
+      "id": 25,
+      "word": "held",
+      "pos": "Động từ",
+      "ipa": "/held/",
+      "meaning": "được tổ chức",
+      "example": "Seasonal markets are held to sell decorations and gifts for the festive season.",
+      "translation": "Các khu chợ theo mùa được tổ chức để bán đồ trang trí và quà tặng cho mùa lễ hội."
+    },
+    {
+      "id": 26,
+      "word": "decorations",
+      "pos": "Danh từ",
+      "ipa": "/ˌdekəˈreɪʃənz/",
+      "meaning": "đồ trang trí",
+      "example": "Seasonal markets are held to sell decorations and gifts for the festive season.",
+      "translation": "Các khu chợ theo mùa được tổ chức để bán đồ trang trí và quà tặng cho mùa lễ hội."
+    },
+    {
+      "id": 27,
+      "word": "festive season",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈfestɪv ˈsiːzən/",
+      "meaning": "mùa lễ hội",
+      "example": "Seasonal markets are held to sell decorations and gifts for the festive season.",
+      "translation": "Các khu chợ theo mùa được tổ chức để bán đồ trang trí và quà tặng cho mùa lễ hội."
+    },
+    {
+      "id": 28,
+      "word": "wooden huts",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈwʊdən hʌts/",
+      "meaning": "những gian hàng / túp lều bằng gỗ",
+      "example": "The market is made up of colourfully decorated wooden huts.",
+      "translation": "Khu chợ gồm những gian hàng bằng gỗ được trang trí đầy màu sắc."
+    },
+    {
+      "id": 29,
+      "word": "lace",
+      "pos": "Danh từ",
+      "ipa": "/leɪs/",
+      "meaning": "ren, đồ ren",
+      "example": "The wooden huts sell traditional handicrafts, embroidered lace, wooden toys and scented candles.",
+      "translation": "Các gian hàng bằng gỗ bán đồ thủ công truyền thống, đồ ren thêu, đồ chơi bằng gỗ và nến thơm."
+    },
+    {
+      "id": 30,
+      "word": "scented candles",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈsentɪd ˈkændəlz/",
+      "meaning": "nến thơm",
+      "example": "The market sells wooden toys and scented candles.",
+      "translation": "Khu chợ bán đồ chơi bằng gỗ và nến thơm."
+    },
+    {
+      "id": 31,
+      "word": "ornaments",
+      "pos": "Danh từ",
+      "ipa": "/ˈɔːrnəmənts/",
+      "meaning": "đồ trang trí",
+      "example": "The market sells Christmas tree ornaments.",
+      "translation": "Khu chợ bán đồ trang trí cây thông Giáng sinh."
+    },
+    {
+      "id": 32,
+      "word": "puppets",
+      "pos": "Danh từ",
+      "ipa": "/ˈpʌpɪts/",
+      "meaning": "những con rối",
+      "example": "The market sells puppets and dolls beautifully dressed in traditional costumes.",
+      "translation": "Khu chợ bán những con rối và búp bê được mặc trang phục truyền thống rất đẹp."
+    },
+    {
+      "id": 33,
+      "word": "traditional costumes",
+      "pos": "Cụm danh từ",
+      "ipa": "/trəˈdɪʃənəl ˈkɑːstuːmz/",
+      "meaning": "trang phục truyền thống",
+      "example": "The market sells puppets and dolls beautifully dressed in traditional costumes.",
+      "translation": "Khu chợ bán những con rối và búp bê được mặc trang phục truyền thống rất đẹp."
+    },
+    {
+      "id": 34,
+      "word": "second-hand",
+      "pos": "Tính từ",
+      "ipa": "/ˌsekənd ˈhænd/",
+      "meaning": "đã qua sử dụng, đồ cũ",
+      "example": "Some sell cheap new and second-hand clothes.",
+      "translation": "Một số khu chợ bán quần áo mới giá rẻ và quần áo đã qua sử dụng."
+    },
+    {
+      "id": 35,
+      "word": "specialize in",
+      "pos": "Cụm động từ",
+      "ipa": "/ˈspeʃəlaɪz ɪn/",
+      "meaning": "chuyên về",
+      "example": "Others specialise in vintage or ethically made clothes and original items.",
+      "translation": "Những khu chợ khác chuyên về quần áo cổ điển hoặc quần áo được sản xuất có trách nhiệm và những món đồ độc đáo."
+    },
+    {
+      "id": 36,
+      "word": "vintage",
+      "pos": "Tính từ",
+      "ipa": "/ˈvɪntɪdʒ/",
+      "meaning": "cổ điển, thuộc phong cách xưa",
+      "example": "Others specialise in vintage or ethically made clothes and original items.",
+      "translation": "Những khu chợ khác chuyên về quần áo cổ điển hoặc quần áo được sản xuất có trách nhiệm và những món đồ độc đáo."
+    },
+    {
+      "id": 37,
+      "word": "ethically",
+      "pos": "Trạng từ",
+      "ipa": "/ˈeθɪkli/",
+      "meaning": "theo cách có đạo đức, có trách nhiệm",
+      "example": "Others specialise in vintage or ethically made clothes.",
+      "translation": "Những khu chợ khác chuyên về quần áo cổ điển hoặc quần áo được sản xuất có trách nhiệm."
+    },
+    {
+      "id": 38,
+      "word": "original",
+      "pos": "Tính từ",
+      "ipa": "/əˈrɪdʒənəl/",
+      "meaning": "độc đáo, nguyên bản",
+      "example": "Others specialise in vintage or ethically made clothes and original items.",
+      "translation": "Những khu chợ khác chuyên về quần áo cổ điển hoặc quần áo được sản xuất có trách nhiệm và những món đồ độc đáo."
+    },
+    {
+      "id": 39,
+      "word": "unique look",
+      "pos": "Cụm danh từ",
+      "ipa": "/juˈniːk lʊk/",
+      "meaning": "phong cách độc đáo, diện mạo riêng biệt",
+      "example": "The markets of London are some of the best in the world for those who want to create a unique look for themselves.",
+      "translation": "Các khu chợ ở London thuộc hàng tốt nhất thế giới dành cho những người muốn tạo cho mình một phong cách độc đáo."
+    },
+    {
+      "id": 40,
+      "word": "designers",
+      "pos": "Danh từ",
+      "ipa": "/dɪˈzaɪnərz/",
+      "meaning": "các nhà thiết kế",
+      "example": "Many new designers start with a market stall.",
+      "translation": "Nhiều nhà thiết kế mới bắt đầu sự nghiệp với một quầy hàng ở chợ."
+    },
+    {
+      "id": 41,
+      "word": "market stall",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈmɑːrkɪt stɔːl/",
+      "meaning": "quầy hàng ở chợ",
+      "example": "Many new designers start with a market stall.",
+      "translation": "Nhiều nhà thiết kế mới bắt đầu với một quầy hàng ở chợ."
+    },
+    {
+      "id": 42,
+      "word": "totally original",
+      "pos": "Cụm tính từ",
+      "ipa": "/ˈtoʊtəli əˈrɪdʒənəl/",
+      "meaning": "hoàn toàn độc đáo",
+      "example": "If you are looking for a totally original item of clothing, you could get something really special at a bargain price.",
+      "translation": "Nếu bạn đang tìm một món quần áo hoàn toàn độc đáo, bạn có thể mua được một món thực sự đặc biệt với giá hời."
+    },
+    {
+      "id": 43,
+      "word": "really special",
+      "pos": "Cụm tính từ",
+      "ipa": "/ˈriːəli ˈspeʃəl/",
+      "meaning": "thực sự đặc biệt",
+      "example": "You could get something really special at a bargain price.",
+      "translation": "Bạn có thể mua được một món đồ thực sự đặc biệt với giá hời."
+    },
+    {
+      "id": 44,
+      "word": "flea market",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈfliː ˌmɑːrkɪt/",
+      "meaning": "chợ trời",
+      "example": "Another type of market is a flea market.",
+      "translation": "Một loại chợ khác là chợ trời."
+    },
+    {
+      "id": 45,
+      "word": "informal",
+      "pos": "Tính từ",
+      "ipa": "/ɪnˈfɔːrməl/",
+      "meaning": "không chính thức, bình dân",
+      "example": "This is a much more informal type of market, where second-hand products can be sold by anyone.",
+      "translation": "Đây là một loại chợ bình dân hơn nhiều, nơi bất kỳ ai cũng có thể bán đồ đã qua sử dụng."
+    },
+    {
+      "id": 46,
+      "word": "unwanted items",
+      "pos": "Cụm danh từ",
+      "ipa": "/ʌnˈwɑːntɪd ˈaɪtəmz/",
+      "meaning": "những món đồ không còn cần đến",
+      "example": "If you have unwanted items at home, you could take them to a flea market and sell them yourself.",
+      "translation": "Nếu bạn có những món đồ không còn cần đến ở nhà, bạn có thể mang chúng ra chợ trời và tự bán."
+    },
+    {
+      "id": 47,
+      "word": "antiques",
+      "pos": "Danh từ",
+      "ipa": "/ænˈtiːks/",
+      "meaning": "đồ cổ",
+      "example": "There are also antiques and possibly local crafts at this kind of market.",
+      "translation": "Loại chợ này cũng có đồ cổ và có thể có cả đồ thủ công địa phương."
+    },
+    {
+      "id": 48,
+      "word": "vendors",
+      "pos": "Danh từ",
+      "ipa": "/ˈvendərz/",
+      "meaning": "những người bán hàng",
+      "example": "Vendors lay out their goods on a sheet on the ground.",
+      "translation": "Những người bán hàng bày hàng hóa của họ trên một tấm vải trải dưới đất."
+    },
+    {
+      "id": 49,
+      "word": "lay out",
+      "pos": "Cụm động từ",
+      "ipa": "/leɪ aʊt/",
+      "meaning": "bày ra, sắp ra",
+      "example": "Vendors lay out their goods on a sheet on the ground.",
+      "translation": "Những người bán hàng bày hàng hóa của họ trên một tấm vải trải dưới đất."
+    },
+    {
+      "id": 50,
+      "word": "sheet",
+      "pos": "Danh từ",
+      "ipa": "/ʃiːt/",
+      "meaning": "tấm vải, tấm trải",
+      "example": "Vendors lay out their goods on a sheet on the ground.",
+      "translation": "Những người bán hàng bày hàng hóa của họ trên một tấm vải trải dưới đất."
+    },
+    {
+      "id": 51,
+      "word": "car boot",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈkɑːr buːt/",
+      "meaning": "cốp ô tô",
+      "example": "Flea markets have developed into car boot sales, where people sell their unwanted items from their cars.",
+      "translation": "Chợ trời đã phát triển thành các phiên chợ bán đồ từ cốp ô tô, nơi mọi người bán những món đồ không còn cần đến từ xe của mình."
+    },
+    {
+      "id": 52,
+      "word": "consumer",
+      "pos": "Danh từ",
+      "ipa": "/kənˈsuːmər/",
+      "meaning": "người tiêu dùng",
+      "example": "Farmers often sell direct to the consumer.",
+      "translation": "Nông dân thường bán trực tiếp cho người tiêu dùng."
+    },
+    {
+      "id": 53,
+      "word": "packaging",
+      "pos": "Danh từ",
+      "ipa": "/ˈpækɪdʒɪŋ/",
+      "meaning": "việc đóng gói, bao bì",
+      "example": "Farmers often sell direct to the consumer, without all the packaging, shipping and advertising that increases costs in shops and supermarkets.",
+      "translation": "Nông dân thường bán trực tiếp cho người tiêu dùng mà không có các chi phí đóng gói, vận chuyển và quảng cáo làm tăng giá tại các cửa hàng và siêu thị."
+    },
+    {
+      "id": 54,
+      "word": "advertising",
+      "pos": "Danh từ",
+      "ipa": "/ˈædvərtaɪzɪŋ/",
+      "meaning": "quảng cáo",
+      "example": "Farmers often sell direct to the consumer, without all the packaging, shipping and advertising that increases costs in shops and supermarkets.",
+      "translation": "Nông dân thường bán trực tiếp cho người tiêu dùng mà không có các chi phí đóng gói, vận chuyển và quảng cáo làm tăng giá tại các cửa hàng và siêu thị."
+    },
+    {
+      "id": 55,
+      "word": "unusual",
+      "pos": "Tính từ",
+      "ipa": "/ʌnˈjuːʒuəl/",
+      "meaning": "khác thường, độc đáo",
+      "example": "You can often find unusual products and those that are not mass-produced.",
+      "translation": "Bạn thường có thể tìm thấy những sản phẩm khác thường và những sản phẩm không được sản xuất hàng loạt."
+    },
+    {
+      "id": 56,
+      "word": "mass-produced",
+      "pos": "Tính từ",
+      "ipa": "/ˌmæs prəˈduːst/",
+      "meaning": "được sản xuất hàng loạt",
+      "example": "You can often find unusual products and those that are not mass-produced.",
+      "translation": "Bạn thường có thể tìm thấy những sản phẩm khác thường và những sản phẩm không được sản xuất hàng loạt."
+    },
+    {
+      "id": 57,
+      "word": "hugely",
+      "pos": "Trạng từ",
+      "ipa": "/ˈhjuːdʒli/",
+      "meaning": "rất nhiều, rất lớn",
+      "example": "Food markets vary hugely according to where they are in the world.",
+      "translation": "Các khu chợ thực phẩm khác nhau rất nhiều tùy theo vị trí của chúng trên thế giới."
+    },
+    {
+      "id": 58,
+      "word": "locally produced",
+      "pos": "Cụm tính từ",
+      "ipa": "/ˈloʊkəli prəˈduːst/",
+      "meaning": "được sản xuất tại địa phương",
+      "example": "Wherever you are, food will be locally produced and reasonably priced.",
+      "translation": "Dù bạn ở đâu, thực phẩm cũng sẽ được sản xuất tại địa phương và có giá hợp lý."
+    },
+    {
+      "id": 59,
+      "word": "reasonably priced",
+      "pos": "Cụm tính từ",
+      "ipa": "/ˈriːzənəbli praɪst/",
+      "meaning": "có giá hợp lý, giá phải chăng",
+      "example": "Wherever you are, food will be locally produced and reasonably priced.",
+      "translation": "Dù bạn ở đâu, thực phẩm cũng sẽ được sản xuất tại địa phương và có giá hợp lý."
+    }
+  ],
+  "activity_18": [
+    {
+      "id": 1,
+      "word": "apprenticeships",
+      "pos": "Danh từ",
+      "ipa": "/əˈprentɪsʃɪps/",
+      "meaning": "chương trình học nghề, hình thức học nghề",
+      "example": "Apprenticeships were a common way of learning in the past.",
+      "translation": "Hình thức học nghề từng là một cách học phổ biến trong quá khứ."
+    },
+    {
+      "id": 2,
+      "word": "common",
+      "pos": "Tính từ",
+      "ipa": "/ˈkɑːmən/",
+      "meaning": "phổ biến",
+      "example": "Apprenticeships were a common way of learning in the past.",
+      "translation": "Hình thức học nghề từng là một cách học phổ biến trong quá khứ."
+    },
+    {
+      "id": 3,
+      "word": "existed",
+      "pos": "Động từ",
+      "ipa": "/ɪɡˈzɪstɪd/",
+      "meaning": "tồn tại",
+      "example": "This type of training existed in the past.",
+      "translation": "Hình thức đào tạo này đã tồn tại trong quá khứ."
+    },
+    {
+      "id": 4,
+      "word": "do well at work",
+      "pos": "Cụm động từ",
+      "ipa": "/duː wel æt wɝːk/",
+      "meaning": "làm tốt trong công việc",
+      "example": "Good training can help people do well at work.",
+      "translation": "Việc đào tạo tốt có thể giúp mọi người làm tốt trong công việc."
+    },
+    {
+      "id": 5,
+      "word": "education system",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˌedʒəˈkeɪʃən ˈsɪstəm/",
+      "meaning": "hệ thống giáo dục",
+      "example": "In 1944, the UK government created a new system of education.",
+      "translation": "Năm 1944, chính phủ Anh đã tạo ra một hệ thống giáo dục mới."
+    },
+    {
+      "id": 6,
+      "word": "introduced",
+      "pos": "Động từ",
+      "ipa": "/ˌɪntrəˈduːst/",
+      "meaning": "đưa vào, giới thiệu, áp dụng",
+      "example": "In the 1980s the British government introduced NVQs or National Vocational Qualifications.",
+      "translation": "Vào những năm 1980, chính phủ Anh đã đưa vào hệ thống NVQ, hay Chứng chỉ Nghề Quốc gia."
+    },
+    {
+      "id": 7,
+      "word": "affected",
+      "pos": "Động từ",
+      "ipa": "/əˈfektɪd/",
+      "meaning": "ảnh hưởng đến",
+      "example": "The new education system affected many students.",
+      "translation": "Hệ thống giáo dục mới đã ảnh hưởng đến nhiều học sinh."
+    },
+    {
+      "id": 8,
+      "word": "technical subjects",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈteknɪkəl ˈsʌbdʒekts/",
+      "meaning": "các môn học kỹ thuật",
+      "example": "Students at technical schools studied technical subjects.",
+      "translation": "Học sinh tại các trường kỹ thuật học các môn kỹ thuật."
+    },
+    {
+      "id": 9,
+      "word": "great success",
+      "pos": "Cụm danh từ",
+      "ipa": "/ɡreɪt səkˈses/",
+      "meaning": "thành công lớn",
+      "example": "The education system was not a great success.",
+      "translation": "Hệ thống giáo dục đó không thực sự thành công."
+    },
+    {
+      "id": 10,
+      "word": "academically gifted students",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˌækəˈdemɪkli ˈɡɪftɪd ˈstuːdənts/",
+      "meaning": "học sinh có năng khiếu học thuật",
+      "example": "The school provides special classes for academically gifted students.",
+      "translation": "Trường cung cấp các lớp học đặc biệt cho những học sinh có năng khiếu học thuật."
+    },
+    {
+      "id": 11,
+      "word": "blended learning",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈblendɪd ˈlɝːnɪŋ/",
+      "meaning": "học tập kết hợp",
+      "example": "Blended learning means part of the course can be delivered online.",
+      "translation": "Học tập kết hợp có nghĩa là một phần của khóa học có thể được giảng dạy trực tuyến."
+    },
+    {
+      "id": 12,
+      "word": "mainly benefits",
+      "pos": "Cụm động từ",
+      "ipa": "/ˈmeɪnli ˈbenəfɪts/",
+      "meaning": "chủ yếu mang lại lợi ích cho",
+      "example": "This programme mainly benefits working people.",
+      "translation": "Chương trình này chủ yếu mang lại lợi ích cho những người đang đi làm."
+    },
+    {
+      "id": 13,
+      "word": "retired people",
+      "pos": "Cụm danh từ",
+      "ipa": "/rɪˈtaɪərd ˈpiːpəl/",
+      "meaning": "những người đã nghỉ hưu",
+      "example": "Retired people can learn new skills.",
+      "translation": "Những người đã nghỉ hưu có thể học các kỹ năng mới."
+    },
+    {
+      "id": 14,
+      "word": "involves mainly",
+      "pos": "Cụm động từ",
+      "ipa": "/ɪnˈvɑːlvz ˈmeɪnli/",
+      "meaning": "chủ yếu bao gồm",
+      "example": "The course involves mainly face-to-face classes.",
+      "translation": "Khóa học chủ yếu bao gồm các lớp học trực tiếp."
+    },
+    {
+      "id": 15,
+      "word": "face to face",
+      "pos": "Cụm trạng từ",
+      "ipa": "/ˌfeɪs tə ˈfeɪs/",
+      "meaning": "trực tiếp, mặt đối mặt",
+      "example": "Some students prefer to study face to face.",
+      "translation": "Một số học sinh thích học trực tiếp."
+    },
+    {
+      "id": 16,
+      "word": "mainly for",
+      "pos": "Cụm từ",
+      "ipa": "/ˈmeɪnli fɔːr/",
+      "meaning": "chủ yếu dành cho",
+      "example": "This course is mainly for working people.",
+      "translation": "Khóa học này chủ yếu dành cho những người đang đi làm."
+    },
+    {
+      "id": 17,
+      "word": "nursing",
+      "pos": "Danh từ",
+      "ipa": "/ˈnɝːsɪŋ/",
+      "meaning": "ngành điều dưỡng",
+      "example": "This kind of work-based training was common in fields such as nursing and teaching.",
+      "translation": "Hình thức đào tạo gắn với công việc này từng phổ biến trong các lĩnh vực như điều dưỡng và giảng dạy."
+    },
+    {
+      "id": 18,
+      "word": "convenient",
+      "pos": "Tính từ",
+      "ipa": "/kənˈviːniənt/",
+      "meaning": "thuận tiện",
+      "example": "Blended learning is convenient for working people.",
+      "translation": "Học tập kết hợp thuận tiện cho những người đang đi làm."
+    },
+    {
+      "id": 19,
+      "word": "working people",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈwɝːkɪŋ ˈpiːpəl/",
+      "meaning": "những người đang đi làm",
+      "example": "Blended learning is convenient for working people.",
+      "translation": "Học tập kết hợp thuận tiện cho những người đang đi làm."
+    },
+    {
+      "id": 20,
+      "word": "challenges",
+      "pos": "Danh từ",
+      "ipa": "/ˈtʃælɪndʒɪz/",
+      "meaning": "những thách thức, khó khăn",
+      "example": "There are some challenges involved in work-based learning.",
+      "translation": "Có một số thách thức liên quan đến hình thức học tập gắn với công việc."
+    },
+    {
+      "id": 21,
+      "word": "work-based learning",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈwɝːk beɪst ˈlɝːnɪŋ/",
+      "meaning": "học tập gắn với công việc, học tập dựa trên công việc",
+      "example": "There are some challenges involved in work-based learning.",
+      "translation": "Có một số thách thức liên quan đến hình thức học tập gắn với công việc."
+    },
+    {
+      "id": 22,
+      "word": "practical issues",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈpræktɪkəl ˈɪʃuːz/",
+      "meaning": "những vấn đề thực tế",
+      "example": "Work-based learning can involve practical issues like when classes are held.",
+      "translation": "Học tập gắn với công việc có thể liên quan đến những vấn đề thực tế như thời gian tổ chức lớp học."
+    },
+    {
+      "id": 23,
+      "word": "experienced",
+      "pos": "Tính từ",
+      "ipa": "/ɪkˈspɪriənst/",
+      "meaning": "có kinh nghiệm",
+      "example": "Some students are very experienced at work.",
+      "translation": "Một số học viên có rất nhiều kinh nghiệm làm việc."
+    },
+    {
+      "id": 24,
+      "word": "acceptable",
+      "pos": "Tính từ",
+      "ipa": "/əkˈseptəbəl/",
+      "meaning": "có thể chấp nhận được, được chấp nhận",
+      "example": "This method of learning is acceptable to most students.",
+      "translation": "Phương pháp học này được hầu hết học viên chấp nhận."
+    },
+    {
+      "id": 25,
+      "word": "expert",
+      "pos": "Danh từ",
+      "ipa": "/ˈekspɝːt/",
+      "meaning": "chuyên gia, người có chuyên môn",
+      "example": "Young people learnt by working with an expert.",
+      "translation": "Những người trẻ học bằng cách làm việc cùng một chuyên gia."
+    },
+    {
+      "id": 26,
+      "word": "trades",
+      "pos": "Danh từ",
+      "ipa": "/treɪdz/",
+      "meaning": "các nghề thủ công, nghề kỹ thuật",
+      "example": "This was most common in trades such as builders or electricians.",
+      "translation": "Hình thức này phổ biến nhất trong các nghề như nghề xây dựng hoặc nghề điện."
+    },
+    {
+      "id": 27,
+      "word": "builders",
+      "pos": "Danh từ",
+      "ipa": "/ˈbɪldərz/",
+      "meaning": "thợ xây",
+      "example": "This was most common in trades such as builders or electricians.",
+      "translation": "Hình thức này phổ biến nhất trong các nghề như nghề xây dựng hoặc nghề điện."
+    },
+    {
+      "id": 28,
+      "word": "electricians",
+      "pos": "Danh từ",
+      "ipa": "/ɪˌlekˈtrɪʃənz/",
+      "meaning": "thợ điện",
+      "example": "This was most common in trades such as builders or electricians.",
+      "translation": "Hình thức này phổ biến nhất trong các nghề như nghề xây dựng hoặc nghề điện."
+    },
+    {
+      "id": 29,
+      "word": "workplace",
+      "pos": "Danh từ",
+      "ipa": "/ˈwɝːkpleɪs/",
+      "meaning": "nơi làm việc",
+      "example": "There has been a trend towards creating a closer connection between education/training and the workplace.",
+      "translation": "Đã có một xu hướng tạo ra sự kết nối chặt chẽ hơn giữa giáo dục/đào tạo và nơi làm việc."
+    },
+    {
+      "id": 30,
+      "word": "divided into",
+      "pos": "Cụm động từ",
+      "ipa": "/dɪˈvaɪdɪd ˈɪntuː/",
+      "meaning": "được chia thành",
+      "example": "Education was divided into three parts.",
+      "translation": "Giáo dục được chia thành ba phần."
+    },
+    {
+      "id": 31,
+      "word": "passed an exam",
+      "pos": "Cụm động từ",
+      "ipa": "/pæst ən ɪɡˈzæm/",
+      "meaning": "thi đỗ, vượt qua một kỳ thi",
+      "example": "Children who passed an exam at 11 went to grammar schools.",
+      "translation": "Những đứa trẻ thi đỗ kỳ thi ở tuổi 11 được vào học tại các trường grammar."
+    },
+    {
+      "id": 32,
+      "word": "work-based subjects",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈwɝːk beɪst ˈsʌbdʒekts/",
+      "meaning": "các môn học gắn với công việc",
+      "example": "At technical schools they studied work-based subjects.",
+      "translation": "Tại các trường kỹ thuật, học sinh học những môn học gắn với công việc."
+    },
+    {
+      "id": 33,
+      "word": "in practice",
+      "pos": "Cụm trạng từ",
+      "ipa": "/ɪn ˈpræktɪs/",
+      "meaning": "trên thực tế",
+      "example": "In practice, however, only 0.5% of pupils went to technical schools.",
+      "translation": "Tuy nhiên, trên thực tế, chỉ 0,5% học sinh theo học các trường kỹ thuật."
+    },
+    {
+      "id": 34,
+      "word": "pupils",
+      "pos": "Danh từ",
+      "ipa": "/ˈpjuːpəlz/",
+      "meaning": "học sinh",
+      "example": "Only 0.5% of pupils went to technical schools.",
+      "translation": "Chỉ 0,5% học sinh theo học các trường kỹ thuật."
+    },
+    {
+      "id": 35,
+      "word": "at a very young age",
+      "pos": "Cụm trạng từ",
+      "ipa": "/æt ə ˈvery jʌŋ eɪdʒ/",
+      "meaning": "khi còn rất nhỏ, ở độ tuổi rất trẻ",
+      "example": "This system divided students at a very young age into academic and non-academic.",
+      "translation": "Hệ thống này phân chia học sinh thành nhóm học thuật và không thiên về học thuật khi các em còn rất nhỏ."
+    },
+    {
+      "id": 36,
+      "word": "non-academic",
+      "pos": "Tính từ",
+      "ipa": "/ˌnɑːn ˌækəˈdemɪk/",
+      "meaning": "không thiên về học thuật",
+      "example": "This system divided students at a very young age into academic and non-academic.",
+      "translation": "Hệ thống này phân chia học sinh thành nhóm học thuật và không thiên về học thuật khi các em còn rất nhỏ."
+    },
+    {
+      "id": 37,
+      "word": "results",
+      "pos": "Danh từ",
+      "ipa": "/rɪˈzʌlts/",
+      "meaning": "kết quả",
+      "example": "The system did not produce good results.",
+      "translation": "Hệ thống này không mang lại kết quả tốt."
+    },
+    {
+      "id": 38,
+      "word": "equal system",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈiːkwəl ˈsɪstəm/",
+      "meaning": "hệ thống bình đẳng hơn",
+      "example": "The system changed to a more equal system in the 1970s.",
+      "translation": "Hệ thống này đã được thay đổi thành một hệ thống bình đẳng hơn vào những năm 1970."
+    },
+    {
+      "id": 39,
+      "word": "part of the course",
+      "pos": "Cụm danh từ",
+      "ipa": "/pɑːrt əv ðə kɔːrs/",
+      "meaning": "một phần của khóa học",
+      "example": "Blended learning means part of the course can be delivered online.",
+      "translation": "Học tập kết hợp có nghĩa là một phần của khóa học có thể được giảng dạy trực tuyến."
+    },
+    {
+      "id": 40,
+      "word": "be delivered online",
+      "pos": "Cụm động từ",
+      "ipa": "/bi dɪˈlɪvərd ˌɑːnˈlaɪn/",
+      "meaning": "được giảng dạy trực tuyến",
+      "example": "Part of the course can be delivered online.",
+      "translation": "Một phần của khóa học có thể được giảng dạy trực tuyến."
+    },
+    {
+      "id": 41,
+      "word": "miss work",
+      "pos": "Cụm động từ",
+      "ipa": "/mɪs wɝːk/",
+      "meaning": "nghỉ làm, phải vắng mặt ở chỗ làm",
+      "example": "People don’t have to miss work to go to classes.",
+      "translation": "Mọi người không phải nghỉ làm để đi học."
+    },
+    {
+      "id": 42,
+      "word": "go to classes",
+      "pos": "Cụm động từ",
+      "ipa": "/ɡoʊ tə ˈklæsɪz/",
+      "meaning": "đi học, đến lớp",
+      "example": "People don’t have to miss work to go to classes.",
+      "translation": "Mọi người không phải nghỉ làm để đi học."
+    },
+    {
+      "id": 43,
+      "word": "opportunity",
+      "pos": "Danh từ",
+      "ipa": "/ˌɑːpərˈtuːnəti/",
+      "meaning": "cơ hội",
+      "example": "Older or recently retired employees have been given the opportunity to develop new skills.",
+      "translation": "Những nhân viên lớn tuổi hoặc mới nghỉ hưu đã được trao cơ hội phát triển các kỹ năng mới."
+    },
+    {
+      "id": 44,
+      "word": "develop new skills",
+      "pos": "Cụm động từ",
+      "ipa": "/dɪˈveləp nuː skɪlz/",
+      "meaning": "phát triển các kỹ năng mới",
+      "example": "Older or recently retired employees have been given the opportunity to develop new skills.",
+      "translation": "Những nhân viên lớn tuổi hoặc mới nghỉ hưu đã được trao cơ hội phát triển các kỹ năng mới."
+    },
+    {
+      "id": 45,
+      "word": "tutors",
+      "pos": "Danh từ",
+      "ipa": "/ˈtuːtərz/",
+      "meaning": "người hướng dẫn, gia sư",
+      "example": "Older or recently retired employees have been given the opportunity to develop new skills as tutors, mentors and coaches.",
+      "translation": "Những nhân viên lớn tuổi hoặc mới nghỉ hưu đã được trao cơ hội phát triển các kỹ năng mới với vai trò là người hướng dẫn, cố vấn và huấn luyện viên."
+    },
+    {
+      "id": 46,
+      "word": "mentors",
+      "pos": "Danh từ",
+      "ipa": "/ˈmentɔːrz/",
+      "meaning": "người cố vấn",
+      "example": "Older or recently retired employees have been given the opportunity to develop new skills as tutors, mentors and coaches.",
+      "translation": "Những nhân viên lớn tuổi hoặc mới nghỉ hưu đã được trao cơ hội phát triển các kỹ năng mới với vai trò là người hướng dẫn, cố vấn và huấn luyện viên."
+    },
+    {
+      "id": 47,
+      "word": "coaches",
+      "pos": "Danh từ",
+      "ipa": "/ˈkoʊtʃɪz/",
+      "meaning": "người huấn luyện, người hướng dẫn",
+      "example": "Older or recently retired employees have been given the opportunity to develop new skills as tutors, mentors and coaches.",
+      "translation": "Những nhân viên lớn tuổi hoặc mới nghỉ hưu đã được trao cơ hội phát triển các kỹ năng mới với vai trò là người hướng dẫn, cố vấn và huấn luyện viên."
+    },
+    {
+      "id": 48,
+      "word": "fields",
+      "pos": "Danh từ",
+      "ipa": "/fiːldz/",
+      "meaning": "các lĩnh vực",
+      "example": "This kind of work-based training was common in fields such as nursing and teaching.",
+      "translation": "Hình thức đào tạo gắn với công việc này từng phổ biến trong các lĩnh vực như điều dưỡng và giảng dạy."
+    },
+    {
+      "id": 49,
+      "word": "spread",
+      "pos": "Động từ",
+      "ipa": "/spred/",
+      "meaning": "mở rộng, lan sang",
+      "example": "This kind of work-based training has now spread to careers which were traditionally not closely linked to education.",
+      "translation": "Hình thức đào tạo gắn với công việc này hiện đã mở rộng sang những nghề trước đây vốn không có mối liên hệ chặt chẽ với giáo dục."
+    },
+    {
+      "id": 50,
+      "word": "involved in",
+      "pos": "Cụm tính từ",
+      "ipa": "/ɪnˈvɑːlvd ɪn/",
+      "meaning": "liên quan đến",
+      "example": "There are some challenges involved in work-based learning.",
+      "translation": "Có một số thách thức liên quan đến hình thức học tập gắn với công việc."
+    },
+    {
+      "id": 51,
+      "word": "lecturers",
+      "pos": "Danh từ",
+      "ipa": "/ˈlektʃərərz/",
+      "meaning": "giảng viên",
+      "example": "Some lecturers might find it difficult to teach students with a lot of work experience.",
+      "translation": "Một số giảng viên có thể thấy khó khi dạy những học viên có nhiều kinh nghiệm làm việc."
+    },
+    {
+      "id": 52,
+      "word": "positive trend",
+      "pos": "Cụm danh từ",
+      "ipa": "/ˈpɑːzətɪv trend/",
+      "meaning": "xu hướng tích cực",
+      "example": "However, it is a positive trend as there are more ways to learn.",
+      "translation": "Tuy nhiên, đây là một xu hướng tích cực vì có nhiều cách học hơn."
+    },
+    {
+      "id": 53,
+      "word": "stages",
+      "pos": "Danh từ",
+      "ipa": "/ˈsteɪdʒɪz/",
+      "meaning": "các giai đoạn",
+      "example": "People can study at different stages of their lives.",
+      "translation": "Mọi người có thể học tập ở những giai đoạn khác nhau trong cuộc đời."
+    }
+  ]
+}

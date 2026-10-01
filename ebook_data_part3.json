@@ -1,0 +1,113 @@
+{
+  "activities": [
+    {
+      "id": 13,
+      "title": "OUR FRIENDS AND PROTECTORS",
+      "category": "05. DẠNG BÀI MATCHING SENTENCE ENDINGS",
+      "questionsInstruction": "Complete each sentence with the correct ending a-h.",
+      "questions": [
+        { "id": "act13_q1", "num": 1, "text": "Dolphins may protect humans", "answer": "d", "explanation": "1 - d (because they recognise that humans are similar to them)" },
+        { "id": "act13_q2", "num": 2, "text": "Dolphins swam towards Hardy Jones", "answer": "g", "explanation": "2 - g (because a shark was about to attack him)" },
+        { "id": "act13_q3", "num": 3, "text": "The swimmer tried to leave the protective ring of dolphins", "answer": "f", "explanation": "3 - f (because he had not seen the shark)" },
+        { "id": "act13_q4", "num": 4, "text": "A dolphin nudged Joey Trevino", "answer": "b", "explanation": "4 - b (to encourage him not to lose hope)" },
+        { "id": "act13_q5", "num": 5, "text": "Dolphins and whales help us", "answer": "a", "explanation": "5 - a (so we should protect them)" }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "THE MODERN ZOO",
+      "category": "05. DẠNG BÀI MATCHING SENTENCE ENDINGS",
+      "questionsInstruction": "Complete each sentence with the correct ending, A-H.",
+      "questions": [
+        { "id": "act14_q7", "num": 7, "text": "The first zoo", "answer": "H", "explanation": "7 - H (was a private collection of animals)" },
+        { "id": "act14_q8", "num": 8, "text": "The World Association for Zoos and Aquariums (WAZA)", "answer": "G", "explanation": "8 - G (is involved in teaching about how to better care for animals...)" },
+        { "id": "act14_q9", "num": 9, "text": "Borneo Orangutan Rescue", "answer": "D", "explanation": "9 - D (prepares one species to return to their own environment)" },
+        { "id": "act14_q10", "num": 10, "text": "Colchester Zoo", "answer": "E", "explanation": "10 - E (does not always separate different types of animal)" },
+        { "id": "act14_q11", "num": 11, "text": "Indianapolis Zoo", "answer": "A", "explanation": "11 - A (has created an environment that copies the animals’ natural habitat)" }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "FAMOUS ANIMALS",
+      "category": "06. DẠNG BÀI MATCHING FEATURES",
+      "questionsInstruction": "Choose the correct animal (A-C) for each question. [A Hachiko, B Knut, C Elsa]",
+      "questions": [
+        { "id": "act15_q1", "num": 1, "text": "Which animal never forgot their human friend?", "answer": "A", "explanation": "1 - A (Hachiko - đợi chủ nhân suốt nhiều năm)" },
+        { "id": "act15_q2", "num": 2, "text": "Which animal lived part of their life in the wild?", "answer": "C", "explanation": "2 - C (Elsa - sư tử sống trong môi trường hoang dã)" },
+        { "id": "act15_q3", "num": 3, "text": "Which animal made large profits for the humans who cared for them?", "answer": "B", "explanation": "3 - B (Knut - gấu Bắc Cực giúp tăng doanh thu vườn thú)" },
+        { "id": "act15_q4", "num": 4, "text": "Which animal was not wanted by their parent?", "answer": "B", "explanation": "4 - B (Knut - bị mẹ bỏ rơi / từ chối nuôi)" },
+        { "id": "act15_q5", "num": 5, "text": "Which animal has had valuable work done in their memory?", "answer": "C", "explanation": "5 - C (Elsa - Quỹ Born Free thành lập để tưởng nhớ)" },
+        { "id": "act15_q6", "num": 6, "text": "Which animal is formally remembered at regular times?", "answer": "A", "explanation": "6 - A (Hachiko - có lễ tưởng niệm hàng năm tại ga tàu)" },
+        { "id": "act15_q7", "num": 7, "text": "Which animal had souvenirs of them made?", "answer": "B", "explanation": "7 - B (Knut - bán đồ chơi, kẹo, sản phẩm hình Knut)" }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "FOOD TV: education or entertainment?",
+      "category": "07. DẠNG BÀI MATCHING PARAGRAPH INFORMATION",
+      "questionsInstruction": "Which paragraphs contain the following information? Write the correct letter, A-F.",
+      "questions": [
+        { "id": "act16_q1", "num": 1, "text": "The cooking show that affects people most", "answer": "F", "explanation": "1 - F (15 Minute Meals của Jamie Oliver ảnh hưởng lớn)" },
+        { "id": "act16_q2", "num": 2, "text": "A TV chef who was first famous as an author", "answer": "B", "explanation": "2 - B (Julia Child xuất bản sách trước khi làm show truyền hình)" },
+        { "id": "act16_q3", "num": 3, "text": "The number of food shows on TV", "answer": "A", "explanation": "3 - A (Đề cập số giờ phát sóng chương trình ẩm thực đồ sộ)" },
+        { "id": "act16_q4", "num": 4, "text": "The role of cookery shows for enjoyment rather than learning", "answer": "E", "explanation": "4 - E (Thiên về giải trí nhiều hơn giáo dục như Masterchef)" },
+        { "id": "act16_q5", "num": 5, "text": "Why children should be taught to cook", "answer": "G", "explanation": "5 - G (Đảm bảo khi lớn lên trẻ sẽ biết nấu ăn)" },
+        { "id": "act16_q6", "num": 6, "text": "Research about the amount of time people cook", "answer": "F", "explanation": "6 - F (Nghiên cứu về thời gian người ta dành để nấu ăn)" },
+        { "id": "act16_q7", "num": 7, "text": "Examples of famous cookery partners", "answer": "D", "explanation": "7 - D (Các cặp đầu bếp nổi tiếng: hai đầu bếp đi xe máy, Two Fat Ladies)" }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "MARKETS AROUND THE WORLD",
+      "category": "08. DẠNG BÀI MATCHING HEADINGS",
+      "questionsInstruction": "Choose the correct heading for paragraphs B-F from the list of headings (i-vii) below.",
+      "questions": [
+        { "id": "act17_q1", "num": 1, "text": "Paragraph B", "answer": "ii", "explanation": "Paragraph B = ii (Inexpensive things to eat straight from the countryside)" },
+        { "id": "act17_q2", "num": 2, "text": "Paragraph C", "answer": "iv", "explanation": "Paragraph C = iv (Invent a new style for yourself at bargain prices)" },
+        { "id": "act17_q3", "num": 3, "text": "Paragraph D", "answer": "vii", "explanation": "Paragraph D = vii (Sell what you don’t need)" },
+        { "id": "act17_q4", "num": 4, "text": "Paragraph E", "answer": "i", "explanation": "Paragraph E = i (Local art and craft work to take home)" },
+        { "id": "act17_q5", "num": 5, "text": "Paragraph F", "answer": "vi", "explanation": "Paragraph F = vi (Find gifts for winter celebrations)" }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "EDUCATION AND THE WORKPLACE IN THE UK",
+      "category": "09. DẠNG BÀI MULTIPLE CHOICE",
+      "questionsInstruction": "Read the text and answer the questions.",
+      "questions": [
+        {
+          "id": "act18_q1",
+          "num": 1,
+          "text": "Apprenticeships",
+          "options": [{"key":"A","text":"are a new way of learning."},{"key":"B","text":"were common in the past."},{"key":"C","text":"only existed in the past."},{"key":"D","text":"did not help people do well at work."}],
+          "answer": "B",
+          "explanation": "Đoạn A: 'apprenticeships were a common way of learning in the past.'"
+        },
+        {
+          "id": "act18_q2",
+          "num": 2,
+          "text": "The education system introduced in 1944",
+          "options": [{"key":"A","text":"only affected 0.5% of students."},{"key":"B","text":"taught only technical subjects."},{"key":"C","text":"was not a great success."},{"key":"D","text":"was for academically gifted students."}],
+          "answer": "C",
+          "explanation": "Đoạn B: 'The system did not produce good results...'"
+        },
+        {
+          "id": "act18_q3",
+          "num": 3,
+          "text": "Blended learning",
+          "options": [{"key":"A","text":"mainly benefits older or retired people."},{"key":"B","text":"involves mainly face to face classes."},{"key":"C","text":"is mainly for teaching and nursing."},{"key":"D","text":"is convenient for working people."}],
+          "answer": "D",
+          "explanation": "Đoạn E: 'Blended learning means part of the course can be delivered online, so people don't have to miss work...'"
+        },
+        {
+          "id": "act18_q4",
+          "num": 4,
+          "text": "The challenges of work-based learning include",
+          "options": [{"key":"A","text":"practical issues like when classes are held."},{"key":"B","text":"students who are not very experienced."},{"key":"C","text":"more types of learning are acceptable."},{"key":"D","text":"older people can't use computers well."}],
+          "answer": "A",
+          "explanation": "Đoạn F: 'Some lecturers might find it difficult... It may also be difficult to find teachers who can teach in different places and at different times (practical issues).'"
+        }
+      ]
+    }
+  ]
+}

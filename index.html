@@ -28,41 +28,24 @@
     }
   </script>
   <style>
-    /* Custom scrollbars for tablet & desktop */
-    ::-webkit-scrollbar {
-      width: 6px;
-      height: 6px;
-    }
-    ::-webkit-scrollbar-track {
-      background: #f1f5f9;
-    }
-    ::-webkit-scrollbar-thumb {
-      background: #cbd5e1;
-      border-radius: 4px;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background: #94a3b8;
-    }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: #f1f5f9; }
+    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
 
-    /* Highlighter styles */
     .hl-yellow { background-color: #fef08a !important; color: #1e293b; border-radius: 2px; }
     .hl-green { background-color: #bbf7d0 !important; color: #1e293b; border-radius: 2px; }
     .hl-blue { background-color: #bae6fd !important; color: #1e293b; border-radius: 2px; }
     .hl-pink { background-color: #fbcfe8 !important; color: #1e293b; border-radius: 2px; }
 
-    /* Translation sentence hover tooltip */
     .trans-sentence {
       position: relative;
       cursor: pointer;
       border-bottom: 1px dotted #94a3b8;
       transition: background-color 0.15s ease;
     }
-    .trans-sentence:hover {
-      background-color: #e0e7ff;
-    }
-    .active-sentence {
-      background-color: #c7d2fe !important;
-    }
+    .trans-sentence:hover { background-color: #e0e7ff; }
+    .active-sentence { background-color: #c7d2fe !important; }
   </style>
 </head>
 <body class="bg-slate-100 font-sans text-slate-800 h-screen flex flex-col overflow-hidden select-text">
@@ -75,13 +58,12 @@
       <div class="flex items-center space-x-2">
         <span class="bg-white text-brand-700 font-bold px-2 py-0.5 rounded text-xs tracking-wider uppercase">IELTS</span>
         <div>
-          <h1 id="header-act-title" class="text-sm md:text-base font-bold leading-tight line-clamp-1">Activity 1: AMAZING HOMES</h1>
-          <p id="header-act-type" class="text-[11px] text-indigo-200 uppercase tracking-wide">01. DẠNG BÀI SENTENCE COMPLETION</p>
+          <h1 id="header-act-title" class="text-sm md:text-base font-bold leading-tight line-clamp-1">Đang tải dữ liệu...</h1>
+          <p id="header-act-type" class="text-[11px] text-indigo-200 uppercase tracking-wide">IELTS READING ROUND 2</p>
         </div>
       </div>
     </div>
 
-    <!-- Quick action buttons -->
     <div class="flex items-center space-x-2">
       <button id="btn-open-list" class="bg-brand-800 hover:bg-brand-900 border border-brand-500 text-xs px-3 py-1.5 rounded-lg flex items-center space-x-1.5 shadow-sm transition">
         <i data-lucide="list" class="w-4 h-4"></i>
@@ -92,11 +74,9 @@
 
   <main class="flex-1 flex flex-col md:flex-row overflow-hidden p-2 md:p-3 gap-3">
     
-    <!-- LEFT COLUMN: Reading Passage & Interactive Reading Tools -->
+    <!-- LEFT COLUMN: Reading Passage -->
     <section class="w-full md:w-1/2 flex flex-col bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden h-1/2 md:h-full">
-      <!-- Toolbar -->
       <div class="p-2.5 bg-slate-50 border-b border-slate-200 flex flex-wrap items-center justify-between gap-2 text-xs">
-        <!-- Audio AI controls -->
         <div class="flex items-center space-x-1.5">
           <button id="btn-audio" class="bg-brand-600 hover:bg-brand-700 text-white font-medium px-3 py-1.5 rounded-lg flex items-center space-x-1.5 shadow-sm transition">
             <i data-lucide="play" class="w-3.5 h-3.5" id="audio-icon"></i>
@@ -111,19 +91,17 @@
           </div>
         </div>
 
-        <!-- Translation mode toggle & Clear Highlight -->
         <div class="flex items-center space-x-2">
           <button id="btn-toggle-trans" class="border border-brand-500 text-brand-700 hover:bg-brand-50 font-medium px-2.5 py-1.5 rounded-lg flex items-center space-x-1 transition">
             <i data-lucide="languages" class="w-3.5 h-3.5"></i>
             <span>Dịch Từng Câu</span>
           </button>
-          <button id="btn-clear-hl" class="text-rose-600 hover:bg-rose-50 border border-rose-200 font-medium px-2.5 py-1.5 rounded-lg flex items-center space-x-1 transition" title="Xóa toàn bộ đánh dấu trang này">
+          <button id="btn-clear-hl" class="text-rose-600 hover:bg-rose-50 border border-rose-200 font-medium px-2.5 py-1.5 rounded-lg flex items-center space-x-1 transition" title="Xóa toàn bộ đánh dấu">
             <i data-lucide="rotate-ccw" class="w-3.5 h-3.5"></i>
             <span>Xóa HL</span>
           </button>
         </div>
 
-        <!-- Highlighter tool pallet -->
         <div class="flex items-center space-x-1.5 w-full pt-1 border-t border-slate-200 sm:w-auto sm:pt-0 sm:border-0">
           <span class="text-slate-500 flex items-center space-x-1">
             <i data-lucide="pen-tool" class="w-3 h-3"></i>
@@ -137,12 +115,10 @@
         </div>
       </div>
 
-      <!-- Passage Body -->
       <div id="passage-container" class="flex-1 overflow-y-auto p-4 md:p-6 text-slate-800 leading-relaxed text-sm md:text-base space-y-4">
-        <!-- Rendered dynamically -->
+        <div class="text-center text-slate-400 py-10">Đang tải nội dung bài đọc...</div>
       </div>
 
-      <!-- Live Sentence Translation Drawer at Bottom of Column 1 -->
       <div id="trans-banner" class="hidden bg-indigo-50 border-t border-indigo-200 p-3 text-xs md:text-sm text-brand-900 transition flex items-start space-x-2">
         <i data-lucide="info" class="w-4 h-4 text-brand-600 mt-0.5 shrink-0"></i>
         <div class="flex-1">
@@ -155,9 +131,8 @@
       </div>
     </section>
 
-    <!-- RIGHT COLUMN: Interactive Questions, Paraphrase Table & Core Vocab -->
+    <!-- RIGHT COLUMN: Questions & Vocabulary -->
     <section class="w-full md:w-1/2 flex flex-col bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden h-1/2 md:h-full">
-      <!-- Tabs Selector -->
       <div class="bg-slate-50 border-b border-slate-200 flex items-center justify-between px-2 pt-2 shrink-0">
         <div class="flex space-x-1">
           <button id="tab-btn-questions" class="tab-btn px-4 py-2 text-xs md:text-sm font-semibold border-b-2 border-brand-600 text-brand-600 flex items-center space-x-1.5">
@@ -170,7 +145,6 @@
           </button>
         </div>
 
-        <!-- Question highlight pen -->
         <div id="q-pen-box" class="flex items-center space-x-1 text-xs pb-2 pr-1">
           <span class="text-slate-400 text-[11px] hidden sm:inline">Bút câu hỏi:</span>
           <button data-qcolor="yellow" class="q-pen w-4 h-4 rounded-full bg-yellow-300"></button>
@@ -179,15 +153,11 @@
         </div>
       </div>
 
-      <!-- Tab Content 1: Questions Panel -->
       <div id="tab-questions" class="flex-1 overflow-y-auto p-4 md:p-6 space-y-6 text-sm">
         <div id="questions-instructions" class="p-3 bg-amber-50 border border-amber-200 rounded-lg text-amber-900 font-medium text-xs leading-normal">
-          <!-- Dynamically inserted -->
+          Đang tải hướng dẫn bài tập...
         </div>
-
-        <div id="questions-list" class="space-y-4">
-          <!-- Rendered dynamically -->
-        </div>
+        <div id="questions-list" class="space-y-4"></div>
 
         <div class="pt-4 border-t border-slate-200 flex flex-wrap gap-2 items-center justify-between">
           <div class="flex space-x-2">
@@ -203,9 +173,7 @@
         </div>
       </div>
 
-      <!-- Tab Content 2: Paraphrase & Core Vocabulary -->
       <div id="tab-vocab" class="hidden flex-1 overflow-y-auto p-4 md:p-6 space-y-6 text-sm">
-        <!-- Paraphrase Section -->
         <div>
           <div class="flex items-center justify-between mb-2">
             <h3 class="font-bold text-slate-800 flex items-center space-x-1.5 text-sm md:text-base">
@@ -224,13 +192,12 @@
                 </tr>
               </thead>
               <tbody id="paraphrase-tbody" class="divide-y divide-slate-200">
-                <!-- Dynamically populated -->
+                <tr><td colspan="3" class="p-3 text-center text-slate-400 italic">Đang tải dữ liệu...</td></tr>
               </tbody>
             </table>
           </div>
         </div>
 
-        <!-- Vocabulary Section -->
         <div>
           <div class="flex items-center justify-between mb-3">
             <h3 class="font-bold text-slate-800 flex items-center space-x-1.5 text-sm md:text-base">
@@ -239,110 +206,106 @@
             </h3>
             <span id="vocab-count-badge" class="bg-indigo-100 text-indigo-800 text-xs px-2 py-0.5 rounded-full font-medium">0 từ</span>
           </div>
-
-          <div id="vocab-list-cards" class="space-y-3">
-            <!-- Dynamically populated -->
-          </div>
+          <div id="vocab-list-cards" class="space-y-3"></div>
         </div>
       </div>
     </section>
   </main>
 
   <div id="activity-modal" class="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-3 hidden backdrop-blur-sm">
-    <div class="bg-white w-full max-w-2xl rounded-2xl shadow-2xl flex flex-col max-h-[85vh] overflow-hidden animate-in fade-in zoom-in-95 duration-150">
+    <div class="bg-white w-full max-w-2xl rounded-2xl shadow-2xl flex flex-col max-h-[85vh] overflow-hidden">
       <div class="px-5 py-4 border-b border-slate-200 flex items-center justify-between bg-slate-50">
         <div>
-          <h2 class="font-bold text-lg text-slate-800">Danh Sách 18 Bài Tập (Activities)</h2>
-          <p class="text-xs text-slate-500">IELTS Reading Round 2 - Phân dạng chi tiết</p>
+          <h2 class="font-bold text-lg text-slate-800">Danh Sách Bài Tập (Activities)</h2>
+          <p class="text-xs text-slate-500">IELTS Reading Round 2</p>
         </div>
         <button id="btn-close-modal" class="text-slate-400 hover:text-slate-700 p-1.5 rounded-lg hover:bg-slate-200 transition">
           <i data-lucide="x" class="w-5 h-5"></i>
         </button>
       </div>
-      <div id="activity-grid" class="flex-1 overflow-y-auto p-4 grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-        <!-- Rendered dynamically -->
-      </div>
+      <div id="activity-grid" class="flex-1 overflow-y-auto p-4 grid grid-cols-1 sm:grid-cols-2 gap-2.5"></div>
     </div>
   </div>
 
-  <script src="ebook_part1.js"></script>
-  <script src="ebook_part2.js"></script>
-  <script src="vocab_part1.js"></script>
-  <script src="vocab_part2.js"></script>
-
   <script>
-    // State management
-    const state = {
-      currentActId: 1,
-      penColor: 'yellow', // 'yellow', 'green', 'blue', 'pink', null
-      isTranslating: false,
-      selectedTab: 'questions',
-      speechRate: 1.0,
-      synth: window.speechSynthesis,
-      utterance: null,
-      isPlayingAudio: false
+    const globalData = {
+      ebook: { activities: [] },
+      vocab: {}
     };
 
-    // Combine loaded datasets
-    function getAllActivities() {
-      const p1 = (window.EBOOK_PART1 && window.EBOOK_PART1.activities) || [];
-      const p2 = (window.EBOOK_PART2 && window.EBOOK_PART2.activities) || [];
-      return [...p1, ...p2];
+    const state = {
+      currentActId: 1,
+      penColor: 'yellow',
+      isTranslating: false,
+      speechRate: 1.0,
+      isPlayingAudio: false,
+      utterance: null
+    };
+
+    // Load all JSON datasets via Fetch API
+    async function loadAllData() {
+      try {
+        const [p1, p2, p3, v1, v2, v3] = await Promise.all([
+          fetch('ebook_data_part1.json').then(res => res.json()).catch(() => ({ activities: [] })),
+          fetch('ebook_data_part2.json').then(res => res.json()).catch(() => ({ activities: [] })),
+          fetch('ebook_data_part3.json').then(res => res.json()).catch(() => ({ activities: [] })),
+          fetch('vocabulary_data_part_1_javascript.json').then(res => res.json()).catch(() => ({ activities: {} })),
+          fetch('vocabulary_data_part_2_javascript.json').then(res => res.json()).catch(() => ({ activities: {} })),
+          fetch('vocabulary_data_part_3_javascript.json').then(res => res.json()).catch(() => ({ activities: {} }))
+        ]);
+
+        globalData.ebook.activities = [...(p1.activities || []), ...(p2.activities || []), ...(p3.activities || [])];
+        
+        // Merge vocab parts
+        globalData.vocab = {
+          ...(v1.activities || {}),
+          ...(v2.activities || {}),
+          ...(v3.activities || {})
+        };
+
+        if (globalData.ebook.activities.length > 0) {
+          loadActivity(1);
+        } else {
+          document.getElementById('header-act-title').textContent = "Không tìm thấy dữ liệu ebook!";
+        }
+      } catch (err) {
+        console.error("Lỗi khi tải file JSON:", err);
+        document.getElementById('header-act-title').textContent = "Lỗi kết nối file JSON!";
+      }
     }
 
-    function getAllVocab() {
-      const v1 = (window.VOCAB_PART1 && window.VOCAB_PART1.activities) || {};
-      const v2 = (window.VOCAB_PART2 && window.VOCAB_PART2.activities) || {};
-      return { ...v1, ...v2 };
-    }
-
-    // Load & Render Activity
     function loadActivity(actId) {
       state.currentActId = actId;
-      const allActs = getAllActivities();
-      const act = allActs.find(a => a.id === actId);
+      const act = globalData.ebook.activities.find(a => a.id === actId);
       if (!act) return;
 
-      // Update header
       document.getElementById('header-act-title').textContent = `Activity ${act.id}: ${act.title}`;
-      document.getElementById('header-act-type').textContent = act.category;
+      document.getElementById('header-act-type').textContent = act.category || 'IELTS READING';
 
-      // Render Passage with Paragraph markers & Sentences
+      // Render Passage (nếu ebook json có paragraphs, ngược lại hiển thị thông báo)
       const container = document.getElementById('passage-container');
       container.innerHTML = `
         <div class="text-center pb-3 border-b border-slate-100">
-          <span class="text-xs uppercase font-bold text-brand-600 tracking-wider">${act.category}</span>
+          <span class="text-xs uppercase font-bold text-brand-600 tracking-wider">${act.category || ''}</span>
           <h2 class="text-xl font-bold text-slate-800 mt-1">${act.title}</h2>
         </div>
       `;
 
-      act.paragraphs.forEach(p => {
-        const pElem = document.createElement('div');
-        pElem.className = 'flex items-start space-x-2 text-slate-700 leading-relaxed';
-        pElem.id = `para-${p.marker}`;
-        
-        let markerHtml = p.marker ? `<span class="font-bold text-brand-700 shrink-0 w-6 pt-0.5 text-base select-none">${p.marker}</span>` : '';
-        
-        // Wrap each sentence for sentence-by-sentence translation
-        let sentencesHtml = '';
-        if (p.sentences && p.sentences.length > 0) {
-          sentencesHtml = p.sentences.map((st, idx) => {
-            return `<span class="trans-sentence" data-s-idx="${idx}" data-p-marker="${p.marker || ''}" data-en="${encodeURIComponent(st.en)}" data-vi="${encodeURIComponent(st.vi)}">${st.en} </span>`;
-          }).join('');
-        } else {
-          sentencesHtml = p.text;
-        }
-
-        pElem.innerHTML = `
-          ${markerHtml}
-          <div class="flex-1">${sentencesHtml}</div>
-        `;
-        container.appendChild(pElem);
-      });
+      if (act.paragraphs && act.paragraphs.length > 0) {
+        act.paragraphs.forEach(p => {
+          const pElem = document.createElement('div');
+          pElem.className = 'flex items-start space-x-2 text-slate-700 leading-relaxed';
+          let markerHtml = p.marker ? `<span class="font-bold text-brand-700 shrink-0 w-6 pt-0.5 text-base select-none">${p.marker}</span>` : '';
+          let sentencesHtml = p.sentences ? p.sentences.map((st, idx) => `<span class="trans-sentence" data-en="${encodeURIComponent(st.en)}" data-vi="${encodeURIComponent(st.vi)}">${st.en} </span>`).join('') : p.text;
+          pElem.innerHTML = `${markerHtml}<div class="flex-1">${sentencesHtml}</div>`;
+          container.appendChild(pElem);
+        });
+      } else {
+        container.innerHTML += `<div class="p-4 text-slate-500 italic text-center">Nội dung đoạn văn đang được cập nhật cho bài này.</div>`;
+      }
 
       // Render Questions
-      const instrElem = document.getElementById('questions-instructions');
-      instrElem.innerHTML = `<i data-lucide="info" class="w-4 h-4 inline-block mr-1"></i> ${act.questionsInstruction || 'Complete the exercise below:'}`;
+      document.getElementById('questions-instructions').innerHTML = `<i data-lucide="info" class="w-4 h-4 inline-block mr-1"></i> ${act.questionsInstruction || 'Complete the exercise below:'}`;
       
       const qList = document.getElementById('questions-list');
       qList.innerHTML = '';
@@ -352,27 +315,24 @@
         qCard.className = 'p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2';
         qCard.dataset.qid = q.id;
 
-        if (q.type === 'input') {
+        if (q.type === 'input' || !q.type) {
+          let textHtml = q.text.includes('_____') ? q.text.replace('_____', `<input type="text" data-user-input="${q.id}" class="mx-1.5 px-2.5 py-1 border border-slate-300 rounded focus:border-brand-600 focus:outline-none bg-white font-semibold text-brand-900 w-36 sm:w-44 text-sm" placeholder="Điền từ...">`) : `${q.text} <input type="text" data-user-input="${q.id}" class="mt-1 block px-2.5 py-1 border border-slate-300 rounded focus:border-brand-600 focus:outline-none bg-white font-semibold text-brand-950 w-full text-sm" placeholder="Nhập câu trả lời...">`;
           qCard.innerHTML = `
             <div class="font-medium text-slate-800">
               <span class="font-bold text-brand-700 mr-1.5">${q.num || (idx + 1)}.</span>
-              <span>${q.text.replace('_____', `<input type="text" data-user-input="${q.id}" class="mx-1.5 px-2.5 py-1 border border-slate-300 rounded focus:border-brand-600 focus:outline-none bg-white font-semibold text-brand-900 w-36 sm:w-44 text-sm" placeholder="Điền từ...">`)}</span>
+              <span>${textHtml}</span>
             </div>
             <div class="feedback-box hidden text-xs mt-1.5 p-2 rounded-lg"></div>
           `;
-        } else if (q.type === 'mcq') {
+        } else if (q.type === 'mcq' || q.options) {
           const optsHtml = q.options.map(opt => `
             <label class="flex items-center space-x-2 text-xs md:text-sm p-1.5 rounded hover:bg-slate-100 cursor-pointer">
               <input type="radio" name="mcq-${q.id}" value="${opt.key}" class="text-brand-600 focus:ring-brand-500">
               <span class="font-medium">${opt.key}. ${opt.text}</span>
             </label>
           `).join('');
-
           qCard.innerHTML = `
-            <div class="font-medium text-slate-800">
-              <span class="font-bold text-brand-700 mr-1.5">${q.num || (idx + 1)}.</span>
-              <span>${q.text}</span>
-            </div>
+            <div class="font-medium text-slate-800"><span class="font-bold text-brand-700 mr-1.5">${q.num || (idx + 1)}.</span><span>${q.text}</span></div>
             <div class="space-y-1 pl-4 pt-1">${optsHtml}</div>
             <div class="feedback-box hidden text-xs mt-1.5 p-2 rounded-lg"></div>
           `;
@@ -380,13 +340,9 @@
           const optionsHtml = q.options.map(o => `<option value="${o.key}">${o.key} - ${o.text}</option>`).join('');
           qCard.innerHTML = `
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-              <div class="font-medium text-slate-800">
-                <span class="font-bold text-brand-700 mr-1.5">${q.num || (idx + 1)}.</span>
-                <span>${q.text}</span>
-              </div>
+              <div class="font-medium text-slate-800"><span class="font-bold text-brand-700 mr-1.5">${q.num || (idx + 1)}.</span><span>${q.text}</span></div>
               <select data-user-select="${q.id}" class="bg-white border border-slate-300 text-xs px-2.5 py-1.5 rounded-lg focus:outline-none">
-                <option value="">-- Chọn đáp án --</option>
-                ${optionsHtml}
+                <option value="">-- Chọn đáp án --</option>${optionsHtml}
               </select>
             </div>
             <div class="feedback-box hidden text-xs mt-1.5 p-2 rounded-lg"></div>
@@ -395,168 +351,173 @@
         qList.appendChild(qCard);
       });
 
-      // Render Paraphrase and Core Vocab
-      const allVocabData = getAllVocab();
-      const vocabData = allVocabData[actId] || { paraphrases: [], coreVocabs: [] };
-
-      // Paraphrase table
-      const tbody = document.getElementById('paraphrase-tbody');
-      tbody.innerHTML = '';
-      if (vocabData.paraphrases.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="3" class="p-3 text-center text-slate-400 italic">Đang cập nhật paraphrase cho bài này</td></tr>`;
-      } else {
-        vocabData.paraphrases.forEach(p => {
-          const tr = document.createElement('tr');
-          tr.className = 'hover:bg-slate-50 transition';
-          tr.innerHTML = `
-            <td class="p-2.5 font-medium text-slate-700">${p.questionKeyword}</td>
-            <td class="p-2.5">
-              <span class="font-semibold text-brand-700">${p.passageKeyword}</span>
-              <div class="text-[11px] text-slate-500">${p.viMeaning}</div>
-            </td>
-            <td class="p-2.5 text-center">
-              <button class="btn-locate text-xs text-brand-600 hover:text-brand-800 font-medium px-2 py-1 rounded bg-indigo-50 border border-indigo-200 hover:bg-indigo-100" data-locate="${p.passageKeyword}">
-                Đối chiếu
-              </button>
-            </td>
-          `;
-          tbody.appendChild(tr);
-        });
-      }
-
-      // Core vocab cards
+      // Render Vocab & Paraphrase
+      const vocabData = globalData.vocab[actId] || { vocabulary: [] };
       const vList = document.getElementById('vocab-list-cards');
       const countBadge = document.getElementById('vocab-count-badge');
       vList.innerHTML = '';
-      countBadge.textContent = `${vocabData.coreVocabs.length} từ`;
+      countBadge.textContent = `${vocabData.vocabulary ? vocabData.vocabulary.length : 0} từ`;
 
-      vocabData.coreVocabs.forEach(vc => {
-        const card = document.createElement('div');
-        card.className = 'p-3 bg-slate-50 border border-slate-200 rounded-xl space-y-1.5';
-        card.innerHTML = `
-          <div class="flex items-center justify-between">
-            <div class="flex items-center space-x-2">
-              <span class="font-bold text-slate-900 text-sm md:text-base">${vc.word}</span>
-              <button class="btn-speak-word p-1 text-brand-600 hover:text-brand-800 hover:bg-indigo-50 rounded" data-word="${vc.word}" title="Phát âm chuẩn AmE">
-                <i data-lucide="volume-2" class="w-4 h-4"></i>
-              </button>
+      if (vocabData.vocabulary && vocabData.vocabulary.length > 0) {
+        vocabData.vocabulary.forEach(vc => {
+          const card = document.createElement('div');
+          card.className = 'p-3 bg-slate-50 border border-slate-200 rounded-xl space-y-1.5';
+          card.innerHTML = `
+            <div class="flex items-center justify-between">
+              <div class="flex items-center space-x-2">
+                <span class="font-bold text-slate-900 text-sm md:text-base">${vc.word}</span>
+                <button class="btn-speak-word p-1 text-brand-600 hover:text-brand-800 hover:bg-indigo-50 rounded" data-word="${vc.word}" title="Phát âm AmE">
+                  <i data-lucide="volume-2" class="w-4 h-4"></i>
+                </button>
+              </div>
+              <span class="text-[11px] bg-slate-200 text-slate-700 px-2 py-0.5 rounded font-mono">${vc.pos || ''} ${vc.ipa || ''}</span>
             </div>
-            <span class="text-[11px] bg-slate-200 text-slate-700 px-2 py-0.5 rounded font-mono">${vc.pos} ${vc.ipa}</span>
-          </div>
-          <div class="text-xs text-slate-700"><span class="font-semibold text-slate-900">Nghĩa:</span> ${vc.meaning}</div>
-          <div class="text-xs italic text-slate-600 bg-white p-2 rounded border border-slate-100 space-y-0.5">
-            <p>"${vc.exampleEn}"</p>
-            <p class="text-slate-500 not-italic">→ ${vc.exampleVi}</p>
-          </div>
-        `;
-        vList.appendChild(card);
-      });
+            <div class="text-xs text-slate-700"><span class="font-semibold text-slate-900">Nghĩa:</span> ${vc.meaning}</div>
+            <div class="text-xs italic text-slate-600 bg-white p-2 rounded border border-slate-100 space-y-0.5">
+              <p>"${vc.example}"</p>
+              <p class="text-slate-500 not-italic">→ ${vc.translation}</p>
+            </div>
+          `;
+          vList.appendChild(card);
+        });
+      } else {
+        vList.innerHTML = `<div class="text-center text-slate-400 italic py-4">Chưa có dữ liệu từ vựng cho bài này</div>`;
+      }
 
-      // Refresh icons
       lucide.createIcons();
-
-      // Reset state indicators
       document.getElementById('score-badge').classList.add('hidden');
       document.getElementById('trans-banner').classList.add('hidden');
       attachSentenceClickEvents();
     }
 
-    // Sentence click translation handler
     function attachSentenceClickEvents() {
-      const sentences = document.querySelectorAll('.trans-sentence');
-      sentences.forEach(st => {
-        st.addEventListener('click', (e) => {
+      document.querySelectorAll('.trans-sentence').forEach(st => {
+        st.addEventListener('click', () => {
           if (!state.isTranslating) return;
-          sentences.forEach(s => s.classList.remove('active-sentence'));
+          document.querySelectorAll('.trans-sentence').forEach(s => s.classList.remove('active-sentence'));
           st.classList.add('active-sentence');
-
-          const en = decodeURIComponent(st.dataset.en);
-          const vi = decodeURIComponent(st.dataset.vi);
-
-          const banner = document.getElementById('trans-banner');
-          document.getElementById('trans-en-text').textContent = en;
-          document.getElementById('trans-vi-text').textContent = vi;
-          banner.classList.remove('hidden');
+          document.getElementById('trans-en-text').textContent = decodeURIComponent(st.dataset.en);
+          document.getElementById('trans-vi-text').textContent = decodeURIComponent(st.dataset.vi);
+          document.getElementById('trans-banner').classList.remove('hidden');
         });
       });
     }
 
-    // Audio AI Text-to-Speech
-    function setupAudioAI() {
-      const btn = document.getElementById('btn-audio');
-      const icon = document.getElementById('audio-icon');
-      const label = document.getElementById('audio-label');
-      const speedSelect = document.getElementById('audio-speed');
-
-      speedSelect.addEventListener('change', (e) => {
-        state.speechRate = parseFloat(e.target.value);
-        if (state.isPlayingAudio) {
-          // Restart with new rate
-          window.speechSynthesis.cancel();
-          playReadingAudio();
-        }
-      });
-
-      function playReadingAudio() {
-        const allActs = getAllActivities();
-        const act = allActs.find(a => a.id === state.currentActId);
-        if (!act) return;
-
-        // Build plain text string
-        const textToRead = act.paragraphs.map(p => (p.marker ? `Paragraph ${p.marker}. ` : '') + (p.sentences ? p.sentences.map(s => s.en).join(' ') : p.text)).join(' ');
-
-        state.utterance = new SpeechSynthesisUtterance(textToRead);
-        state.utterance.lang = 'en-US';
-        state.utterance.rate = state.speechRate;
-
-        state.utterance.onend = () => {
-          state.isPlayingAudio = false;
-          label.textContent = 'Audio AI';
-          icon.setAttribute('data-lucide', 'play');
-          lucide.createIcons();
-        };
-
-        window.speechSynthesis.speak(state.utterance);
-        state.isPlayingAudio = true;
-        label.textContent = 'Tạm dừng';
-        icon.setAttribute('data-lucide', 'pause');
-        lucide.createIcons();
+    // Modal & Menu Selector
+    function setupActivitySelector() {
+      const modal = document.getElementById('activity-modal');
+      const grid = document.getElementById('activity-grid');
+      
+      function populateModal() {
+        grid.innerHTML = '';
+        globalData.ebook.activities.forEach(a => {
+          const item = document.createElement('button');
+          item.className = `text-left p-3 rounded-xl border transition flex flex-col justify-between ${a.id === state.currentActId ? 'border-brand-600 bg-indigo-50 font-semibold' : 'border-slate-200 hover:bg-slate-50'}`;
+          item.innerHTML = `
+            <div class="text-[11px] font-bold text-brand-700 uppercase tracking-wider">${a.category || 'IELTS READING'}</div>
+            <div class="text-sm font-bold text-slate-800 line-clamp-1 mt-0.5">Activity ${a.id}: ${a.title}</div>
+            <div class="text-xs text-slate-500 mt-1 flex items-center justify-between">
+              <span>${a.questions.length} câu hỏi</span>
+              <span class="text-brand-600 text-xs font-semibold">Làm bài →</span>
+            </div>
+          `;
+          item.addEventListener('click', () => { loadActivity(a.id); modal.classList.add('hidden'); });
+          grid.appendChild(item);
+        });
       }
 
-      btn.addEventListener('click', () => {
-        if (!('speechSynthesis' in window)) {
-          alert('Trình duyệt không hỗ trợ Text-to-Speech.');
-          return;
-        }
+      document.getElementById('btn-toggle-menu').addEventListener('click', () => { populateModal(); modal.classList.remove('hidden'); });
+      document.getElementById('btn-open-list').addEventListener('click', () => { populateModal(); modal.classList.remove('hidden'); });
+      document.getElementById('btn-close-modal').addEventListener('click', () => { modal.classList.add('hidden'); });
+    }
 
-        if (state.isPlayingAudio) {
-          window.speechSynthesis.cancel();
-          state.isPlayingAudio = false;
-          label.textContent = 'Audio AI';
-          icon.setAttribute('data-lucide', 'play');
-          lucide.createIcons();
-        } else {
-          playReadingAudio();
-        }
+    // Grading System
+    function setupGrading() {
+      document.getElementById('btn-check-answers').addEventListener('click', () => {
+        const act = globalData.ebook.activities.find(a => a.id === state.currentActId);
+        if (!act) return;
+
+        let correct = 0;
+        act.questions.forEach(q => {
+          const card = document.querySelector(`[data-qid="${q.id}"]`);
+          if (!card) return;
+          const fb = card.querySelector('.feedback-box');
+          fb.classList.remove('hidden', 'bg-emerald-50', 'bg-rose-50', 'text-emerald-800', 'text-rose-800');
+
+          let isCorrect = false;
+          let userVal = '';
+
+          if (q.type === 'input' || !q.type) {
+            const inp = card.querySelector(`[data-user-input="${q.id}"]`);
+            userVal = inp ? inp.value.trim().toLowerCase() : '';
+            const ansArr = Array.isArray(q.answer) ? q.answer.map(x => x.toLowerCase()) : [q.answer.toLowerCase()];
+            isCorrect = ansArr.includes(userVal);
+          } else if (q.type === 'mcq' || q.options) {
+            const checked = card.querySelector(`input[name="mcq-${q.id}"]:checked`);
+            userVal = checked ? checked.value : '';
+            isCorrect = (userVal === q.answer);
+          } else if (q.type === 'select') {
+            const sel = card.querySelector(`[data-user-select="${q.id}"]`);
+            userVal = sel ? sel.value : '';
+            isCorrect = (userVal === q.answer);
+          }
+
+          if (isCorrect) {
+            correct++;
+            fb.classList.add('bg-emerald-50', 'text-emerald-800', 'border', 'border-emerald-200');
+            fb.innerHTML = `<strong>✓ Đúng!</strong> Đáp án: <span class="font-semibold">${Array.isArray(q.answer) ? q.answer.join(' / ') : q.answer}</span>.`;
+          } else {
+            fb.classList.add('bg-rose-50', 'text-rose-800', 'border', 'border-rose-200');
+            fb.innerHTML = `<strong>✕ Chưa chính xác!</strong> Đáp án: <span class="font-semibold">${Array.isArray(q.answer) ? q.answer.join(' / ') : q.answer}</span>.`;
+          }
+        });
+
+        const scoreBadge = document.getElementById('score-badge');
+        scoreBadge.textContent = `Điểm số: ${correct} / ${act.questions.length} câu đúng`;
+        scoreBadge.classList.remove('hidden');
+      });
+
+      document.getElementById('btn-show-keys').addEventListener('click', () => {
+        const act = globalData.ebook.activities.find(a => a.id === state.currentActId);
+        if (!act) return;
+        act.questions.forEach(q => {
+          const card = document.querySelector(`[data-qid="${q.id}"]`);
+          if (!card) return;
+          const fb = card.querySelector('.feedback-box');
+          fb.classList.remove('hidden');
+          fb.className = 'feedback-box text-xs mt-1.5 p-2 rounded-lg bg-blue-50 text-blue-900 border border-blue-200';
+          fb.innerHTML = `<strong>Đáp án:</strong> ${Array.isArray(q.answer) ? q.answer.join(' / ') : q.answer}.`;
+        });
       });
     }
 
-    // Single Word Pronunciation
-    document.addEventListener('click', (e) => {
-      const btn = e.target.closest('.btn-speak-word');
-      if (btn) {
-        const word = btn.dataset.word;
-        if (word && 'speechSynthesis' in window) {
-          const u = new SpeechSynthesisUtterance(word);
-          u.lang = 'en-US';
-          u.rate = 0.9;
-          window.speechSynthesis.speak(u);
-        }
-      }
-    });
+    // Tabs Switcher
+    function setupTabs() {
+      const tabBtnQ = document.getElementById('tab-btn-questions');
+      const tabBtnV = document.getElementById('tab-btn-vocab');
+      const tabQ = document.getElementById('tab-questions');
+      const tabV = document.getElementById('tab-vocab');
+      const penBox = document.getElementById('q-pen-box');
 
-    // Highlighter for Passage
-    function setupPassageHighlighter() {
+      tabBtnQ.addEventListener('click', () => {
+        tabBtnQ.className = 'tab-btn px-4 py-2 text-xs md:text-sm font-semibold border-b-2 border-brand-600 text-brand-600 flex items-center space-x-1.5';
+        tabBtnV.className = 'tab-btn px-4 py-2 text-xs md:text-sm font-semibold border-b-2 border-transparent text-slate-500 hover:text-slate-800 flex items-center space-x-1.5';
+        tabQ.classList.remove('hidden');
+        tabV.classList.add('hidden');
+        penBox.classList.remove('hidden');
+      });
+
+      tabBtnV.addEventListener('click', () => {
+        tabBtnV.className = 'tab-btn px-4 py-2 text-xs md:text-sm font-semibold border-b-2 border-brand-600 text-brand-600 flex items-center space-x-1.5';
+        tabBtnQ.className = 'tab-btn px-4 py-2 text-xs md:text-sm font-semibold border-b-2 border-transparent text-slate-500 hover:text-slate-800 flex items-center space-x-1.5';
+        tabV.classList.remove('hidden');
+        tabQ.classList.add('hidden');
+        penBox.classList.add('hidden');
+      });
+    }
+
+    // Highlighter & Tools
+    function setupTools() {
       const penBtns = document.querySelectorAll('.btn-pen');
       penBtns.forEach(b => {
         b.addEventListener('click', () => {
@@ -586,208 +547,52 @@
       });
 
       document.getElementById('btn-clear-hl').addEventListener('click', () => {
-        const container = document.getElementById('passage-container');
-        const hls = container.querySelectorAll('[class*="hl-"]');
-        hls.forEach(el => {
+        document.querySelectorAll('#passage-container [class*="hl-"]').forEach(el => {
           const parent = el.parentNode;
           while (el.firstChild) parent.insertBefore(el.firstChild, el);
           parent.removeChild(el);
         });
       });
-    }
 
-    // Setup Modals and Selectors
-    function setupActivitySelector() {
-      const modal = document.getElementById('activity-modal');
-      const grid = document.getElementById('activity-grid');
-      const openBtn1 = document.getElementById('btn-toggle-menu');
-      const openBtn2 = document.getElementById('btn-open-list');
-      const closeBtn = document.getElementById('btn-close-modal');
-
-      function populateModal() {
-        const acts = getAllActivities();
-        grid.innerHTML = '';
-        acts.forEach(a => {
-          const item = document.createElement('button');
-          item.className = `text-left p-3 rounded-xl border transition flex flex-col justify-between ${
-            a.id === state.currentActId ? 'border-brand-600 bg-indigo-50 font-semibold' : 'border-slate-200 hover:bg-slate-50'
-          }`;
-          item.innerHTML = `
-            <div class="text-[11px] font-bold text-brand-700 uppercase tracking-wider">${a.category}</div>
-            <div class="text-sm font-bold text-slate-800 line-clamp-1 mt-0.5">Activity ${a.id}: ${a.title}</div>
-            <div class="text-xs text-slate-500 mt-1 flex items-center justify-between">
-              <span>${a.questions.length} câu hỏi</span>
-              <span class="text-brand-600 text-xs font-semibold">Làm bài →</span>
-            </div>
-          `;
-          item.addEventListener('click', () => {
-            loadActivity(a.id);
-            modal.classList.add('hidden');
-          });
-          grid.appendChild(item);
-        });
-      }
-
-      openBtn1.addEventListener('click', () => { populateModal(); modal.classList.remove('hidden'); });
-      openBtn2.addEventListener('click', () => { populateModal(); modal.classList.remove('hidden'); });
-      closeBtn.addEventListener('click', () => { modal.classList.add('hidden'); });
-    }
-
-    // Check Answers Logic
-    function setupGrading() {
-      const btnCheck = document.getElementById('btn-check-answers');
-      const btnKeys = document.getElementById('btn-show-keys');
-      const scoreBadge = document.getElementById('score-badge');
-
-      btnCheck.addEventListener('click', () => {
-        const allActs = getAllActivities();
-        const act = allActs.find(a => a.id === state.currentActId);
-        if (!act) return;
-
-        let correctCount = 0;
-        const total = act.questions.length;
-
-        act.questions.forEach(q => {
-          const card = document.querySelector(`[data-qid="${q.id}"]`);
-          const fb = card.querySelector('.feedback-box');
-          fb.classList.remove('hidden', 'bg-emerald-50', 'bg-rose-50', 'text-emerald-800', 'text-rose-800');
-
-          let isCorrect = false;
-          let userVal = '';
-
-          if (q.type === 'input') {
-            const inp = card.querySelector(`[data-user-input="${q.id}"]`);
-            userVal = (inp ? inp.value.trim().toLowerCase() : '');
-            // compare with acceptable answers
-            const answers = Array.isArray(q.answer) ? q.answer.map(x => x.toLowerCase()) : [q.answer.toLowerCase()];
-            isCorrect = answers.includes(userVal);
-          } else if (q.type === 'mcq') {
-            const checked = card.querySelector(`input[name="mcq-${q.id}"]:checked`);
-            userVal = checked ? checked.value : '';
-            isCorrect = (userVal === q.answer);
-          } else if (q.type === 'select') {
-            const sel = card.querySelector(`[data-user-select="${q.id}"]`);
-            userVal = sel ? sel.value : '';
-            isCorrect = (userVal === q.answer);
-          }
-
-          if (isCorrect) {
-            correctCount++;
-            fb.classList.add('bg-emerald-50', 'text-emerald-800', 'border', 'border-emerald-200');
-            fb.innerHTML = `<strong>✓ Đúng!</strong> Đáp án: <span class="font-semibold">${Array.isArray(q.answer) ? q.answer.join(' / ') : q.answer}</span>. ${q.explanation || ''}`;
-          } else {
-            fb.classList.add('bg-rose-50', 'text-rose-800', 'border', 'border-rose-200');
-            fb.innerHTML = `<strong>✕ Chưa chính xác!</strong> Đáp án đúng: <span class="font-semibold">${Array.isArray(q.answer) ? q.answer.join(' / ') : q.answer}</span>. ${q.explanation || ''}`;
-          }
-        });
-
-        scoreBadge.textContent = `Điểm số: ${correctCount} / ${total} câu đúng`;
-        scoreBadge.classList.remove('hidden');
-      });
-
-      btnKeys.addEventListener('click', () => {
-        const allActs = getAllActivities();
-        const act = allActs.find(a => a.id === state.currentActId);
-        if (!act) return;
-
-        act.questions.forEach(q => {
-          const card = document.querySelector(`[data-qid="${q.id}"]`);
-          const fb = card.querySelector('.feedback-box');
-          fb.classList.remove('hidden');
-          fb.className = 'feedback-box text-xs mt-1.5 p-2 rounded-lg bg-blue-50 text-blue-900 border border-blue-200';
-          fb.innerHTML = `<strong>Khóa đáp án:</strong> ${Array.isArray(q.answer) ? q.answer.join(' / ') : q.answer}. ${q.explanation || ''}`;
-        });
-      });
-    }
-
-    // Toggle Tabs
-    function setupTabs() {
-      const tabBtnQ = document.getElementById('tab-btn-questions');
-      const tabBtnV = document.getElementById('tab-btn-vocab');
-      const tabQ = document.getElementById('tab-questions');
-      const tabV = document.getElementById('tab-vocab');
-      const penBox = document.getElementById('q-pen-box');
-
-      tabBtnQ.addEventListener('click', () => {
-        tabBtnQ.className = 'tab-btn px-4 py-2 text-xs md:text-sm font-semibold border-b-2 border-brand-600 text-brand-600 flex items-center space-x-1.5';
-        tabBtnV.className = 'tab-btn px-4 py-2 text-xs md:text-sm font-semibold border-b-2 border-transparent text-slate-500 hover:text-slate-800 flex items-center space-x-1.5';
-        tabQ.classList.remove('hidden');
-        tabV.classList.add('hidden');
-        penBox.classList.remove('hidden');
-      });
-
-      tabBtnV.addEventListener('click', () => {
-        tabBtnV.className = 'tab-btn px-4 py-2 text-xs md:text-sm font-semibold border-b-2 border-brand-600 text-brand-600 flex items-center space-x-1.5';
-        tabBtnQ.className = 'tab-btn px-4 py-2 text-xs md:text-sm font-semibold border-b-2 border-transparent text-slate-500 hover:text-slate-800 flex items-center space-x-1.5';
-        tabV.classList.remove('hidden');
-        tabQ.classList.add('hidden');
-        penBox.classList.add('hidden');
-      });
-    }
-
-    // Paraphrase Jump Locator
-    document.addEventListener('click', (e) => {
-      const btn = e.target.closest('.btn-locate');
-      if (btn) {
-        const keyword = btn.dataset.locate.toLowerCase();
-        const passage = document.getElementById('passage-container');
-        const textNodes = [];
-
-        // Scroll and highlight term briefly
-        const sentences = passage.querySelectorAll('.trans-sentence');
-        let matched = false;
-        sentences.forEach(st => {
-          if (!matched && st.textContent.toLowerCase().includes(keyword.split('/')[0].trim().toLowerCase())) {
-            matched = true;
-            st.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            st.classList.add('hl-yellow');
-            setTimeout(() => {
-              st.classList.remove('hl-yellow');
-            }, 2500);
-          }
-        });
-      }
-    });
-
-    // Translation toggle button
-    function setupTranslationMode() {
-      const btn = document.getElementById('btn-toggle-trans');
+      // Translation toggle
+      const btnTrans = document.getElementById('btn-toggle-trans');
       const banner = document.getElementById('trans-banner');
-      const closeBanner = document.getElementById('btn-close-trans');
-
-      btn.addEventListener('click', () => {
+      btnTrans.addEventListener('click', () => {
         state.isTranslating = !state.isTranslating;
         if (state.isTranslating) {
-          btn.classList.add('bg-brand-600', 'text-white');
-          btn.classList.remove('border-brand-500', 'text-brand-700');
-          // hint user
+          btnTrans.classList.add('bg-brand-600', 'text-white');
           banner.classList.remove('hidden');
           document.getElementById('trans-en-text').textContent = 'Chế độ dịch đang bật';
-          document.getElementById('trans-vi-text').textContent = 'Nhấp vào bất kỳ câu nào bên bài đọc để xem bản dịch tiếng Việt song song.';
+          document.getElementById('trans-vi-text').textContent = 'Nhấp vào câu bất kỳ trong bài đọc để xem bản dịch.';
         } else {
-          btn.classList.remove('bg-brand-600', 'text-white');
-          btn.classList.add('border-brand-500', 'text-brand-700');
+          btnTrans.classList.remove('bg-brand-600', 'text-white');
           banner.classList.add('hidden');
         }
       });
+      document.getElementById('btn-close-trans').addEventListener('click', () => banner.classList.add('hidden'));
 
-      closeBanner.addEventListener('click', () => {
-        banner.classList.add('hidden');
+      // Pronunciation click
+      document.addEventListener('click', (e) => {
+        const btn = e.target.closest('.btn-speak-word');
+        if (btn) {
+          const w = btn.dataset.word;
+          if (w && 'speechSynthesis' in window) {
+            const u = new SpeechSynthesisUtterance(w);
+            u.lang = 'en-US';
+            window.speechSynthesis.speak(u);
+          }
+        }
       });
     }
 
-    // Initialize Web Application
     window.addEventListener('DOMContentLoaded', () => {
       lucide.createIcons();
       setupTabs();
-      setupAudioAI();
-      setupPassageHighlighter();
-      setupActivitySelector();
-      setupGrading();
-      setupTranslationMode();
-
-      // Default load Activity 1
-      loadActivity(1);
+      setupTools();
+      loadAllData().then(() => {
+        setupActivitySelector();
+        setupGrading();
+      });
     });
   </script>
 </body>
